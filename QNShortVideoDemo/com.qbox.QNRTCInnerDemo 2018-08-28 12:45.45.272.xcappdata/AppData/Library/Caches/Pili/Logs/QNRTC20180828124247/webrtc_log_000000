@@ -1,0 +1,1709 @@
+2018-08-28 12:42:51.969[771] (RTCLogging.mm:31): (QNRTCSession.mm:130 -[QNRTCSession initWithCaptureEnabled:]): QNRTCKit version: 1.2.0-2018-07-26-920203b
+2018-08-28 12:42:51.973[771] (RTCLogging.mm:31): (QNRTCSession.mm:131 -[QNRTCSession initWithCaptureEnabled:]): QNRTCSession init: 0x11fe029f0, captureEnabled: 1
+2018-08-28 12:42:51.975[771] (audio_device_module.mm:21): CreateAudioDeviceModule
+2018-08-28 12:42:51.976[771] (audio_device_module_ios.mm:44): current platform is IOS
+2018-08-28 12:42:51.976[771] (audio_device_module_ios.mm:45): iPhone Audio APIs will be utilized.
+2018-08-28 12:42:51.980[771] (audio_processing_impl.cc:432): Capture post processor activated: 0
+Render pre processor activated: 0
+2018-08-28 12:42:51.983[771] (webrtcvoiceengine.cc:211): WebRtcVoiceEngine::WebRtcVoiceEngine
+2018-08-28 12:42:51.983[771] (webrtcvideoengine.cc:552): WebRtcVideoEngine::WebRtcVideoEngine()
+2018-08-28 12:42:51.985[24595] (webrtcvoiceengine.cc:234): WebRtcVoiceEngine::Init
+2018-08-28 12:42:51.985[24595] (webrtcvoiceengine.cc:241): Supported send codecs in order of preference:
+2018-08-28 12:42:51.988[24595] (webrtcvoiceengine.cc:244): opus/48000/2 { minptime=10 useinbandfec=1 } (111)
+2018-08-28 12:42:51.988[24595] (webrtcvoiceengine.cc:244): ISAC/16000/1 (103)
+2018-08-28 12:42:51.988[24595] (webrtcvoiceengine.cc:244): ISAC/32000/1 (104)
+2018-08-28 12:42:51.988[24595] (webrtcvoiceengine.cc:244): G722/8000/1 (9)
+2018-08-28 12:42:51.988[24595] (webrtcvoiceengine.cc:244): ILBC/8000/1 (102)
+2018-08-28 12:42:51.988[24595] (webrtcvoiceengine.cc:244): PCMU/8000/1 (0)
+2018-08-28 12:42:51.988[24595] (webrtcvoiceengine.cc:244): PCMA/8000/1 (8)
+2018-08-28 12:42:51.988[24595] (webrtcvoiceengine.cc:244): CN/32000/1 (106)
+2018-08-28 12:42:51.988[24595] (webrtcvoiceengine.cc:244): CN/16000/1 (105)
+2018-08-28 12:42:51.988[24595] (webrtcvoiceengine.cc:244): CN/8000/1 (13)
+2018-08-28 12:42:51.988[24595] (webrtcvoiceengine.cc:244): telephone-event/48000/1 (110)
+2018-08-28 12:42:51.988[24595] (webrtcvoiceengine.cc:244): telephone-event/32000/1 (112)
+2018-08-28 12:42:51.988[24595] (webrtcvoiceengine.cc:244): telephone-event/16000/1 (113)
+2018-08-28 12:42:51.988[24595] (webrtcvoiceengine.cc:244): telephone-event/8000/1 (126)
+2018-08-28 12:42:51.988[24595] (webrtcvoiceengine.cc:247): Supported recv codecs in order of preference:
+2018-08-28 12:42:51.989[24595] (webrtcvoiceengine.cc:250): opus/48000/2 { minptime=10 useinbandfec=1 } (111)
+2018-08-28 12:42:51.989[24595] (webrtcvoiceengine.cc:250): ISAC/16000/1 (103)
+2018-08-28 12:42:51.989[24595] (webrtcvoiceengine.cc:250): ISAC/32000/1 (104)
+2018-08-28 12:42:51.989[24595] (webrtcvoiceengine.cc:250): G722/8000/1 (9)
+2018-08-28 12:42:51.989[24595] (webrtcvoiceengine.cc:250): ILBC/8000/1 (102)
+2018-08-28 12:42:51.989[24595] (webrtcvoiceengine.cc:250): PCMU/8000/1 (0)
+2018-08-28 12:42:51.989[24595] (webrtcvoiceengine.cc:250): PCMA/8000/1 (8)
+2018-08-28 12:42:51.989[24595] (webrtcvoiceengine.cc:250): CN/32000/1 (106)
+2018-08-28 12:42:51.989[24595] (webrtcvoiceengine.cc:250): CN/16000/1 (105)
+2018-08-28 12:42:51.989[24595] (webrtcvoiceengine.cc:250): CN/8000/1 (13)
+2018-08-28 12:42:51.989[24595] (webrtcvoiceengine.cc:250): telephone-event/48000/1 (110)
+2018-08-28 12:42:51.989[24595] (webrtcvoiceengine.cc:250): telephone-event/32000/1 (112)
+2018-08-28 12:42:51.989[24595] (webrtcvoiceengine.cc:250): telephone-event/16000/1 (113)
+2018-08-28 12:42:51.989[24595] (webrtcvoiceengine.cc:250): telephone-event/8000/1 (126)
+2018-08-28 12:42:51.989[24595] (audio_device_module_ios.mm:69): Init
+2018-08-28 12:42:51.989[24595] (audio_device_buffer.cc:63): AudioDeviceBuffer::ctor
+2018-08-28 12:42:51.989[24595] (audio_device_ios.mm:117): AudioDeviceIOS::ctor<NSThread: 0x1cc066540>{number = 4, name = (null)}
+2018-08-28 12:42:51.990[24595] (audio_device_module_ios.mm:49): AttachAudioBuffer
+2018-08-28 12:42:51.990[24595] (audio_device_ios.mm:133): AudioDeviceIOS::AttachAudioBuffer
+2018-08-28 12:42:51.990[24595] (audio_device_ios.mm:140): AudioDeviceIOS::Init
+2018-08-28 12:42:51.990[24595] (audio_device_ios.mm:670): AudioDeviceIOS::UpdateAudioDevicebuffer
+2018-08-28 12:42:51.990[24595] (audio_device_buffer.cc:192): SetPlayoutSampleRate(48000)
+2018-08-28 12:42:51.990[24595] (audio_device_buffer.cc:216): SetPlayoutChannels(1)
+2018-08-28 12:42:51.991[24595] (audio_device_buffer.cc:185): SetRecordingSampleRate(48000)
+2018-08-28 12:42:51.991[24595] (audio_device_buffer.cc:209): SetRecordingChannels(1)
+2018-08-28 12:42:51.991[24595] (audio_device_module_ios.mm:416): SetPlayoutDevice(0)
+2018-08-28 12:42:51.991[24595] (audio_device_ios.mm:1005): SetPlayoutDevice: Not implemented
+2018-08-28 12:42:51.991[24595] (audio_device_module_ios.mm:108): InitSpeaker
+2018-08-28 12:42:51.991[24595] (audio_device_module_ios.mm:320): StereoPlayoutIsAvailable
+2018-08-28 12:42:51.991[24595] (audio_device_module_ios.mm:327): output: 0
+2018-08-28 12:42:51.991[24595] (audio_device_module_ios.mm:332): SetStereoPlayout(0)
+2018-08-28 12:42:51.991[24595] (audio_device_ios.mm:1058): SetStereoPlayout: Not implemented
+2018-08-28 12:42:51.991[24595] (audio_device_module_ios.mm:340): stereo playout is not supported
+2018-08-28 12:42:51.991[24595] (adm_helpers.cc:56): Failed to set stereo playout mode.
+2018-08-28 12:42:51.991[24595] (audio_device_module_ios.mm:478): SetRecordingDevice(0)
+2018-08-28 12:42:51.991[24595] (audio_device_ios.mm:1107): SetRecordingDevice: Not implemented
+2018-08-28 12:42:51.991[24595] (audio_device_module_ios.mm:114): InitMicrophone
+2018-08-28 12:42:51.991[24595] (audio_device_module_ios.mm:277): StereoRecordingIsAvailable
+2018-08-28 12:42:51.991[24595] (audio_device_module_ios.mm:284): output: 0
+2018-08-28 12:42:51.991[24595] (audio_device_module_ios.mm:289): SetStereoRecording(0)
+2018-08-28 12:42:51.991[24595] (audio_device_ios.mm:1043): SetStereoRecording: Not implemented
+2018-08-28 12:42:51.991[24595] (audio_device_module_ios.mm:296): failed to change stereo recording
+2018-08-28 12:42:51.992[24595] (adm_helpers.cc:76): Failed to set stereo recording mode.
+2018-08-28 12:42:51.992[24595] (audio_processing_impl.cc:432): Capture post processor activated: 0
+Render pre processor activated: 0
+2018-08-28 12:42:51.992[24595] (audio_processing_impl.cc:695): Highpass filter activated: 0
+2018-08-28 12:42:51.992[24595] (audio_processing_impl.cc:709): Gain Controller 2 activated: 0
+2018-08-28 12:42:51.992[24595] (audio_processing_impl.cc:711): Pre-amplifier activated: 0
+2018-08-28 12:42:51.993[24595] (audio_device_module_ios.mm:591): RegisterAudioCallback
+2018-08-28 12:42:51.993[24595] (audio_device_buffer.cc:83): RegisterAudioCallback
+2018-08-28 12:42:51.993[24595] (webrtcvoiceengine.cc:324): WebRtcVoiceEngine::ApplyOptions: AudioOptions {aec: true, agc: true, ns: true, hf: true, swap: false, audio_jitter_buffer_max_packets: 50, audio_jitter_buffer_fast_accelerate: false, typing: true, experimental_agc: false, extended_filter_aec: false, delay_agnostic_aec: false, experimental_ns: false, intelligibility_enhancer: false, residual_echo_detector: true, }
+2018-08-28 12:42:51.993[24595] (webrtcvoiceengine.cc:350): Always disable AEC on iOS. Use built-in instead.
+2018-08-28 12:42:51.993[24595] (webrtcvoiceengine.cc:377): Always disable NS on iOS. Use built-in instead.
+2018-08-28 12:42:51.993[24595] (webrtcvoiceengine.cc:388): Always disable AGC on iOS. Use built-in instead.
+2018-08-28 12:42:51.993[24595] (audio_device_module_ios.mm:607): BuiltInAECIsAvailable
+2018-08-28 12:42:51.993[24595] (audio_device_generic.cc:17): BuiltInAECIsAvailable: Not supported on this platform
+2018-08-28 12:42:51.993[24595] (audio_device_module_ios.mm:610): output: 0
+2018-08-28 12:42:51.993[24595] (apm_helpers.cc:118): Echo control set to 0 with mode 0
+2018-08-28 12:42:51.993[24595] (apm_helpers.cc:128): EC metrics set to 0
+2018-08-28 12:42:51.993[24595] (audio_device_module_ios.mm:623): BuiltInAGCIsAvailable
+2018-08-28 12:42:51.993[24595] (audio_device_generic.cc:27): BuiltInAGCIsAvailable: Not supported on this platform
+2018-08-28 12:42:51.993[24595] (audio_device_module_ios.mm:626): output: 0
+2018-08-28 12:42:51.994[24595] (apm_helpers.cc:82): AGC set to 0 with mode 2
+2018-08-28 12:42:51.994[24595] (audio_device_module_ios.mm:639): BuiltInNSIsAvailable
+2018-08-28 12:42:51.994[24595] (audio_device_generic.cc:37): BuiltInNSIsAvailable: Not supported on this platform
+2018-08-28 12:42:51.994[24595] (audio_device_module_ios.mm:642): output: 0
+2018-08-28 12:42:51.994[24595] (apm_helpers.cc:153): NS set to 0
+2018-08-28 12:42:51.994[24595] (webrtcvoiceengine.cc:507): Stereo swapping enabled? 0
+2018-08-28 12:42:51.994[24595] (webrtcvoiceengine.cc:512): NetEq capacity is 50
+2018-08-28 12:42:51.994[24595] (webrtcvoiceengine.cc:518): NetEq fast mode? 0
+2018-08-28 12:42:51.994[24595] (webrtcvoiceengine.cc:525): Typing detection is enabled? 0
+2018-08-28 12:42:51.994[24595] (apm_helpers.cc:167): VAD set to 0 for typing detection.
+2018-08-28 12:42:51.994[24595] (webrtcvoiceengine.cc:536): Delay agnostic aec is enabled? 0
+2018-08-28 12:42:51.994[24595] (webrtcvoiceengine.cc:546): Extended filter aec is enabled? 0
+2018-08-28 12:42:51.994[24595] (webrtcvoiceengine.cc:556): Experimental ns is enabled? 0
+2018-08-28 12:42:51.994[24595] (webrtcvoiceengine.cc:562): Intelligibility Enhancer is enabled? 0
+2018-08-28 12:42:51.994[24595] (audio_processing_impl.cc:695): Highpass filter activated: 1
+2018-08-28 12:42:51.994[24595] (audio_processing_impl.cc:709): Gain Controller 2 activated: 0
+2018-08-28 12:42:51.994[24595] (audio_processing_impl.cc:711): Pre-amplifier activated: 0
+2018-08-28 12:42:52.005[771] (RTCLogging.mm:31): (RTCAudioSession.mm:101 -[RTCAudioSession initWithAudioSession:]): RTCAudioSession (0x1cc0c4750): init.
+2018-08-28 12:42:52.006[771] (RTCLogging.mm:31): (RTCAudioSession.mm:187 -[RTCAudioSession addDelegate:]): Adding delegate: (0x11fe029f0)
+2018-08-28 12:42:52.006[771] (RTCLogging.mm:31): (QNCameraSource.mm:55 -[QNCameraSource init]): init:0x1c019f140
+2018-08-28 12:42:52.007[771] (RTCLogging.mm:31): (QNGLKView.m:324 -[QNGLKView initWithFrame:]): init:{{0, 0}, {375, 812}}
+2018-08-28 12:42:52.206[771] (RTCLogging.mm:31): (QNGLKView.m:466 -[QNGLKView createDisplayFramebuffer]): Success setup GL framebuffer 1125:2436
+2018-08-28 12:42:52.261[771] (RTCLogging.mm:31): (QNMicrophoneSource.m:31 -[QNMicrophoneSource init]): QNMicrophoneSource init: 0x1d42a6000
+2018-08-28 12:42:52.417[34567] (RTCLogging.mm:31): (RTCAudioSession.mm:504 -[RTCAudioSession handleRouteChangeNotification:]): Audio route changed:
+2018-08-28 12:42:52.433[34567] (RTCLogging.mm:31): (RTCAudioSession.mm:517 -[RTCAudioSession handleRouteChangeNotification:]): Audio route changed: CategoryChange to :AVAudioSessionCategoryPlayAndRecord
+2018-08-28 12:42:52.435[771] (RTCLogging.mm:31): (RTCAudioSession.mm:624 -[RTCAudioSession incrementActivationCount]): Incrementing activation count.
+2018-08-28 12:42:52.435[771] (RTCLogging.mm:31): (RTCAudioSession.mm:379 -[RTCAudioSession setActive:error:]): Number of current activations: 1
+2018-08-28 12:42:52.437[34567] (RTCLogging.mm:31): (RTCAudioSession.mm:536 -[RTCAudioSession handleRouteChangeNotification:]): Previous route: <AVAudioSessionRouteDescription: 0x1d4004d10, 
+inputs = (
+    "<AVAudioSessionPortDescription: 0x1d4004d60, type = MicrophoneBuiltIn; name = iPhone \U9ea6\U514b\U98ce; UID = Built-In Microphone; selectedDataSource = \U524d>"
+); 
+outputs = (
+    "<AVAudioSessionPortDescription: 0x1d4004bd0, type = Speaker; name = \U626c\U58f0\U5668; UID = Speaker; selectedDataSource = (null)>"
+)>
+Current route:<AVAudioSessionRouteDescription: 0x1d4004680, 
+inputs = (
+    "<AVAudioSessionPortDescription: 0x1d40046b0, type = MicrophoneBuiltIn; name = iPhone \U9ea6\U514b\U98ce; UID = Built-In Microphone; selectedDataSource = \U4e0b>"
+); 
+outputs = (
+    "<AVAudioSessionPortDescription: 0x1d4004750, type = Speaker; name = \U626c\U58f0\U5668; UID = Speaker; selectedDataSource = (null)>"
+)>
+2018-08-28 12:42:52.437[34567] (RTCLogging.mm:31): (QNRTCSession.mm:1310 -[QNRTCSession audioSessionDidChangeRoute:reason:previousRoute:]): AVAudioSessionRouteChangeReasonCategoryChange
+2018-08-28 12:42:52.441[771] (RTCLogging.mm:31): (QNRTCSession.mm:2542 -[QNRTCSession setPreviewMirrorFrontFacing:]): setPreviewMirrorFrontFacing: 1
+2018-08-28 12:42:52.441[8967] (RTCLogging.mm:31): (QNEventStatistic.m:69 -[QNEventStatistic addEvent:]_block_invoke): addEvent: {
+    "event_id" = 1;
+    timestamp = 1535431372441;
+}
+2018-08-28 12:42:52.441[771] (RTCLogging.mm:31): (QNRTCSession.mm:2530 -[QNRTCSession setVideoFrameRate:]): setVideoFrameRate: 25
+2018-08-28 12:42:52.442[771] (RTCLogging.mm:31): (QNRTCSession.mm:575 -[QNRTCSession setVideoEncodeSize:]): setVideoEncodeSize: {544, 960}
+2018-08-28 12:42:52.441[34567] (RTCLogging.mm:31): (RTCAudioSession.mm:504 -[RTCAudioSession handleRouteChangeNotification:]): Audio route changed:
+2018-08-28 12:42:52.442[771] (RTCLogging.mm:31): (QNRTCSession.mm:581 -[QNRTCSession setVideoEncodeSize:]): the determined videoEncodeSize is {544, 960}
+2018-08-28 12:42:52.442[771] (RTCLogging.mm:31): (QNRTCSession.mm:2518 -[QNRTCSession setSessionPreset:]): setSessionPreset: AVCaptureSessionPreset1280x720
+2018-08-28 12:42:52.442[771] (RTCLogging.mm:31): (QNRTCSession.mm:613 -[QNRTCSession setStatisticInterval:]): setStatisticInterval: 3
+2018-08-28 12:42:52.442[771] (RTCLogging.mm:31): (QNRTCSession.mm:2592 -[QNRTCSession setBeautifyModeOn:]): setBeautifyModeOn: 1
+2018-08-28 12:42:52.442[8967] (RTCLogging.mm:31): (QNEventStatistic.m:69 -[QNEventStatistic addEvent:]_block_invoke): addEvent: {
+    "event_id" = 15;
+    "period_ms" = 3000;
+    timestamp = 1535431372442;
+}
+2018-08-28 12:42:52.450[34567] (RTCLogging.mm:31): (RTCAudioSession.mm:517 -[RTCAudioSession handleRouteChangeNotification:]): Audio route changed: CategoryChange to :AVAudioSessionCategoryPlayAndRecord
+2018-08-28 12:42:52.455[34567] (RTCLogging.mm:31): (RTCAudioSession.mm:536 -[RTCAudioSession handleRouteChangeNotification:]): Previous route: <AVAudioSessionRouteDescription: 0x1cc000b70, 
+inputs = (
+    "<AVAudioSessionPortDescription: 0x1cc000a50, type = MicrophoneBuiltIn; name = iPhone \U9ea6\U514b\U98ce; UID = Built-In Microphone; selectedDataSource = \U4e0b>"
+); 
+outputs = (
+    "<AVAudioSessionPortDescription: 0x1cc000b30, type = Receiver; name = \U63a5\U6536\U5668; UID = Built-In Receiver; selectedDataSource = (null)>"
+)>
+Current route:<AVAudioSessionRouteDescription: 0x1d40047b0, 
+inputs = (
+    "<AVAudioSessionPortDescription: 0x1d40047a0, type = MicrophoneBuiltIn; name = iPhone \U9ea6\U514b\U98ce; UID = Built-In Microphone; selectedDataSource = \U4e0b>"
+); 
+outputs = (
+    "<AVAudioSessionPortDescription: 0x1d4004cf0, type = Speaker; name = \U626c\U58f0\U5668; UID = Speaker; selectedDataSource = (null)>"
+)>
+2018-08-28 12:42:52.455[34567] (RTCLogging.mm:31): (QNRTCSession.mm:1310 -[QNRTCSession audioSessionDidChangeRoute:reason:previousRoute:]): AVAudioSessionRouteChangeReasonCategoryChange
+2018-08-28 12:42:52.455[34567] (RTCLogging.mm:31): (QNMicrophoneSource.m:252 -[QNMicrophoneSource handleRouteChange:]): handleRouteChange: AVAudioSessionRouteChangeNotification reason The category of the session object changed.
+2018-08-28 12:42:52.466[771] (RTCLogging.mm:31): (QNRTCSession.mm:2646 -[QNRTCSession startCapture]): startCapture
+2018-08-28 12:42:52.473[771] (RTCLogging.mm:31): (QNRTCSession.mm:2377 -[QNRTCSession initCameraSourceWithCompletionHandler:]): camera authorizeation status: not determined
+2018-08-28 12:42:52.473[771] (RTCLogging.mm:31): (QNRTCSession.mm:2925 +[QNRTCSession requestCameraAccessWithCompletionHandler:]): request camera access
+2018-08-28 12:42:52.587[771] (RTCLogging.mm:31): (QNGLKView.m:391 -[QNGLKView layoutSubviews]): layout subviews
+2018-08-28 12:42:52.589[771] (RTCLogging.mm:31): (QNGLKView.m:466 -[QNGLKView createDisplayFramebuffer]): Success setup GL framebuffer 1125:2070
+2018-08-28 12:42:52.590[771] (RTCLogging.mm:31): (QNGLKView.m:391 -[QNGLKView layoutSubviews]): layout subviews
+2018-08-28 12:42:52.605[771] (RTCLogging.mm:31): (RTCAudioSession.mm:831 -[RTCAudioSession observeValueForKeyPath:ofObject:change:context:]): OutputVolumeDidChange to 0.687500
+2018-08-28 12:42:52.605[771] (RTCLogging.mm:31): (RTCAudioSession.mm:831 -[RTCAudioSession observeValueForKeyPath:ofObject:change:context:]): OutputVolumeDidChange to 0.187500
+2018-08-28 12:42:52.851[771] (RTCLogging.mm:31): (QNRTCSession.mm:190 -[QNRTCSession joinRoomWithToken:]): joinRoomWithToken: QxZugR8TAhI38AiJ_cptTl3RbzLyca3t-AAiH-Hh:eS68tpc2gXsCdAHCbkF6YrpXTHU=:eyJhcHBJZCI6ImQ4bGs3bDRlZCIsInJvb21OYW1lIjoic2RrIiwidXNlcklkIjoiY29yZS1zZGsiLCJleHBpcmVBdCI6MTUzNTUxNzc3Mjc0ODM3MTM3OCwicGVybWlzc2lvbiI6ImFkbWluIn0=
+2018-08-28 12:42:52.852[771] (RTCLogging.mm:31): (QNRTCSession.mm:216 -[QNRTCSession joinRoomWithToken:]): join with roomName: sdk userId: core-sdk appId:d8lk7l4ed
+2018-08-28 12:42:52.852[8967] (RTCLogging.mm:31): (QNEventStatistic.m:69 -[QNEventStatistic addEvent:]_block_invoke): addEvent: {
+    "event_id" = 3;
+    "room_token" = "QxZugR8TAhI38AiJ_cptTl3RbzLyca3t-AAiH-Hh:eS68tpc2gXsCdAHCbkF6YrpXTHU=:eyJhcHBJZCI6ImQ4bGs3bDRlZCIsInJvb21OYW1lIjoic2RrIiwidXNlcklkIjoiY29yZS1zZGsiLCJleHBpcmVBdCI6MTUzNTUxNzc3Mjc0ODM3MTM3OCwicGVybWlzc2lvbiI6ImFkbWluIn0=";
+    timestamp = 1535431372851;
+}
+2018-08-28 12:42:52.852[8967] (RTCLogging.mm:31): (QNEventStatistic.m:69 -[QNEventStatistic addEvent:]_block_invoke): addEvent: {
+    "event_id" = 17;
+    "room_state" = 1;
+    timestamp = 1535431372852;
+}
+2018-08-28 12:42:53.106[771] (RTCLogging.mm:31): (QNRTCSession.mm:2646 -[QNRTCSession startCapture]): startCapture
+2018-08-28 12:42:53.106[771] (RTCLogging.mm:31): (QNCameraSource.mm:577 -[QNCameraSource startRunning]): CameraSource: startRunning
+2018-08-28 12:42:53.464[17923] (RTCLogging.mm:31): (QNRTCSession.mm:925 -[QNRTCSession requestAuthWithRoomToken:completionHandler:]_block_invoke): auth response: <NSHTTPURLResponse: 0x1cc024020> { URL: https://rtc.qiniuapi.com/v3/apps/d8lk7l4ed/rooms/sdk/auth?user=core-sdk&token=QxZugR8TAhI38AiJ_cptTl3RbzLyca3t-AAiH-Hh:eS68tpc2gXsCdAHCbkF6YrpXTHU=:eyJhcHBJZCI6ImQ4bGs3bDRlZCIsInJvb21OYW1lIjoic2RrIiwidXNlcklkIjoiY29yZS1zZGsiLCJleHBpcmVBdCI6MTUzNTUxNzc3Mjc0ODM3MTM3OCwicGVybWlzc2lvbiI6ImFkbWluIn0= } { Status Code: 200, Headers {
+    "Access-Control-Allow-Credentials" =     (
+        true
+    );
+    "Access-Control-Allow-Headers" =     (
+        "DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type"
+    );
+    "Access-Control-Allow-Methods" =     (
+        "GET,POST,OPTIONS"
+    );
+    "Access-Control-Max-Age" =     (
+        1728000
+    );
+    Connection =     (
+        "keep-alive"
+    );
+    "Content-Length" =     (
+        566
+    );
+    "Content-Type" =     (
+        "application/json"
+    );
+    Date =     (
+        "Tue, 28 Aug 2018 04:42:53 GMT"
+    );
+    Server =     (
+        "nginx/1.8.0"
+    );
+    "X-Log" =     (
+        "open/redis: nil;ROOMD:1;MERGEG;PILI-RTC:340"
+    );
+    "X-Reqid" =     (
+        "fQcAAEdvct-y8k4V",
+        "fQcAAEdvct-y8k4V"
+    );
+} }
+2018-08-28 12:42:53.465[17923] (RTCLogging.mm:31): (QNRTCSession.mm:935 -[QNRTCSession requestAuthWithRoomToken:completionHandler:]_block_invoke): auth content: {
+    accessToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRva2ljayI6dHJ1ZSwiZXhwIjoxNTM1NTE3NzcyNzQ4MzcxMzc4LCJwbGF5ZXJpZCI6ImNvcmUtc2RrIiwicGxheWVyc24iOjEsInByaXZpbGVnZXMiOlsicHVibGlzaCIsImtpY2twbGF5ZXIiXSwicm9vbWlkIjoiZDhsazdsNGVkOnNkayIsInJvb21paWQiOiJkOGxrN2w0ZWQ6c2RrLU9rOEFBR1d5Z2QteThrNFYiLCJyb29tc2VydmVyYWRkciI6InhzNDgtcm9vbWQuY2xvdWR2ZG4uY29tIiwicm9vbXNlcnZlcmlpZCI6InhzNDhfMTUyNjYyNTQ4ODYwODY0MTE3NyIsInNpZ25hbGluZ3VybCI6IndzczovL3hzNDgtcm9vbWQuY2xvdWR2ZG4uY29tL3NpZ25hbGluZyJ9.fmwMn7vfmQIlt5mHXEQqhmDvffjbc_u3oc690kWh9ZY";
+    sessionId = "fQcAAEdvct-y8k4V";
+}
+2018-08-28 12:42:53.467[3587] (RTCLogging.mm:31): (QNEventStatistic.m:69 -[QNEventStatistic addEvent:]_block_invoke): addEvent: {
+    "access_token" = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRva2ljayI6dHJ1ZSwiZXhwIjoxNTM1NTE3NzcyNzQ4MzcxMzc4LCJwbGF5ZXJpZCI6ImNvcmUtc2RrIiwicGxheWVyc24iOjEsInByaXZpbGVnZXMiOlsicHVibGlzaCIsImtpY2twbGF5ZXIiXSwicm9vbWlkIjoiZDhsazdsNGVkOnNkayIsInJvb21paWQiOiJkOGxrN2w0ZWQ6c2RrLU9rOEFBR1d5Z2QteThrNFYiLCJyb29tc2VydmVyYWRkciI6InhzNDgtcm9vbWQuY2xvdWR2ZG4uY29tIiwicm9vbXNlcnZlcmlpZCI6InhzNDhfMTUyNjYyNTQ4ODYwODY0MTE3NyIsInNpZ25hbGluZ3VybCI6IndzczovL3hzNDgtcm9vbWQuY2xvdWR2ZG4uY29tL3NpZ25hbGluZyJ9.fmwMn7vfmQIlt5mHXEQqhmDvffjbc_u3oc690kWh9ZY";
+    "auth_dns_time" = 0;
+    "auth_error_code" = 0;
+    "auth_error_message" = "";
+    "auth_server_ip" = "";
+    "auth_start_time" = 1535431372852;
+    "auth_take_time" = 614;
+    "event_id" = 4;
+    "room_token" = "QxZugR8TAhI38AiJ_cptTl3RbzLyca3t-AAiH-Hh:eS68tpc2gXsCdAHCbkF6YrpXTHU=:eyJhcHBJZCI6ImQ4bGs3bDRlZCIsInJvb21OYW1lIjoic2RrIiwidXNlcklkIjoiY29yZS1zZGsiLCJleHBpcmVBdCI6MTUzNTUxNzc3Mjc0ODM3MTM3OCwicGVybWlzc2lvbiI6ImFkbWluIn0=";
+    timestamp = 1535431373466;
+}
+2018-08-28 12:42:53.467[56071] (websocket.cc:327): SubsidiaryThread +
+2018-08-28 12:42:53.467[17923] (net_interface.cc:14): CreateWebSocketInterface new websocket interface success, ptr:0x1c017ba80
+2018-08-28 12:42:53.468[17923] (room_signal.cc:18): RoomSignal
+2018-08-28 12:42:53.468[17923] (websocket.cc:475): SetNetListener old net listener ptr:0x0, new net listener ptr:0x1cc1a8b28
+2018-08-28 12:42:53.468[17923] (room_signal.cc:70): SetSignalUrl new signal url:wss://xs48-roomd.cloudvdn.com/signaling, old signal url:
+2018-08-28 12:42:53.469[17923] (room_signal.cc:77): SetListener old listener ptr:0x0, new listener ptr:0x1c0000a30
+2018-08-28 12:42:53.469[17923] (room_signal.cc:334): SetNetWorkParams keepalive interval seconds:1, timeout seconds:1
+2018-08-28 12:42:53.469[17923] (websocket.cc:379): SetNetWorkParams keepalive interval:1, timeout seconds:1
+2018-08-28 12:42:53.469[17923] (room_signal.cc:84): Join token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRva2ljayI6dHJ1ZSwiZXhwIjoxNTM1NTE3NzcyNzQ4MzcxMzc4LCJwbGF5ZXJpZCI6ImNvcmUtc2RrIiwicGxheWVyc24iOjEsInByaXZpbGVnZXMiOlsicHVibGlzaCIsImtpY2twbGF5ZXIiXSwicm9vbWlkIjoiZDhsazdsNGVkOnNkayIsInJvb21paWQiOiJkOGxrN2w0ZWQ6c2RrLU9rOEFBR1d5Z2QteThrNFYiLCJyb29tc2VydmVyYWRkciI6InhzNDgtcm9vbWQuY2xvdWR2ZG4uY29tIiwicm9vbXNlcnZlcmlpZCI6InhzNDhfMTUyNjYyNTQ4ODYwODY0MTE3NyIsInNpZ25hbGluZ3VybCI6IndzczovL3hzNDgtcm9vbWQuY2xvdWR2ZG4uY29tL3NpZ25hbGluZyJ9.fmwMn7vfmQIlt5mHXEQqhmDvffjbc_u3oc690kWh9ZY, palyer_data:core-sdk
+2018-08-28 12:42:53.469[17923] (websocket.cc:421): Connect +
+2018-08-28 12:42:53.469[17923] (websocket.cc:435): Disconnect +
+2018-08-28 12:42:53.470[17923] (websocket.cc:475): SetNetListener old net listener ptr:0x1cc1a8b28, new net listener ptr:0x0
+2018-08-28 12:42:53.470[17923] (websocket.cc:444): Disconnect -
+2018-08-28 12:42:53.470[17923] (websocket.cc:429): Connect -
+2018-08-28 12:42:53.470[17923] (websocket.cc:475): SetNetListener old net listener ptr:0x0, new net listener ptr:0x1cc1a8b28
+2018-08-28 12:42:53.470[56327] (websocket.cc:264): WSSWorkThread Using SSL
+2018-08-28 12:42:53.470[56327] (websocket.cc:270): WSSWorkThread Cert must validate correctly (use -s to allow selfsigned)
+2018-08-28 12:42:53.471[56327] (websocket.cc:274): WSSWorkThread Requiring peer cert hostname matches
+2018-08-28 12:42:53.474[56327] (websocket.cc:296): WSSWorkThreadusing mode (ws) : wss
+2018-08-28 12:42:53.475[56327] (websocket.cc:300): WSSWorkThreadWSSWorkThreadmirror: connecting
+2018-08-28 12:42:53.782[56327] (websocket.cc:47): callback_lws_mirrormirror: LWS_CALLBACK_CLIENT_ESTABLISHED
+2018-08-28 12:42:53.782[56327] (websocket.cc:348): OnConnect
+2018-08-28 12:42:53.783[56327] (room_signal.cc:402): OnConnected websocket connected, room listener ptr:0x1c0000a30
+2018-08-28 12:42:53.821[56327] (room_signal.cc:318): SetAuthFlag auth : success
+2018-08-28 12:42:53.821[56327] (room_signal.cc:476): OnRecvData get reconntoken :194669
+2018-08-28 12:42:53.822[56327] (RTCLogging.mm:31): (QNRTCSession.mm:1735 -[QNRTCSession observer:didJoinWithResponseInfo:]): didJoinWithResponseInfo: {
+    QNSignalErrorMessageKey = "";
+    QNSignalResponseCodeKey = 0;
+    QNSignalStunServerAddressKey = "stun:123.59.184.112:3478";
+    QNSignalUserInfoKey =     (
+        "QNUserInfo: 0x1c80923e0 :userId: core-sdk :userData: core-sdk :streamId: (null) :connId: (null) :hasAudio: 0 :hasVideo: 0 :muteAudio: 0 :muteVideo: 0 :continuousSubscribe: 0 :subscribeState: 0 :peerConnection: (null) :videoRender: (null) :needReSubscribe: 0"
+    );
+}, roomState: QNRoomStateConnected
+2018-08-28 12:42:53.823[3587] (RTCLogging.mm:31): (QNEventStatistic.m:69 -[QNEventStatistic addEvent:]_block_invoke): addEvent: {
+    "access_token" = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRva2ljayI6dHJ1ZSwiZXhwIjoxNTM1NTE3NzcyNzQ4MzcxMzc4LCJwbGF5ZXJpZCI6ImNvcmUtc2RrIiwicGxheWVyc24iOjEsInByaXZpbGVnZXMiOlsicHVibGlzaCIsImtpY2twbGF5ZXIiXSwicm9vbWlkIjoiZDhsazdsNGVkOnNkayIsInJvb21paWQiOiJkOGxrN2w0ZWQ6c2RrLU9rOEFBR1d5Z2QteThrNFYiLCJyb29tc2VydmVyYWRkciI6InhzNDgtcm9vbWQuY2xvdWR2ZG4uY29tIiwicm9vbXNlcnZlcmlpZCI6InhzNDhfMTUyNjYyNTQ4ODYwODY0MTE3NyIsInNpZ25hbGluZ3VybCI6IndzczovL3hzNDgtcm9vbWQuY2xvdWR2ZG4uY29tL3NpZ25hbGluZyJ9.fmwMn7vfmQIlt5mHXEQqhmDvffjbc_u3oc690kWh9ZY";
+    "auth_dns_time" = 0;
+    "auth_error_code" = 0;
+    "auth_error_message" = "";
+    "auth_server_ip" = "";
+    "auth_start_time" = 1535431373469;
+    "auth_take_time" = 354;
+    "event_id" = 5;
+    timestamp = 1535431373823;
+}
+2018-08-28 12:42:53.824[56327] (RTCLogging.mm:31): (QNRTCSession.mm:1798 -[QNRTCSession observer:didJoinWithResponseInfo:]): userInfo is QNUserInfo: 0x1c80923e0 :userId: core-sdk :userData: core-sdk :streamId: (null) :connId: (null) :hasAudio: 0 :hasVideo: 0 :muteAudio: 0 :muteVideo: 0 :continuousSubscribe: 0 :subscribeState: 0 :peerConnection: (null) :videoRender: (null) :needReSubscribe: 0
+2018-08-28 12:42:53.824[771] (RTCLogging.mm:31): (QNRTCSession.mm:315 -[QNRTCSession publishWithAudioEnabled:videoEnabled:]): publishWithAudioEnabled: 1, videoEnabled: 1
+2018-08-28 12:42:53.824[3587] (RTCLogging.mm:31): (QNEventStatistic.m:69 -[QNEventStatistic addEvent:]_block_invoke): addEvent: {
+    "event_id" = 17;
+    "room_state" = 2;
+    timestamp = 1535431373823;
+}
+2018-08-28 12:42:53.824[771] (room_signal.cc:233): Publish, publish audio flag:1 publish video flag:1 pre stream id:
+2018-08-28 12:42:53.862[56327] (RTCLogging.mm:31): (QNRTCSession.mm:1958 -[QNRTCSession observer:didPublishWithResponseInfo:]): didPublishWithResponseInfo: {
+    QNSignalErrorMessageKey = "";
+    QNSignalResponseCodeKey = 0;
+    QNSignalStreamIdKey = "core-sdk_1535431373818904616";
+}
+2018-08-28 12:42:53.863[17923] (RTCLogging.mm:31): (QNEventStatistic.m:69 -[QNEventStatistic addEvent:]_block_invoke): addEvent: {
+    "enable_audio" = 1;
+    "enable_video" = 1;
+    "event_id" = 7;
+    "result_code" = 0;
+    "signal_take_time" = 38;
+    "stream_id" = "core-sdk_1535431373818904616";
+    timestamp = 1535431373862;
+}
+2018-08-28 12:42:53.865[24595] (peerconnectionfactory.cc:415): Using default network controller factory
+2018-08-28 12:42:53.866[24595] (alr_experiment.cc:65): Using ALR experiment settings: pacing factor: 1, max pacer queue length: 2875, ALR start bandwidth usage percent: 80, ALR end budget level percent: 40, ALR end budget level percent: -60, ALR experiment group ID: 3
+2018-08-28 12:42:53.866[24595] (bitrate_prober.cc:62): Bandwidth probing enabled, set to inactive
+2018-08-28 12:42:53.866[24595] (rtp_transport_controller_send.cc:45): Using Legacy SSCC
+2018-08-28 12:42:53.867[24595] (aimd_rate_control.cc:75): Using aimd rate control with back off factor 0.85
+2018-08-28 12:42:53.867[24595] (delay_based_bwe.cc:105): Using Trendline filter for delay change estimation with window size 20
+2018-08-28 12:42:53.867[24595] (send_side_congestion_controller.cc:276): SignalNetworkState Down
+2018-08-28 12:42:53.868[24595] (delay_based_bwe.cc:313): BWE Setting start bitrate to: 300000
+2018-08-28 12:42:53.868[24595] (paced_sender.cc:356): ProcessThreadAttached 0x0x1c8121860
+2018-08-28 12:42:53.868[24595] (cpu_info.cc:46): Available number of cores: 6
+2018-08-28 12:42:53.869[24595] (aimd_rate_control.cc:75): Using aimd rate control with back off factor 0.85
+2018-08-28 12:42:53.870[24595] (remote_bitrate_estimator_single_stream.cc:56): RemoteBitrateEstimatorSingleStream: Instantiating.
+2018-08-28 12:42:53.874[39695] (opensslidentity.cc:45): Making key pair
+2018-08-28 12:42:53.874[56327] (RTCLogging.mm:31): (QNRTCSession.mm:1340 -[QNRTCSession createPublishPeerConnection]): createPublishPeerConnection: 0x1c0065a80, streamId: core-sdk_1535431373818904616
+2018-08-28 12:42:53.874[39695] (opensslidentity.cc:93): Returning key pair
+2018-08-28 12:42:53.874[39695] (opensslcertificate.cc:58): Making certificate for WebRTC
+2018-08-28 12:42:53.875[56327] (RTCLogging.mm:31): (RTCDtmfSender.mm:70 -[RTCDtmfSender initWithNativeDtmfSender:]): RTCDtmfSender(0x1c40013b0): created DTMF sender: RTCDtmfSender {
+  remainingTones: 
+  duration: 0.100000 sec
+  interToneGap: 0.050000 sec
+}
+2018-08-28 12:42:53.875[56327] (RTCLogging.mm:31): (RTCRtpSender.mm:97 -[RTCRtpSender initWithNativeRtpSender:]): RTCRtpSender(0x1c4024be0): created sender: RTCRtpSender {
+  senderId: aa07b78b-623e-4f00-a2af-365b888972ea
+}
+2018-08-28 12:42:53.876[28675] (rtpsender.cc:498): Tried to get DTMF sender from video sender.
+2018-08-28 12:42:53.877[56327] (RTCLogging.mm:31): (RTCRtpSender.mm:97 -[RTCRtpSender initWithNativeRtpSender:]): RTCRtpSender(0x1c4025440): created sender: RTCRtpSender {
+  senderId: 6d193e10-dd14-4760-b2f9-19badd9ab1ca
+}
+2018-08-28 12:42:53.878[39695] (opensslcertificate.cc:105): Returning certificate
+2018-08-28 12:42:53.879[28675] (mediasession.cc:356): Duplicate id found. Reassigning from 102 to 127
+2018-08-28 12:42:53.879[28675] (mediasession.cc:356): Duplicate id found. Reassigning from 104 to 125
+2018-08-28 12:42:53.879[28675] (mediasession.cc:356): Duplicate id found. Reassigning from 106 to 124
+2018-08-28 12:42:53.879[28675] (mediasession.cc:356): Duplicate id found. Reassigning from 103 to 123
+2018-08-28 12:42:53.879[28675] (mediasession.cc:356): Duplicate id found. Reassigning from 105 to 122
+2018-08-28 12:42:53.886[39695] (p2ptransportchannel.cc:437): Set backup connection ping interval to 25000 milliseconds.
+2018-08-28 12:42:53.886[39695] (p2ptransportchannel.cc:446): Set ICE receiving timeout to 1000 milliseconds
+2018-08-28 12:42:53.886[39695] (p2ptransportchannel.cc:453): Set ping most likely connection to 0
+2018-08-28 12:42:53.886[39695] (p2ptransportchannel.cc:460): Set stable_writable_connection_ping_interval to 2500
+2018-08-28 12:42:53.887[39695] (p2ptransportchannel.cc:473): Set presume writable when fully relayed to 0
+2018-08-28 12:42:53.887[39695] (p2ptransportchannel.cc:482): Set regather_on_failed_networks_interval to 300000
+2018-08-28 12:42:53.887[39695] (p2ptransportchannel.cc:501): Set receiving_switching_delay to 1000
+2018-08-28 12:42:53.887[39695] (dtlssrtptransport.cc:57): Setting RTCP Transport on audio transport 0x0
+2018-08-28 12:42:53.887[39695] (dtlssrtptransport.cc:62): Setting RTP Transport on audio transport 0x12240b940
+2018-08-28 12:42:53.887[39695] (p2ptransportchannel.cc:437): Set backup connection ping interval to 25000 milliseconds.
+2018-08-28 12:42:53.887[39695] (p2ptransportchannel.cc:446): Set ICE receiving timeout to 1000 milliseconds
+2018-08-28 12:42:53.887[39695] (p2ptransportchannel.cc:453): Set ping most likely connection to 0
+2018-08-28 12:42:53.887[39695] (p2ptransportchannel.cc:460): Set stable_writable_connection_ping_interval to 2500
+2018-08-28 12:42:53.887[39695] (p2ptransportchannel.cc:473): Set presume writable when fully relayed to 0
+2018-08-28 12:42:53.887[39695] (p2ptransportchannel.cc:482): Set regather_on_failed_networks_interval to 300000
+2018-08-28 12:42:53.888[39695] (p2ptransportchannel.cc:501): Set receiving_switching_delay to 1000
+2018-08-28 12:42:53.888[39695] (dtlssrtptransport.cc:57): Setting RTCP Transport on video transport 0x0
+2018-08-28 12:42:53.888[39695] (dtlssrtptransport.cc:62): Setting RTP Transport on video transport 0x11fd35100
+2018-08-28 12:42:53.888[39695] (p2ptransportchannel.cc:374): Set ICE ufrag: a+37 pwd: tOgpxhimDV/37/81p1P75Xdw on transport audio
+2018-08-28 12:42:53.888[39695] (p2ptransportchannel.cc:374): Set ICE ufrag: a+37 pwd: tOgpxhimDV/37/81p1P75Xdw on transport video
+2018-08-28 12:42:53.888[24595] (webrtcvoiceengine.cc:1482): Setting voice channel options: AudioOptions {audio_jitter_buffer_max_packets: 50, audio_jitter_buffer_fast_accelerate: false, }
+2018-08-28 12:42:53.888[24595] (webrtcvoiceengine.cc:324): WebRtcVoiceEngine::ApplyOptions: AudioOptions {audio_jitter_buffer_max_packets: 50, audio_jitter_buffer_fast_accelerate: false, }
+2018-08-28 12:42:53.888[24595] (webrtcvoiceengine.cc:350): Always disable AEC on iOS. Use built-in instead.
+2018-08-28 12:42:53.889[24595] (webrtcvoiceengine.cc:377): Always disable NS on iOS. Use built-in instead.
+2018-08-28 12:42:53.889[24595] (webrtcvoiceengine.cc:388): Always disable AGC on iOS. Use built-in instead.
+2018-08-28 12:42:53.889[24595] (audio_device_module_ios.mm:607): BuiltInAECIsAvailable
+2018-08-28 12:42:53.889[24595] (audio_device_generic.cc:17): BuiltInAECIsAvailable: Not supported on this platform
+2018-08-28 12:42:53.889[24595] (audio_device_module_ios.mm:610): output: 0
+2018-08-28 12:42:53.889[24595] (apm_helpers.cc:118): Echo control set to 0 with mode 0
+2018-08-28 12:42:53.889[24595] (apm_helpers.cc:128): EC metrics set to 0
+2018-08-28 12:42:53.889[24595] (audio_device_module_ios.mm:623): BuiltInAGCIsAvailable
+2018-08-28 12:42:53.889[24595] (audio_device_generic.cc:27): BuiltInAGCIsAvailable: Not supported on this platform
+2018-08-28 12:42:53.889[24595] (audio_device_module_ios.mm:626): output: 0
+2018-08-28 12:42:53.889[24595] (apm_helpers.cc:82): AGC set to 0 with mode 2
+2018-08-28 12:42:53.889[24595] (audio_device_module_ios.mm:639): BuiltInNSIsAvailable
+2018-08-28 12:42:53.889[24595] (audio_device_generic.cc:37): BuiltInNSIsAvailable: Not supported on this platform
+2018-08-28 12:42:53.889[24595] (audio_device_module_ios.mm:642): output: 0
+2018-08-28 12:42:53.889[24595] (apm_helpers.cc:153): NS set to 0
+2018-08-28 12:42:53.890[24595] (webrtcvoiceengine.cc:512): NetEq capacity is 50
+2018-08-28 12:42:53.890[24595] (webrtcvoiceengine.cc:518): NetEq fast mode? 0
+2018-08-28 12:42:53.890[24595] (webrtcvoiceengine.cc:525): Typing detection is enabled? 0
+2018-08-28 12:42:53.890[24595] (apm_helpers.cc:167): VAD set to 0 for typing detection.
+2018-08-28 12:42:53.890[24595] (webrtcvoiceengine.cc:536): Delay agnostic aec is enabled? 0
+2018-08-28 12:42:53.890[24595] (webrtcvoiceengine.cc:546): Extended filter aec is enabled? 0
+2018-08-28 12:42:53.890[24595] (webrtcvoiceengine.cc:556): Experimental ns is enabled? 0
+2018-08-28 12:42:53.890[24595] (webrtcvoiceengine.cc:562): Intelligibility Enhancer is enabled? 0
+2018-08-28 12:42:53.890[24595] (audio_processing_impl.cc:695): Highpass filter activated: 1
+2018-08-28 12:42:53.890[24595] (audio_processing_impl.cc:709): Gain Controller 2 activated: 0
+2018-08-28 12:42:53.890[24595] (audio_processing_impl.cc:711): Pre-amplifier activated: 0
+2018-08-28 12:42:53.890[24595] (webrtcvoiceengine.cc:1500): Set voice channel options. Current options: AudioOptions {audio_jitter_buffer_max_packets: 50, audio_jitter_buffer_fast_accelerate: false, }
+2018-08-28 12:42:53.890[24595] (channel.cc:113): Created channel for audio
+2018-08-28 12:42:53.891[24595] (call.cc:1056): UpdateAggregateNetworkState: aggregate_state=down
+2018-08-28 12:42:53.891[24595] (send_side_congestion_controller.cc:276): SignalNetworkState Down
+2018-08-28 12:42:53.891[75299] (paced_sender.cc:97): PacedSender paused.
+2018-08-28 12:42:53.891[24595] (webrtcvideoengine.cc:563): CreateChannel. Options: VideoOptions {}
+2018-08-28 12:42:53.891[24595] (channel.cc:113): Created channel for video
+2018-08-28 12:42:53.892[24595] (call.cc:1056): UpdateAggregateNetworkState: aggregate_state=down
+2018-08-28 12:42:53.892[28675] (peerconnection.cc:3506): Session: 3118749296243263156 Old state: kStable New state: kHaveLocalOffer
+2018-08-28 12:42:53.892[24595] (send_side_congestion_controller.cc:276): SignalNetworkState Down
+2018-08-28 12:42:53.892[28675] (RTCLogging.mm:31): (QNRTCSession.mm:1493 -[QNRTCSession peerConnection:didChangeSignalingState:]): peerConnection: 0x1c0065a80, Signaling state changed: RTCSignalingStateHaveLocalOffer
+2018-08-28 12:42:53.892[24595] (channel.cc:800): Setting local voice description
+2018-08-28 12:42:53.892[24595] (webrtcvoiceengine.cc:1338): WebRtcVoiceMediaChannel::SetRecvParameters: {codecs: [AudioCodec[111:opus:48000:0:2], AudioCodec[103:ISAC:16000:0:1], AudioCodec[104:ISAC:32000:0:1], AudioCodec[9:G722:8000:0:1], AudioCodec[102:ILBC:8000:0:1], AudioCodec[0:PCMU:8000:0:1], AudioCodec[8:PCMA:8000:0:1], AudioCodec[106:CN:32000:0:1], AudioCodec[105:CN:16000:0:1], AudioCodec[13:CN:8000:0:1], AudioCodec[110:telephone-event:48000:0:1], AudioCodec[112:telephone-event:32000:0:1], AudioCodec[113:telephone-event:16000:0:1], AudioCodec[126:telephone-event:8000:0:1]], extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}]}
+2018-08-28 12:42:53.893[24595] (webrtcvoiceengine.cc:1510): Setting receive voice codecs.
+2018-08-28 12:42:53.893[24595] (webrtcvoiceengine.cc:1780): AddSendStream: {id:aa07b78b-623e-4f00-a2af-365b888972ea;ssrcs:[2363404416];ssrc_groups:;cname:PmEJX0ZUsuPPgAyj;stream_ids:core-sdk_1535431373818904616;}
+2018-08-28 12:42:53.894[24595] (neteq_impl.cc:114): NetEq config: sample_rate_hz=16000, enable_post_decode_vad=true, max_packets_in_buffer=0, playout_mode=0, enable_fast_accelerate=false, enable_muted_state= true
+2018-08-28 12:42:53.895[24595] (audio_coding_module.cc:462): Created
+2018-08-28 12:42:53.895[24595] (audio_send_stream.cc:134): AudioSendStream: 2363404416
+2018-08-28 12:42:53.895[24595] (audio_send_stream.cc:199): AudioSendStream::ConfigureStream: {rtp: {ssrc: 2363404416, extensions: [], nack: {rtp_history_ms: 0}, c_name: PmEJX0ZUsuPPgAyj}, send_transport: (Transport), min_bitrate_bps: -1, max_bitrate_bps: -1, send_codec_spec: <unset>}
+2018-08-28 12:42:53.895[24595] (call.cc:1056): UpdateAggregateNetworkState: aggregate_state=down
+2018-08-28 12:42:53.895[24595] (send_side_congestion_controller.cc:276): SignalNetworkState Down
+2018-08-28 12:42:53.895[24595] (channel.cc:623): Add send stream ssrc: 2363404416
+2018-08-28 12:42:53.896[24595] (channel.cc:792): Changing voice state, recv=0 send=0
+2018-08-28 12:42:53.896[24595] (channel.cc:935): Setting local video description
+2018-08-28 12:42:53.896[24595] (webrtcvideoengine.cc:990): SetRecvParameters: {codecs: [VideoCodec[96:H264], VideoCodec[97:rtx], VideoCodec[98:H264], VideoCodec[99:rtx], VideoCodec[100:VP8], VideoCodec[101:rtx], VideoCodec[127:VP9], VideoCodec[123:rtx], VideoCodec[125:red], VideoCodec[122:rtx], VideoCodec[124:ulpfec]], extensions: [{uri: urn:ietf:params:rtp-hdrext:toffset, id: 2}, {uri: http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time, id: 3}, {uri: urn:3gpp:video-orientation, id: 4}, {uri: http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01, id: 5}, {uri: http://www.webrtc.org/experiments/rtp-hdrext/playout-delay, id: 6}, {uri: http://www.webrtc.org/experiments/rtp-hdrext/video-content-type, id: 7}, {uri: http://www.webrtc.org/experiments/rtp-hdrext/video-timing, id: 8}]}
+2018-08-28 12:42:53.897[24595] (webrtcvideoengine.cc:1005): Changing recv codecs from {VideoCodec[96:H264], VideoCodec[98:H264], VideoCodec[100:VP8], VideoCodec[102:VP9]} to {VideoCodec[96:H264], VideoCodec[98:H264], VideoCodec[100:VP8], VideoCodec[127:VP9]}
+2018-08-28 12:42:53.897[24595] (webrtcvideoengine.cc:1110): AddSendStream: {id:6d193e10-dd14-4760-b2f9-19badd9ab1ca;ssrcs:[4110874002,2146364094];ssrc_groups:{semantics:FID;ssrcs:[4110874002,2146364094]};cname:PmEJX0ZUsuPPgAyj;stream_ids:core-sdk_1535431373818904616;}
+2018-08-28 12:42:53.897[24595] (webrtcvideoengine.cc:1142): SetLocalSsrc on all the receive streams because we added a send stream.
+2018-08-28 12:42:53.897[24595] (channel.cc:623): Add send stream ssrc: 4110874002
+2018-08-28 12:42:53.897[24595] (channel.cc:922): Changing video state, send=0
+2018-08-28 12:42:53.897[28675] (peerconnection.cc:4756): Local and Remote descriptions must be applied to get the SSL Role of the SCTP transport.
+2018-08-28 12:42:53.898[24595] (webrtcvoiceengine.cc:1482): Setting voice channel options: AudioOptions {}
+2018-08-28 12:42:53.898[24595] (webrtcvoiceengine.cc:324): WebRtcVoiceEngine::ApplyOptions: AudioOptions {audio_jitter_buffer_max_packets: 50, audio_jitter_buffer_fast_accelerate: false, }
+2018-08-28 12:42:53.898[24595] (webrtcvoiceengine.cc:350): Always disable AEC on iOS. Use built-in instead.
+2018-08-28 12:42:53.898[24595] (webrtcvoiceengine.cc:377): Always disable NS on iOS. Use built-in instead.
+2018-08-28 12:42:53.898[24595] (webrtcvoiceengine.cc:388): Always disable AGC on iOS. Use built-in instead.
+2018-08-28 12:42:53.898[24595] (audio_device_module_ios.mm:607): BuiltInAECIsAvailable
+2018-08-28 12:42:53.898[24595] (audio_device_generic.cc:17): BuiltInAECIsAvailable: Not supported on this platform
+2018-08-28 12:42:53.898[24595] (audio_device_module_ios.mm:610): output: 0
+2018-08-28 12:42:53.899[24595] (apm_helpers.cc:118): Echo control set to 0 with mode 0
+2018-08-28 12:42:53.899[24595] (apm_helpers.cc:128): EC metrics set to 0
+2018-08-28 12:42:53.899[24595] (audio_device_module_ios.mm:623): BuiltInAGCIsAvailable
+2018-08-28 12:42:53.899[24595] (audio_device_generic.cc:27): BuiltInAGCIsAvailable: Not supported on this platform
+2018-08-28 12:42:53.899[24595] (audio_device_module_ios.mm:626): output: 0
+2018-08-28 12:42:53.899[24595] (apm_helpers.cc:82): AGC set to 0 with mode 2
+2018-08-28 12:42:53.899[24595] (audio_device_module_ios.mm:639): BuiltInNSIsAvailable
+2018-08-28 12:42:53.899[24595] (audio_device_generic.cc:37): BuiltInNSIsAvailable: Not supported on this platform
+2018-08-28 12:42:53.899[24595] (audio_device_module_ios.mm:642): output: 0
+2018-08-28 12:42:53.899[24595] (apm_helpers.cc:153): NS set to 0
+2018-08-28 12:42:53.899[24595] (webrtcvoiceengine.cc:512): NetEq capacity is 50
+2018-08-28 12:42:53.899[24595] (webrtcvoiceengine.cc:518): NetEq fast mode? 0
+2018-08-28 12:42:53.900[24595] (webrtcvoiceengine.cc:525): Typing detection is enabled? 0
+2018-08-28 12:42:53.900[24595] (apm_helpers.cc:167): VAD set to 0 for typing detection.
+2018-08-28 12:42:53.900[24595] (webrtcvoiceengine.cc:536): Delay agnostic aec is enabled? 0
+2018-08-28 12:42:53.900[24595] (webrtcvoiceengine.cc:546): Extended filter aec is enabled? 0
+2018-08-28 12:42:53.900[24595] (webrtcvoiceengine.cc:556): Experimental ns is enabled? 0
+2018-08-28 12:42:53.900[24595] (webrtcvoiceengine.cc:562): Intelligibility Enhancer is enabled? 0
+2018-08-28 12:42:53.900[24595] (audio_processing_impl.cc:695): Highpass filter activated: 1
+2018-08-28 12:42:53.900[24595] (audio_processing_impl.cc:709): Gain Controller 2 activated: 0
+2018-08-28 12:42:53.900[24595] (audio_processing_impl.cc:711): Pre-amplifier activated: 0
+2018-08-28 12:42:53.900[24595] (webrtcvoiceengine.cc:1500): Set voice channel options. Current options: AudioOptions {audio_jitter_buffer_max_packets: 50, audio_jitter_buffer_fast_accelerate: false, }
+2018-08-28 12:42:53.900[24595] (webrtcvideoengine.cc:1068): SetVideoSend (ssrc= 4110874002, options: VideoOptions {noise reduction: false, is_screencast : false, }, source = (source))
+2018-08-28 12:42:53.901[39695] (basicportallocator.cc:339): Start getting ports with prune_turn_ports disabled
+2018-08-28 12:42:53.901[39695] (basicportallocator.cc:339): Start getting ports with prune_turn_ports disabled
+2018-08-28 12:42:53.901[28675] (RTCLogging.mm:31): (QNRTCSession.mm:1480 -[QNRTCSession sendOfferWithSessionDescription:streamId:connId:]): sendOfferWithSessionDescription: RTCSessionDescription:
+offer
+v=0
+o=- 3118749296243263156 2 IN IP4 127.0.0.1
+s=-
+t=0 0
+a=group:BUNDLE audio video
+a=msid-semantic: WMS core-sdk_1535431373818904616
+m=audio 9 UDP/TLS/RTP/SAVPF 111 103 104 9 102 0 8 106 105 13 110 112 113 126
+c=IN IP4 0.0.0.0
+a=rtcp:9 IN IP4 0.0.0.0
+a=ice-ufrag:a+37
+a=ice-pwd:tOgpxhimDV/37/81p1P75Xdw
+a=ice-options:trickle renomination
+a=fingerprint:sha-256 75:F7:96:88:9D:30:27:52:CC:EF:6A:26:46:77:86:45:2A:14:4C:39:1A:29:8E:BC:4B:B6:17:61:34:03:46:9E
+a=setup:actpass
+a=mid:audio
+b=AS:64
+a=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level
+a=sendonly
+a=rtcp-mux
+a=rtpmap:111 opus/48000/2
+a=rtcp-fb:111 transport-cc
+a=fmtp:111 minptime=10;useinbandfec=1
+a=rtpmap:103 ISAC/16000
+a=rtpmap:104 ISAC/32000
+a=rtpmap:9 G722/8000
+a=rtpmap:102 ILBC/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:8 PCMA/8000
+a=rtpmap:106 CN/32000
+a=rtpmap:105 CN/16000
+a=rtpmap:13 CN/8000
+a=rtpmap:110 telephone-event/48000
+a=rtpmap:112 telephone-event/32000
+a=rtpmap:113 telephone-event/16000
+a=rtpmap:126 telephone-event/8000
+a=ssrc:2363404416 cname:PmEJX0ZUsuPPgAyj
+a=ssrc:2363404416 msid:core-sdk_1535431373818904616 aa07b78b-623e-4f00-a2af-365b888972ea
+a=ssrc:2363404416 mslabel:core-sdk_1535431373818904616
+a=ssrc:2363404416 label:aa07b78b-623e-4f00-a2af-365b888972ea
+m=video 9 UDP/TLS/RTP/SAVPF 96 97 98 99 100 101 127 123 125 122 124
+c=IN IP4 0.0.0.0
+a=rtcp:9 IN IP4 0.0.0.0
+a=ice-ufrag:a+37
+a=ice-pwd:tOgpxhimDV/37/81p1P75Xdw
+a=ice-options:trickle renomination
+a=fingerprint:sha-256 75:F7:96:88:9D:30:27:52:CC:EF:6A:26:46:77:86:45:2A:14:4C:39:1A:29:8E:BC:4B:B6:17:61:34:03:46:9E
+a=setup:actpass
+a=mid:video
+b=AS:600
+a=extmap:2 urn:ietf:params:rtp-hdrext:toffset
+a=extmap:3 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time
+a=extmap:4 urn:3gpp:video-orientation
+a=extmap:5 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01
+a=extmap:6 http://www.webrtc.org/experiments/rtp-hdrext/playout-delay
+a=extmap:7 http://www.webrtc.org/experiments/rtp-hdrext/video-content-type
+a=extmap:8 http://www.webrtc.org/experiments/rtp-hdrext/video-timing
+a=sendonly
+a=rtcp-mux
+a=rtcp-rsize
+a=rtpmap:96 H264/90000
+a=rtcp-fb:96 goog-remb
+a=rtcp-fb:96 transport-cc
+a=rtcp-fb:96 ccm fir
+a=rtcp-fb:96 nack
+a=rtcp-fb:96 nack pli
+a=fmtp:96 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=640c1f
+a=rtpmap:97 rtx/90000
+a=fmtp:97 apt=96
+a=rtpmap:98 H264/90000
+a=rtcp-fb:98 goog-remb
+a=rtcp-fb:98 transport-cc
+a=rtcp-fb:98 ccm fir
+a=rtcp-fb:98 nack
+a=rtcp-fb:98 nack pli
+a=fmtp:98 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42e01f
+a=rtpmap:99 rtx/90000
+a=fmtp:99 apt=98
+a=rtpmap:100 VP8/90000
+a=rtcp-fb:100 goog-remb
+a=rtcp-fb:100 transport-cc
+a=rtcp-fb:100 ccm fir
+a=rtcp-fb:100 nack
+a=rtcp-fb:100 nack pli
+a=rtpmap:101 rtx/90000
+a=fmtp:101 apt=100
+a=rtpmap:127 VP9/90000
+a=rtcp-fb:127 goog-remb
+a=rtcp-fb:127 transport-cc
+a=rtcp-fb:127 ccm fir
+a=rtcp-fb:127 nack
+a=rtcp-fb:127 nack pli
+a=rtpmap:123 rtx/90000
+a=fmtp:123 apt=127
+a=rtpmap:125 red/90000
+a=rtpmap:122 rtx/90000
+a=fmtp:122 apt=125
+a=rtpmap:124 ulpfec/90000
+a=ssrc-group:FID 4110874002 2146364094
+a=ssrc:4110874002 cname:PmEJX0ZUsuPPgAyj
+a=ssrc:4110874002 msid:core-sdk_1535431373818904616 6d193e10-dd14-4760-b2f9-19badd9ab1ca
+a=ssrc:4110874002 mslabel:core-sdk_1535431373818904616
+a=ssrc:4110874002 label:6d193e10-dd14-4760-b2f9-19badd9ab1ca
+a=ssrc:2146364094 cname:PmEJX0ZUsuPPgAyj
+a=ssrc:2146364094 msid:core-sdk_1535431373818904616 6d193e10-dd14-4760-b2f9-19badd9ab1ca
+a=ssrc:2146364094 mslabel:core-sdk_1535431373818904616
+a=ssrc:2146364094 label:6d193e10-dd14-4760-b2f9-19badd9ab1ca
+, streamId: core-sdk_1535431373818904616, connId: 
+2018-08-28 12:42:53.902[28675] (room_signal.cc:33): SendOffer room signal ptr:0x1c0000a30, stream id:core-sdk_1535431373818904616, connid:, offer str:v=0
+o=- 3118749296243263156 2 IN IP4 127.0.0.1
+s=-
+t=0 0
+a=group:BUNDLE audio video
+a=msid-semantic: WMS core-sdk_1535431373818904616
+m=audio 9 UDP/TLS/RTP/SAVPF 111 103 104 9 102 0 8 106 105 13 110 112 113 126
+c=IN IP4 0.0.0.0
+a=rtcp:9 IN IP4 0.0.0.0
+a=ice-ufrag:a+37
+a=ice-pwd:tOgpxhimDV/37/81p1P75Xdw
+a=ice-options:trickle renomination
+a=fingerprint:sha-256 75:F7:96:88:9D:30:27:52:CC:EF:6A:26:46:77:86:45:2A:14:4C:39:1A:29:8E:BC:4B:B6:17:61:34:03:46:9E
+a=setup:actpass
+a=mid:audio
+b=AS:64
+a=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level
+a=sendonly
+a=rtcp-mux
+a=rtpmap:111 opus/48000/2
+a=rtcp-fb:111 transport-cc
+a=fmtp:111 minptime=10;useinbandfec=1
+a=rtpmap:103 ISAC/16000
+a=rtpmap:104 ISAC/32000
+a=rtpmap:9 G722/8000
+a=rtpmap:102 ILBC/8000
+a=rtpmap:0 PCMU/8000
+a=rtpmap:8 PCMA/8000
+a=rtpmap:106 CN/32000
+a=rtpmap:105 CN/16000
+a=rtpmap:13 CN/8000
+a=rtpmap:110 telephone-event/48000
+a=rtpmap:112 telephone-event/32000
+a=rtpmap:113 telephone-event/16000
+a=rtpmap:126 telephone-event/8000
+a=ssrc:2363404416 cname:PmEJX0ZUsuPPgAyj
+a=ssrc:2363404416 msid:core-sdk_1535431373818904616 aa07b78b-623e-4f00-a2af-365b888972ea
+a=ssrc:2363404416 mslabel:core-sdk_1535431373818904616
+a=ssrc:2363404416 label:aa07b78b-623e-4f00-a2af-365b888972ea
+m=video 9 UDP/TLS/RTP/SAVPF 96 97 98 99 100 101 127 123 125 122 124
+c=IN IP4 0.0.0.0
+a=rtcp:9 IN IP4 0.0.0.0
+a=ice-ufrag:a+37
+a=ice-pwd:tOgpxhimDV/37/81p1P75Xdw
+a=ice-options:trickle renomination
+a=fingerprint:sha-256 75:F7:96:88:9D:30:27:52:CC:EF:6A:26:46:77:86:45:2A:14:4C:39:1A:29:8E:BC:4B:B6:17:61:34:03:46:9E
+a=setup:actpass
+a=mid:video
+b=AS:600
+a=extmap:2 urn:ietf:params:rtp-hdrext:toffset
+a=extmap:3 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time
+a=extmap:4 urn:3gpp:video-orientation
+a=extmap:5 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01
+a=extmap:6 http://www.webrtc.org/experiments/rtp-hdrext/playout-delay
+a=extmap:7 http://www.webrtc.org/experiments/rtp-hdrext/video-content-type
+a=extmap:8 http://www.webrtc.org/experiments/rtp-hdrext/video-timing
+a=sendonly
+a=rtcp-mux
+a=rtcp-rsize
+a=rtpmap:96 H264/90000
+a=rtcp-fb:96 goog-remb
+a=rtcp-fb:96 transport-cc
+a=rtcp-fb:96 ccm fir
+a=rtcp-fb:96 nack
+a=rtcp-fb:96 nack pli
+a=fmtp:96 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=640c1f
+a=rtpmap:97 rtx/90000
+a=fmtp:97 apt=96
+a=rtpmap:98 H264/90000
+a=rtcp-fb:98 goog-remb
+a=rtcp-fb:98 transport-cc
+a=rtcp-fb:98 ccm fir
+a=rtcp-fb:98 nack
+a=rtcp-fb:98 nack pli
+a=fmtp:98 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42e01f
+a=rtpmap:99 rtx/90000
+a=fmtp:99 apt=98
+a=rtpmap:100 VP8/90000
+a=rtcp-fb:100 goog-remb
+a=rtcp-fb:100 transport-cc
+a=rtcp-fb:100 ccm fir
+a=rtcp-fb:100 nack
+a=rtcp-fb:100 nack pli
+a=rtpmap:101 rtx/90000
+a=fmtp:101 apt=100
+a=rtpmap:127 VP9/90000
+a=rtcp-fb:127 goog-remb
+a=rtcp-fb:127 transport-cc
+a=rtcp-fb:127 ccm fir
+a=rtcp-fb:127 nack
+a=rtcp-fb:127 nack pli
+a=rtpmap:123 rtx/90000
+a=fmtp:123 apt=127
+a=rtpmap:125 red/90000
+a=rtpmap:122 rtx/90000
+a=fmtp:122 apt=125
+a=rtpmap:124 ulpfec/90000
+a=ssrc-group:FID 4110874002 2146364094
+a=ssrc:4110874002 cname:PmEJX0ZUsuPPgAyj
+a=ssrc:4110874002 msid:core-sdk_1535431373818904616 6d193e10-dd14-4760-b2f9-19badd9ab1ca
+a=ssrc:4110874002 mslabel:core-sdk_1535431373818904616
+a=ssrc:4110874002 label:6d193e10-dd14-4760-b2f9-19badd9ab1ca
+a=ssrc:2146364094 cname:PmEJX0ZUsuPPgAyj
+a=ssrc:2146364094 msid:core-sdk_1535431373818904616 6d193e10-dd14-4760-b2f9-19badd9ab1ca
+a=ssrc:2146364094 mslabel:core-sdk_1535431373818904616
+a=ssrc:2146364094 label:6d193e10-dd14-4760-b2f9-19badd9ab1ca
+
+2018-08-28 12:42:53.902[39695] (basicportallocator.cc:107): Filtered out ignored networks:
+2018-08-28 12:42:53.902[39695] (basicportallocator.cc:109): Net[lo0:0:0:0:x:x:x:x:x/128:Loopback:id=4]
+2018-08-28 12:42:53.902[39695] (basicportallocator.cc:109): Net[lo0:127.0.0.x/8:Loopback:id=3]
+2018-08-28 12:42:53.902[39695] (basicportallocator.cc:829): Network manager has started
+2018-08-28 12:42:53.902[28675] (RTCLogging.mm:31): (QNRTCSession.mm:1662 -[QNRTCSession peerConnection:didChangeIceGatheringState:]): peerConnection: 0x1c0065a80, ICE gathering state changed: RTCIceGatheringStateGathering
+2018-08-28 12:42:53.902[39695] (basicportallocator.cc:107): Filtered out ignored networks:
+2018-08-28 12:42:53.903[39695] (basicportallocator.cc:109): Net[lo0:0:0:0:x:x:x:x:x/128:Loopback:id=4]
+2018-08-28 12:42:53.903[39695] (basicportallocator.cc:109): Net[lo0:127.0.0.x/8:Loopback:id=3]
+2018-08-28 12:42:53.903[39695] (basicportallocator.cc:829): Network manager has started
+2018-08-28 12:42:53.903[39695] (basicportallocator.cc:107): Filtered out ignored networks:
+2018-08-28 12:42:53.903[39695] (basicportallocator.cc:109): Net[lo0:0:0:0:x:x:x:x:x/128:Loopback:id=4]
+2018-08-28 12:42:53.903[39695] (basicportallocator.cc:109): Net[lo0:127.0.0.x/8:Loopback:id=3]
+2018-08-28 12:42:53.903[39695] (basicportallocator.cc:744): Allocate ports on 2 networks
+2018-08-28 12:42:53.903[39695] (basicportallocator.cc:107): Filtered out ignored networks:
+2018-08-28 12:42:53.903[39695] (basicportallocator.cc:109): Net[lo0:0:0:0:x:x:x:x:x/128:Loopback:id=4]
+2018-08-28 12:42:53.903[39695] (basicportallocator.cc:109): Net[lo0:127.0.0.x/8:Loopback:id=3]
+2018-08-28 12:42:53.903[39695] (basicportallocator.cc:744): Allocate ports on 2 networks
+2018-08-28 12:42:53.904[39695] (basicportallocator.cc:1284): Net[en0:100.100.34.x/24:Wifi:id=1]: Allocation Phase=Udp
+2018-08-28 12:42:53.904[39695] (port.cc:328): Port[0x120056200::1:0:local:Net[en0:100.100.34.x/24:Wifi:id=1]]: Port created with network cost 10
+2018-08-28 12:42:53.904[39695] (basicportallocator.cc:1355): AllocationSequence: UDPPort will be handling the STUN candidate generation.
+2018-08-28 12:42:53.904[39695] (basicportallocator.cc:851): Adding allocated port for audio
+2018-08-28 12:42:53.904[39695] (basicportallocator.cc:871): Port[0x120056200:audio:1:0:local:Net[en0:100.100.34.x/24:Wifi:id=1]]: Added port to allocator
+2018-08-28 12:42:53.904[39695] (basicportallocator.cc:889): Port[0x120056200:audio:1:0:local:Net[en0:100.100.34.x/24:Wifi:id=1]]: Gathered candidate: Cand[:3002475446:1:udp:2122260223:100.100.34.x:61695:local::0:a+37:tOgpxhimDV/37/81p1P75Xdw:1:10:0]
+2018-08-28 12:42:53.904[39695] (basicportallocator.cc:917): Port[0x120056200:audio:1:0:local:Net[en0:100.100.34.x/24:Wifi:id=1]]: Port ready.
+2018-08-28 12:42:53.904[39695] (physicalsocketserver.cc:562): Socket::OPT_DSCP not supported.
+2018-08-28 12:42:53.904[39695] (p2ptransportchannel.cc:711): Port[0x120056200:audio:1:0:local:Net[en0:100.100.34.x/24:Wifi:id=1]]: SetOption(5, 0) failed: 0
+2018-08-28 12:42:53.905[28675] (RTCLogging.mm:31): (QNRTCSession.mm:1667 -[QNRTCSession peerConnection:didGenerateIceCandidate:]): peerConnection: 0x1c0065a80, didGenerateIceCandidate: RTCIceCandidate:
+audio
+0
+candidate:3002475446 1 udp 2122260223 100.100.34.224 61695 typ host generation 0 ufrag a+37 network-id 1 network-cost 10
+
+2018-08-28 12:42:53.905[39695] (basicportallocator.cc:1284): Net[en2:169.254.0.x/16:Wifi:id=2]: Allocation Phase=Udp
+2018-08-28 12:42:53.905[39695] (port.cc:328): Port[0x123845000::1:0:local:Net[en2:169.254.0.x/16:Wifi:id=2]]: Port created with network cost 10
+2018-08-28 12:42:53.905[28675] (room_signal.cc:51): SendCandidate room signal ptr:0x1c0000a30, conn id:, candidate str:{
+  "sdpMLineIndex" : 0,
+  "sdpMid" : "audio",
+  "candidate" : "candidate:3002475446 1 udp 2122260223 100.100.34.224 61695 typ host generation 0 ufrag a+37 network-id 1 network-cost 10"
+}
+2018-08-28 12:42:53.905[39695] (basicportallocator.cc:1355): AllocationSequence: UDPPort will be handling the STUN candidate generation.
+2018-08-28 12:42:53.905[39695] (basicportallocator.cc:851): Adding allocated port for audio
+2018-08-28 12:42:53.905[39695] (basicportallocator.cc:871): Port[0x123845000:audio:1:0:local:Net[en2:169.254.0.x/16:Wifi:id=2]]: Added port to allocator
+2018-08-28 12:42:53.905[39695] (basicportallocator.cc:889): Port[0x123845000:audio:1:0:local:Net[en2:169.254.0.x/16:Wifi:id=2]]: Gathered candidate: Cand[:1964420925:1:udp:2122194687:169.254.156.x:54702:local::0:a+37:tOgpxhimDV/37/81p1P75Xdw:2:10:0]
+2018-08-28 12:42:53.905[39695] (basicportallocator.cc:917): Port[0x123845000:audio:1:0:local:Net[en2:169.254.0.x/16:Wifi:id=2]]: Port ready.
+2018-08-28 12:42:53.905[39695] (physicalsocketserver.cc:562): Socket::OPT_DSCP not supported.
+2018-08-28 12:42:53.905[39695] (p2ptransportchannel.cc:711): Port[0x123845000:audio:1:0:local:Net[en2:169.254.0.x/16:Wifi:id=2]]: SetOption(5, 0) failed: 0
+2018-08-28 12:42:53.906[39695] (stunport.cc:534): sendto : [0x00000041] No route to host
+2018-08-28 12:42:53.906[28675] (RTCLogging.mm:31): (QNRTCSession.mm:1667 -[QNRTCSession peerConnection:didGenerateIceCandidate:]): peerConnection: 0x1c0065a80, didGenerateIceCandidate: RTCIceCandidate:
+audio
+0
+candidate:1964420925 1 udp 2122194687 169.254.156.19 54702 typ host generation 0 ufrag a+37 network-id 2 network-cost 10
+
+2018-08-28 12:42:53.906[39695] (basicportallocator.cc:1284): Net[en0:100.100.34.x/24:Wifi:id=1]: Allocation Phase=Udp
+2018-08-28 12:42:53.906[28675] (room_signal.cc:51): SendCandidate room signal ptr:0x1c0000a30, conn id:, candidate str:{
+  "sdpMLineIndex" : 0,
+  "sdpMid" : "audio",
+  "candidate" : "candidate:1964420925 1 udp 2122194687 169.254.156.19 54702 typ host generation 0 ufrag a+37 network-id 2 network-cost 10"
+}
+2018-08-28 12:42:53.906[39695] (port.cc:328): Port[0x120059c00::1:0:local:Net[en0:100.100.34.x/24:Wifi:id=1]]: Port created with network cost 10
+2018-08-28 12:42:53.906[39695] (basicportallocator.cc:1355): AllocationSequence: UDPPort will be handling the STUN candidate generation.
+2018-08-28 12:42:53.906[39695] (basicportallocator.cc:851): Adding allocated port for video
+2018-08-28 12:42:53.906[39695] (basicportallocator.cc:871): Port[0x120059c00:video:1:0:local:Net[en0:100.100.34.x/24:Wifi:id=1]]: Added port to allocator
+2018-08-28 12:42:53.906[39695] (basicportallocator.cc:889): Port[0x120059c00:video:1:0:local:Net[en0:100.100.34.x/24:Wifi:id=1]]: Gathered candidate: Cand[:3002475446:1:udp:2122260223:100.100.34.x:57893:local::0:a+37:tOgpxhimDV/37/81p1P75Xdw:1:10:0]
+2018-08-28 12:42:53.906[39695] (basicportallocator.cc:917): Port[0x120059c00:video:1:0:local:Net[en0:100.100.34.x/24:Wifi:id=1]]: Port ready.
+2018-08-28 12:42:53.906[39695] (physicalsocketserver.cc:562): Socket::OPT_DSCP not supported.
+2018-08-28 12:42:53.907[39695] (p2ptransportchannel.cc:711): Port[0x120059c00:video:1:0:local:Net[en0:100.100.34.x/24:Wifi:id=1]]: SetOption(5, 0) failed: 0
+2018-08-28 12:42:53.907[39695] (basicportallocator.cc:1284): Net[en2:169.254.0.x/16:Wifi:id=2]: Allocation Phase=Udp
+2018-08-28 12:42:53.907[28675] (RTCLogging.mm:31): (QNRTCSession.mm:1667 -[QNRTCSession peerConnection:didGenerateIceCandidate:]): peerConnection: 0x1c0065a80, didGenerateIceCandidate: RTCIceCandidate:
+video
+1
+candidate:3002475446 1 udp 2122260223 100.100.34.224 57893 typ host generation 0 ufrag a+37 network-id 1 network-cost 10
+
+2018-08-28 12:42:53.907[39695] (port.cc:328): Port[0x123845600::1:0:local:Net[en2:169.254.0.x/16:Wifi:id=2]]: Port created with network cost 10
+2018-08-28 12:42:53.907[28675] (room_signal.cc:51): SendCandidate room signal ptr:0x1c0000a30, conn id:, candidate str:{
+  "sdpMLineIndex" : 1,
+  "sdpMid" : "video",
+  "candidate" : "candidate:3002475446 1 udp 2122260223 100.100.34.224 57893 typ host generation 0 ufrag a+37 network-id 1 network-cost 10"
+}
+2018-08-28 12:42:53.907[39695] (basicportallocator.cc:1355): AllocationSequence: UDPPort will be handling the STUN candidate generation.
+2018-08-28 12:42:53.907[39695] (basicportallocator.cc:851): Adding allocated port for video
+2018-08-28 12:42:53.907[39695] (basicportallocator.cc:871): Port[0x123845600:video:1:0:local:Net[en2:169.254.0.x/16:Wifi:id=2]]: Added port to allocator
+2018-08-28 12:42:53.907[39695] (basicportallocator.cc:889): Port[0x123845600:video:1:0:local:Net[en2:169.254.0.x/16:Wifi:id=2]]: Gathered candidate: Cand[:1964420925:1:udp:2122194687:169.254.156.x:62867:local::0:a+37:tOgpxhimDV/37/81p1P75Xdw:2:10:0]
+2018-08-28 12:42:53.907[39695] (basicportallocator.cc:917): Port[0x123845600:video:1:0:local:Net[en2:169.254.0.x/16:Wifi:id=2]]: Port ready.
+2018-08-28 12:42:53.907[39695] (physicalsocketserver.cc:562): Socket::OPT_DSCP not supported.
+2018-08-28 12:42:53.907[39695] (p2ptransportchannel.cc:711): Port[0x123845600:video:1:0:local:Net[en2:169.254.0.x/16:Wifi:id=2]]: SetOption(5, 0) failed: 0
+2018-08-28 12:42:53.908[39695] (stunport.cc:534): sendto : [0x00000041] No route to host
+2018-08-28 12:42:53.908[28675] (RTCLogging.mm:31): (QNRTCSession.mm:1667 -[QNRTCSession peerConnection:didGenerateIceCandidate:]): peerConnection: 0x1c0065a80, didGenerateIceCandidate: RTCIceCandidate:
+video
+1
+candidate:1964420925 1 udp 2122194687 169.254.156.19 62867 typ host generation 0 ufrag a+37 network-id 2 network-cost 10
+
+2018-08-28 12:42:53.908[28675] (room_signal.cc:51): SendCandidate room signal ptr:0x1c0000a30, conn id:, candidate str:{
+  "sdpMLineIndex" : 1,
+  "sdpMid" : "video",
+  "candidate" : "candidate:1964420925 1 udp 2122194687 169.254.156.19 62867 typ host generation 0 ufrag a+37 network-id 2 network-cost 10"
+}
+2018-08-28 12:42:53.945[56327] (RTCLogging.mm:31): (QNRTCSession.mm:2167 -[QNRTCSession observer:didRecieveAnswerInfo:]): didRecieveAnswerInfo: {
+    QNSignalConnIdKey = "";
+    QNSignalSDPKey = "v=0\no=mediasoup-client 3118749296243263156 2 IN IP4 0.0.0.0\ns=-\nt=0 0\na=ice-lite\na=fingerprint:sha-256 53:5D:73:4D:FE:0D:B7:2A:00:91:38:D7:95:79:DD:F2:1F:58:4E:E1:C2:93:2A:0E:CC:AC:CF:B7:20:CA:99:48\na=msid-semantic: WMS *\na=group:BUNDLE audio video\nm=audio 7 RTP/SAVPF 111\nc=IN IP4 127.0.0.1\na=rtpmap:111 opus/48000/2\na=fmtp:111 useinbandfec=1\na=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level\na=setup:active\na=mid:audio\na=recvonly\na=ice-ufrag:282kjgpa5ttgyp8a\na=ice-pwd:npblwh6b26ehbuxvcyku9izkff7ucbac\na=candidate:udpcandidate 1 udp 1078862079 115.231.97.48 15938 typ host\na=end-of-candidates\na=ice-options:renomination\na=rtcp-mux\na=rtcp-rsize\nm=video 7 RTP/SAVPF 96 97\nc=IN IP4 127.0.0.1\na=rtpmap:96 H264/90000\na=rtpmap:97 rtx/90000\na=fmtp:96 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42e01f\na=fmtp:97 apt=96\na=rtcp-fb:96 goog-remb \na=rtcp-fb:96 ccm fir\na=rtcp-fb:96 nack \na=rtcp-fb:96 nack pli\na=extmap:2 urn:ietf:params:rtp-hdrext:toffset\na=extmap:3 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time\na=extmap:4 urn:3gpp:video-orientation\na=setup:active\na=mid:video\na=recvonly\na=ice-ufrag:282kjgpa5ttgyp8a\na=ice-pwd:npblwh6b26ehbuxvcyku9izkff7ucbac\na=candidate:udpcandidate 1 udp 1078862079 115.231.97.48 15938 typ host\na=end-of-candidates\na=ice-options:renomination\na=rtcp-mux\na=rtcp-rsize\n";
+    QNSignalStreamIdKey = "core-sdk_1535431373818904616";
+}
+2018-08-28 12:42:53.951[56327] (RTCLogging.mm:31): (QNRTCSession.mm:2183 -[QNRTCSession observer:didRecieveAnswerInfo:]): setRemoteDescription: RTCSessionDescription:
+answer
+v=0
+o=mediasoup-client 3118749296243263156 2 IN IP4 0.0.0.0
+s=-
+t=0 0
+a=ice-lite
+a=fingerprint:sha-256 53:5D:73:4D:FE:0D:B7:2A:00:91:38:D7:95:79:DD:F2:1F:58:4E:E1:C2:93:2A:0E:CC:AC:CF:B7:20:CA:99:48
+a=msid-semantic: WMS *
+a=group:BUNDLE audio video
+m=audio 7 RTP/SAVPF 111
+c=IN IP4 127.0.0.1
+a=rtpmap:111 opus/48000/2
+a=fmtp:111 useinbandfec=1
+a=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level
+a=setup:active
+a=mid:audio
+a=recvonly
+a=ice-ufrag:282kjgpa5ttgyp8a
+a=ice-pwd:npblwh6b26ehbuxvcyku9izkff7ucbac
+a=candidate:udpcandidate 1 udp 1078862079 115.231.97.48 15938 typ host
+a=end-of-candidates
+a=ice-options:renomination
+a=rtcp-mux
+a=rtcp-rsize
+m=video 7 RTP/SAVPF 96 97
+c=IN IP4 127.0.0.1
+a=rtpmap:96 H264/90000
+a=rtpmap:97 rtx/90000
+a=fmtp:96 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42e01f
+a=fmtp:97 apt=96
+a=rtcp-fb:96 goog-remb 
+a=rtcp-fb:96 ccm fir
+a=rtcp-fb:96 nack 
+a=rtcp-fb:96 nack pli
+a=extmap:2 urn:ietf:params:rtp-hdrext:toffset
+a=extmap:3 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time
+a=extmap:4 urn:3gpp:video-orientation
+a=setup:active
+a=mid:video
+a=recvonly
+a=ice-ufrag:282kjgpa5ttgyp8a
+a=ice-pwd:npblwh6b26ehbuxvcyku9izkff7ucbac
+a=candidate:udpcandidate 1 udp 1078862079 115.231.97.48 15938 typ host
+a=end-of-candidates
+a=ice-options:renomination
+a=rtcp-mux
+a=rtcp-rsize
+
+2018-08-28 12:42:53.953[24595] (webrtcvideoengine.cc:1383): Call stats: 29629121, {send_bw_bps: 0, recv_bw_bps: 0, max_pad_bps: 0, pacer_delay_ms: 0, rtt_ms: -1}
+2018-08-28 12:42:53.953[39695] (dtlssrtptransport.cc:57): Setting RTCP Transport on audio transport 0x0
+2018-08-28 12:42:53.953[39695] (dtlssrtptransport.cc:62): Setting RTP Transport on audio transport 0x12240b940
+2018-08-28 12:42:53.953[39695] (p2ptransportchannel.cc:385): Received remote ICE parameters: ufrag=282kjgpa5ttgyp8a, renomination enabled
+2018-08-28 12:42:53.954[39695] (dtlstransport.cc:383): DtlsTransport[audio|1|__]: DTLS setup complete.
+2018-08-28 12:42:53.954[24595] (call.cc:1056): UpdateAggregateNetworkState: aggregate_state=down
+2018-08-28 12:42:53.954[24595] (send_side_congestion_controller.cc:276): SignalNetworkState Down
+2018-08-28 12:42:53.954[39695] (basicportallocator.cc:1284): Net[en0:100.100.34.x/24:Wifi:id=1]: Allocation Phase=Relay
+2018-08-28 12:42:53.954[24595] (channel.cc:543): Channel enabled
+2018-08-28 12:42:53.954[24595] (channel.cc:792): Changing voice state, recv=0 send=0
+2018-08-28 12:42:53.954[24595] (channel.cc:543): Channel enabled
+2018-08-28 12:42:53.954[24595] (channel.cc:922): Changing video state, send=0
+2018-08-28 12:42:53.955[28675] (peerconnection.cc:3506): Session: 3118749296243263156 Old state: kHaveLocalOffer New state: kStable
+2018-08-28 12:42:53.955[28675] (RTCLogging.mm:31): (QNRTCSession.mm:1493 -[QNRTCSession peerConnection:didChangeSignalingState:]): peerConnection: 0x1c0065a80, Signaling state changed: RTCSignalingStateStable
+2018-08-28 12:42:53.955[24595] (channel.cc:851): Setting remote voice description
+2018-08-28 12:42:53.955[24595] (webrtcvoiceengine.cc:1300): WebRtcVoiceMediaChannel::SetSendParameters: {codecs: [AudioCodec[111:opus:48000:0:2]], extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}], max_bandwidth_bps: -1, mid: audio, options: AudioOptions {}}
+2018-08-28 12:42:53.955[24595] (audio_send_stream.cc:199): AudioSendStream::ConfigureStream: {rtp: {ssrc: 2363404416, extensions: [], nack: {rtp_history_ms: 0}, c_name: PmEJX0ZUsuPPgAyj}, send_transport: (Transport), min_bitrate_bps: -1, max_bitrate_bps: -1, send_codec_spec: {nack_enabled: false, transport_cc_enabled: false, cng_payload_type: <unset>, payload_type: 111, format: {name: opus, clockrate_hz: 48000, num_channels: 2, parameters: {useinbandfec: 1}}}}
+2018-08-28 12:42:53.956[39695] (basicportallocator.cc:1284): Net[en2:169.254.0.x/16:Wifi:id=2]: Allocation Phase=Relay
+2018-08-28 12:42:53.957[24595] (audio_send_stream.cc:199): AudioSendStream::ConfigureStream: {rtp: {ssrc: 2363404416, extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}], nack: {rtp_history_ms: 0}, c_name: PmEJX0ZUsuPPgAyj}, send_transport: (Transport), min_bitrate_bps: -1, max_bitrate_bps: -1, send_codec_spec: {nack_enabled: false, transport_cc_enabled: false, cng_payload_type: <unset>, payload_type: 111, format: {name: opus, clockrate_hz: 48000, num_channels: 2, parameters: {useinbandfec: 1}}}}
+2018-08-28 12:42:53.957[24595] (audio_send_stream.cc:199): AudioSendStream::ConfigureStream: {rtp: {ssrc: 2363404416, extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}], nack: {rtp_history_ms: 0}, c_name: PmEJX0ZUsuPPgAyj}, send_transport: (Transport), min_bitrate_bps: -1, max_bitrate_bps: -1, send_codec_spec: {nack_enabled: false, transport_cc_enabled: false, cng_payload_type: <unset>, payload_type: 111, format: {name: opus, clockrate_hz: 48000, num_channels: 2, parameters: {useinbandfec: 1}}}}
+2018-08-28 12:42:53.957[24595] (webrtcvoiceengine.cc:2096): WebRtcVoiceMediaChannel::SetMaxSendBitrate.
+2018-08-28 12:42:53.957[24595] (webrtcvoiceengine.cc:1482): Setting voice channel options: AudioOptions {}
+2018-08-28 12:42:53.957[24595] (webrtcvoiceengine.cc:324): WebRtcVoiceEngine::ApplyOptions: AudioOptions {audio_jitter_buffer_max_packets: 50, audio_jitter_buffer_fast_accelerate: false, }
+2018-08-28 12:42:53.957[24595] (webrtcvoiceengine.cc:350): Always disable AEC on iOS. Use built-in instead.
+2018-08-28 12:42:53.957[24595] (webrtcvoiceengine.cc:377): Always disable NS on iOS. Use built-in instead.
+2018-08-28 12:42:53.957[24595] (webrtcvoiceengine.cc:388): Always disable AGC on iOS. Use built-in instead.
+2018-08-28 12:42:53.957[24595] (audio_device_module_ios.mm:607): BuiltInAECIsAvailable
+2018-08-28 12:42:53.957[24595] (audio_device_generic.cc:17): BuiltInAECIsAvailable: Not supported on this platform
+2018-08-28 12:42:53.957[24595] (audio_device_module_ios.mm:610): output: 0
+2018-08-28 12:42:53.957[24595] (apm_helpers.cc:118): Echo control set to 0 with mode 0
+2018-08-28 12:42:53.957[24595] (apm_helpers.cc:128): EC metrics set to 0
+2018-08-28 12:42:53.957[24595] (audio_device_module_ios.mm:623): BuiltInAGCIsAvailable
+2018-08-28 12:42:53.957[24595] (audio_device_generic.cc:27): BuiltInAGCIsAvailable: Not supported on this platform
+2018-08-28 12:42:53.957[24595] (audio_device_module_ios.mm:626): output: 0
+2018-08-28 12:42:53.957[24595] (apm_helpers.cc:82): AGC set to 0 with mode 2
+2018-08-28 12:42:53.957[24595] (audio_device_module_ios.mm:639): BuiltInNSIsAvailable
+2018-08-28 12:42:53.957[24595] (audio_device_generic.cc:37): BuiltInNSIsAvailable: Not supported on this platform
+2018-08-28 12:42:53.957[24595] (audio_device_module_ios.mm:642): output: 0
+2018-08-28 12:42:53.958[24595] (apm_helpers.cc:153): NS set to 0
+2018-08-28 12:42:53.958[24595] (webrtcvoiceengine.cc:512): NetEq capacity is 50
+2018-08-28 12:42:53.958[24595] (webrtcvoiceengine.cc:518): NetEq fast mode? 0
+2018-08-28 12:42:53.958[24595] (webrtcvoiceengine.cc:525): Typing detection is enabled? 0
+2018-08-28 12:42:53.958[24595] (apm_helpers.cc:167): VAD set to 0 for typing detection.
+2018-08-28 12:42:53.958[24595] (webrtcvoiceengine.cc:536): Delay agnostic aec is enabled? 0
+2018-08-28 12:42:53.958[24595] (webrtcvoiceengine.cc:546): Extended filter aec is enabled? 0
+2018-08-28 12:42:53.958[24595] (webrtcvoiceengine.cc:556): Experimental ns is enabled? 0
+2018-08-28 12:42:53.958[24595] (webrtcvoiceengine.cc:562): Intelligibility Enhancer is enabled? 0
+2018-08-28 12:42:53.958[24595] (audio_processing_impl.cc:695): Highpass filter activated: 1
+2018-08-28 12:42:53.958[24595] (audio_processing_impl.cc:709): Gain Controller 2 activated: 0
+2018-08-28 12:42:53.958[24595] (audio_processing_impl.cc:711): Pre-amplifier activated: 0
+2018-08-28 12:42:53.958[24595] (webrtcvoiceengine.cc:1500): Set voice channel options. Current options: AudioOptions {audio_jitter_buffer_max_packets: 50, audio_jitter_buffer_fast_accelerate: false, }
+2018-08-28 12:42:53.958[24595] (channel.cc:792): Changing voice state, recv=0 send=0
+2018-08-28 12:42:53.958[24595] (channel.cc:986): Setting remote video description
+2018-08-28 12:42:53.958[24595] (webrtcvideoengine.cc:753): SetSendParameters: {codecs: [VideoCodec[96:H264], VideoCodec[97:rtx]], conference_mode: no, extensions: [{uri: urn:ietf:params:rtp-hdrext:toffset, id: 2}, {uri: http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time, id: 3}, {uri: urn:3gpp:video-orientation, id: 4}], max_bandwidth_bps: -1, mid: video}
+2018-08-28 12:42:53.959[24595] (webrtcvideoengine.cc:762): Using codec: VideoCodec[96:H264]
+2018-08-28 12:42:53.959[24595] (webrtcvideoengine.cc:1752): RecreateWebRtcStream (send) because of SetCodec.
+2018-08-28 12:42:53.959[24595] (alr_experiment.cc:65): Using ALR experiment settings: pacing factor: 1, max pacer queue length: 2875, ALR start bandwidth usage percent: 80, ALR end budget level percent: 40, ALR end budget level percent: -60, ALR experiment group ID: 3
+2018-08-28 12:42:53.960[17923] (video_send_stream_impl.cc:341): VideoSendStreamInternal: {encoder_settings: {encoder_factory: (VideoEncoderFactory)}, rtp: {ssrcs: [4110874002], rtcp_mode: RtcpMode::kReducedSize, max_packet_size: 1200, extensions: [{uri: http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time, id: 3}, {uri: urn:3gpp:video-orientation, id: 4}], nack: {rtp_history_ms: 1000}, ulpfec: {ulpfec_payload_type: -1, red_payload_type: -1, red_rtx_payload_type: -1}, payload_name: H264, payload_type: 96, flexfec: {payload_type: -1, ssrc: 0, protected_media_ssrcs: []}, rtx: {ssrcs: [2146364094], payload_type: 97}, c_name: PmEJX0ZUsuPPgAyj}, rtcp: {video_report_interval_ms: 1000, audio_report_interval_ms: 5000}, pre_encode_callback: nullptr, post_encode_callback: nullptr, render_delay_ms: 0, target_delay_ms: 0, suspend_below_min_bitrate: off}
+2018-08-28 12:42:53.960[24595] (call.cc:1056): UpdateAggregateNetworkState: aggregate_state=down
+2018-08-28 12:42:53.960[24595] (send_side_congestion_controller.cc:276): SignalNetworkState Down
+2018-08-28 12:42:53.960[5895] (video_stream_encoder.cc:459): ConfigureEncoder requested.
+2018-08-28 12:42:53.960[24595] (video_send_stream.cc:153): VideoSendStream::Stop
+2018-08-28 12:42:53.960[24595] (webrtcvideoengine.cc:811): SetFeedbackOptions on all the receive streams because the send codec or RTCP mode has changed.
+2018-08-28 12:42:53.960[17923] (video_send_stream_impl.cc:555): VideoSendStream::Stop
+2018-08-28 12:42:53.960[24595] (video_send_stream.cc:153): VideoSendStream::Stop
+2018-08-28 12:42:53.960[24595] (channel.cc:922): Changing video state, send=0
+2018-08-28 12:42:53.960[17923] (video_send_stream_impl.cc:555): VideoSendStream::Stop
+2018-08-28 12:42:53.961[39695] (port.cc:1086): Conn[0x120813200:audio:Net[en2:169.254.0.x/16:Wifi:id=2]:0ZifRQeZ:1:0:local:udp:169.254.156.x:54702->59rnxAMw:1:1078862079:local:udp:115.231.97.x:15938|C--W|-|0|0|4633677350443957759|-]: Connection created
+2018-08-28 12:42:53.961[39695] (p2ptransportchannel.cc:1074): Channel[audio|1|__]: Created connection with origin: 2, total: 1
+2018-08-28 12:42:53.961[39695] (port.cc:1086): Conn[0x120813c00:audio:Net[en0:100.100.34.x/24:Wifi:id=1]:bfMpnt3i:1:0:local:udp:100.100.34.x:61695->59rnxAMw:1:1078862079:local:udp:115.231.97.x:15938|C--W|-|0|0|4633677350444088831|-]: Connection created
+2018-08-28 12:42:53.961[39695] (p2ptransportchannel.cc:1074): Channel[audio|1|__]: Created connection with origin: 2, total: 2
+2018-08-28 12:42:53.961[39695] (p2ptransportchannel.cc:1716): Channel[audio|1|__]: Transport channel state changed from 0 to 2
+2018-08-28 12:42:53.961[39695] (jseptransportcontroller.cc:1158): audio Transport 1 state changed. Check if state is complete.
+2018-08-28 12:42:53.961[39695] (p2ptransportchannel.cc:1288): Channel[audio|1|__]: Have a pingable connection for the first time; starting to ping.
+2018-08-28 12:42:53.961[28675] (peerconnection.cc:3463): Changing IceConnectionState 0 => 1
+2018-08-28 12:42:53.962[28675] (RTCLogging.mm:31): (QNRTCSession.mm:1567 -[QNRTCSession peerConnection:didChangeIceConnectionState:]): peerConnection: 0x1c0065a80, ICE connection state changed: RTCIceConnectionStateChecking
+2018-08-28 12:42:53.962[39695] (port.cc:1711): Conn[0x120813c00:audio:Net[en0:100.100.34.x/24:Wifi:id=1]:bfMpnt3i:1:0:local:udp:100.100.34.x:61695->59rnxAMw:1:1078862079:local:udp:115.231.97.x:15938|C--W|-|0|0|4633677350444088831|-]: Sent STUN ping, id=585146456376425a47327256, use_candidate=0, nomination=0
+2018-08-28 12:42:53.962[39695] (jseptransportcontroller.cc:301): Not adding candidate because the JsepTransport doesn't exist. Ignore it.
+2018-08-28 12:42:53.962[28675] (peerconnection.cc:4762): Non-rejected SCTP m= section is needed to get the SSL Role of the SCTP transport.
+2018-08-28 12:42:53.982[39695] (port.cc:1655): Conn[0x120813c00:audio:Net[en0:100.100.34.x/24:Wifi:id=1]:bfMpnt3i:1:0:local:udp:100.100.34.x:61695->59rnxAMw:1:1078862079:local:udp:115.231.97.x:15938|C--I|-|0|0|4633677350444088831|-]: Received STUN ping response, id=585146456376425a47327256, code=0, rtt=21, pings_since_last_response=585146456376425a47327256 
+2018-08-28 12:42:53.982[39695] (port.cc:1855): Conn[0x120813c00:audio:Net[en0:100.100.34.x/24:Wifi:id=1]:bfMpnt3i:1:0:local:udp:100.100.34.x:61695->59rnxAMw:1:1078862079:local:udp:115.231.97.x:15938|CRWS|-|0|0|4633677350444088831|21]: Updating local candidate type to prflx.
+2018-08-28 12:42:53.983[39695] (dtlstransport.cc:560): DtlsTransport[audio|1|__]: Packet received before DTLS started.
+2018-08-28 12:42:53.983[39695] (dtlstransport.cc:569): DtlsTransport[audio|1|__]: Caching DTLS ClientHello packet until DTLS is started.
+2018-08-28 12:42:53.983[39695] (p2ptransportchannel.cc:253): Switching selected connection due to: candidate pair state changed
+2018-08-28 12:42:53.983[39695] (p2ptransportchannel.cc:1674): Channel[audio|1|__]: New selected connection: Conn[0x120813c00:audio:Net[en0:100.100.34.x/24:Wifi:id=1]:hI+mHHlM:1:0:prflx:udp:222.73.202.x:3149->59rnxAMw:1:1078862079:local:udp:115.231.97.x:15938|CRWS|S|0|0|4633677349907217919|21]
+2018-08-28 12:42:53.983[39695] (dtlstransport.cc:808): DtlsTransport[audio|1|__]: configuring DTLS handshake timeout 50 based on ICE RTT 21
+2018-08-28 12:42:53.983[39695] (opensslstreamadapter.cc:760): BeginSSL with peer.
+2018-08-28 12:42:53.984[39695] (dtlstransport.cc:717): DtlsTransport[audio|1|__]: DtlsTransport: Started DTLS handshake
+2018-08-28 12:42:53.984[39695] (srtptransport.cc:354): The params in SRTP transport are reset.
+2018-08-28 12:42:53.984[39695] (dtlstransport.cc:724): DtlsTransport[audio|1|__]: Handling cached DTLS ClientHello packet.
+2018-08-28 12:42:53.985[39695] (basicportallocator.cc:1087): All candidates gathered for audio:1:0
+2018-08-28 12:42:53.985[39695] (p2ptransportchannel.cc:766): P2PTransportChannel: audio, component 1 gathering complete
+2018-08-28 12:42:53.985[28675] (RTCLogging.mm:31): (QNRTCSession.mm:1662 -[QNRTCSession peerConnection:didChangeIceGatheringState:]): peerConnection: 0x1c0065a80, ICE gathering state changed: RTCIceGatheringStateComplete
+2018-08-28 12:42:54.011[39695] (opensslstreamadapter.cc:1084): Accepted peer certificate.
+2018-08-28 12:42:54.012[39695] (dtlstransport.cc:645): DtlsTransport[audio|1|__]: DTLS handshake complete.
+2018-08-28 12:42:54.013[39695] (jseptransportcontroller.cc:1088):  Transport audio writability changed to 1.
+2018-08-28 12:42:54.013[39695] (dtlssrtptransport.cc:215): Extracting keys from transport: audio
+2018-08-28 12:42:54.013[24595] (call.cc:1056): UpdateAggregateNetworkState: aggregate_state=up
+2018-08-28 12:42:54.013[28675] (peerconnection.cc:5228): Changing to ICE completed state because all transports are complete.
+2018-08-28 12:42:54.013[24595] (send_side_congestion_controller.cc:276): SignalNetworkState Up
+2018-08-28 12:42:54.013[28675] (peerconnection.cc:3463): Changing IceConnectionState 1 => 2
+2018-08-28 12:42:54.013[28675] (RTCLogging.mm:31): (QNRTCSession.mm:1567 -[QNRTCSession peerConnection:didChangeIceConnectionState:]): peerConnection: 0x1c0065a80, ICE connection state changed: RTCIceConnectionStateConnected
+2018-08-28 12:42:54.013[28675] (RTCLogging.mm:31): (QNMicrophoneSource.m:189 -[QNMicrophoneSource startRunning]): startRunning
+2018-08-28 12:42:54.014[28675] (peerconnection.cc:3463): Changing IceConnectionState 2 => 3
+2018-08-28 12:42:54.014[28675] (RTCLogging.mm:31): (QNRTCSession.mm:1567 -[QNRTCSession peerConnection:didChangeIceConnectionState:]): peerConnection: 0x1c0065a80, ICE connection state changed: RTCIceConnectionStateCompleted
+2018-08-28 12:42:54.014[24595] (bitrate_prober.cc:108): Probe cluster (bitrate:min bytes:min packets): (900000:1687:5)
+2018-08-28 12:42:54.014[24595] (bitrate_prober.cc:108): Probe cluster (bitrate:min bytes:min packets): (1800000:3375:5)
+2018-08-28 12:42:54.014[24595] (send_side_congestion_controller.cc:477): Bitrate estimate state changed, BWE: 300000 bps.
+2018-08-28 12:42:54.014[17923] (RTCLogging.mm:31): (RTCAudioSession.mm:624 -[RTCAudioSession incrementActivationCount]): Incrementing activation count.
+2018-08-28 12:42:54.014[24595] (call.cc:1056): UpdateAggregateNetworkState: aggregate_state=up
+2018-08-28 12:42:54.014[24595] (send_side_congestion_controller.cc:276): SignalNetworkState Up
+2018-08-28 12:42:54.014[17923] (RTCLogging.mm:31): (RTCAudioSession.mm:379 -[RTCAudioSession setActive:error:]): Number of current activations: 2
+2018-08-28 12:42:54.015[5895] (RTCLogging.mm:31): (QNEventStatistic.m:69 -[QNEventStatistic addEvent:]_block_invoke): addEvent: {
+    "audio_device_id" = "";
+    "encode_video_fps" = 25;
+    "encode_video_height" = 960;
+    "encode_video_width" = 544;
+    "event_id" = 8;
+    "ice_connect_state" = 2;
+    "ice_take_time" = 135;
+    "preview_video_fps" = 25;
+    "preview_video_height" = 0;
+    "preview_video_width" = 0;
+    "stream_id" = "core-sdk_1535431373818904616";
+    timestamp = 1535431374013;
+    "video_bitrate" = 0;
+    "video_device_id" = FRONT;
+}
+2018-08-28 12:42:54.018[8967] (bitrate_allocator.cc:104): Current BWE 300000
+2018-08-28 12:42:54.018[39695] (srtptransport.cc:294): SRTP activated with negotiated parameters: send cipher_suite 1 recv cipher_suite 1
+2018-08-28 12:42:54.018[39695] (channel.cc:573): Channel writable (audio) for the first time
+2018-08-28 12:42:54.018[39695] (channel.cc:573): Channel writable (video) for the first time
+2018-08-28 12:42:54.038[771] (RTCLogging.mm:31): (RTCAudioSession.mm:572 -[RTCAudioSession handleApplicationDidBecomeActive:]): Application became active after an interruption. Treating as interruption  end. isInterrupted changed from 0 to 0.
+2018-08-28 12:42:54.038[771] (RTCLogging.mm:31): (QNGLKView.m:764 -[QNGLKView handleApplicationDidBecomeActive:]): become active start render
+2018-08-28 12:42:54.038[771] (RTCLogging.mm:31): (QNMirrorWatermarkProcessor.m:731 -[QNMirrorWatermarkProcessor handleApplicationDidBecomeActive:]): mirrorwatermark applicationDidBecomeActive
+2018-08-28 12:42:54.038[771] (RTCLogging.mm:31): (QNMirrorWatermarkProcessor.m:731 -[QNMirrorWatermarkProcessor handleApplicationDidBecomeActive:]): mirrorwatermark applicationDidBecomeActive
+2018-08-28 12:42:54.038[771] (RTCLogging.mm:31): (QNMicrophoneSource.m:311 -[QNMicrophoneSource handleApplicationActive:]): handleApplicationActive: NSConcreteNotification 0x1c0242220 {name = UIApplicationDidBecomeActiveNotification; object = <UIApplication: 0x122002340>}
+2018-08-28 12:42:54.040[56327] (RTCLogging.mm:31): (QNRTCSession.mm:2252 -[QNRTCSession observer:didRecieveICEStateInfo:]): didRecieveICEStateInfo: {
+    QNSignalConnIdKey = "";
+    QNSignalICEConnectionStateKey = 1;
+    QNSignalStreamIdKey = "core-sdk_1535431373818904616";
+}
+2018-08-28 12:42:54.041[24595] (webrtcvoiceengine.cc:324): WebRtcVoiceEngine::ApplyOptions: AudioOptions {audio_jitter_buffer_max_packets: 50, audio_jitter_buffer_fast_accelerate: false, }
+2018-08-28 12:42:54.043[24595] (webrtcvoiceengine.cc:350): Always disable AEC on iOS. Use built-in instead.
+2018-08-28 12:42:54.043[24595] (webrtcvoiceengine.cc:377): Always disable NS on iOS. Use built-in instead.
+2018-08-28 12:42:54.043[24595] (webrtcvoiceengine.cc:388): Always disable AGC on iOS. Use built-in instead.
+2018-08-28 12:42:54.043[24595] (audio_device_module_ios.mm:607): BuiltInAECIsAvailable
+2018-08-28 12:42:54.043[24595] (audio_device_generic.cc:17): BuiltInAECIsAvailable: Not supported on this platform
+2018-08-28 12:42:54.043[24595] (audio_device_module_ios.mm:610): output: 0
+2018-08-28 12:42:54.043[24595] (apm_helpers.cc:118): Echo control set to 0 with mode 0
+2018-08-28 12:42:54.043[24595] (apm_helpers.cc:128): EC metrics set to 0
+2018-08-28 12:42:54.043[24595] (audio_device_module_ios.mm:623): BuiltInAGCIsAvailable
+2018-08-28 12:42:54.043[24595] (audio_device_generic.cc:27): BuiltInAGCIsAvailable: Not supported on this platform
+2018-08-28 12:42:54.043[75299] (paced_sender.cc:112): PacedSender resumed.
+2018-08-28 12:42:54.047[24595] (audio_device_module_ios.mm:626): output: 0
+2018-08-28 12:42:54.047[24595] (apm_helpers.cc:82): AGC set to 0 with mode 2
+2018-08-28 12:42:54.047[24595] (audio_device_module_ios.mm:639): BuiltInNSIsAvailable
+2018-08-28 12:42:54.047[24595] (audio_device_generic.cc:37): BuiltInNSIsAvailable: Not supported on this platform
+2018-08-28 12:42:54.047[24595] (audio_device_module_ios.mm:642): output: 0
+2018-08-28 12:42:54.047[24595] (apm_helpers.cc:153): NS set to 0
+2018-08-28 12:42:54.047[24595] (webrtcvoiceengine.cc:512): NetEq capacity is 50
+2018-08-28 12:42:54.047[24595] (webrtcvoiceengine.cc:518): NetEq fast mode? 0
+2018-08-28 12:42:54.047[24595] (webrtcvoiceengine.cc:525): Typing detection is enabled? 0
+2018-08-28 12:42:54.047[24595] (apm_helpers.cc:167): VAD set to 0 for typing detection.
+2018-08-28 12:42:54.047[24595] (webrtcvoiceengine.cc:536): Delay agnostic aec is enabled? 0
+2018-08-28 12:42:54.047[24595] (webrtcvoiceengine.cc:546): Extended filter aec is enabled? 0
+2018-08-28 12:42:54.048[24595] (webrtcvoiceengine.cc:556): Experimental ns is enabled? 0
+2018-08-28 12:42:54.048[24595] (webrtcvoiceengine.cc:562): Intelligibility Enhancer is enabled? 0
+2018-08-28 12:42:54.048[24595] (audio_processing_impl.cc:695): Highpass filter activated: 1
+2018-08-28 12:42:54.048[24595] (audio_processing_impl.cc:709): Gain Controller 2 activated: 0
+2018-08-28 12:42:54.048[24595] (audio_processing_impl.cc:711): Pre-amplifier activated: 0
+2018-08-28 12:42:54.048[24595] (audio_device_module_ios.mm:522): RecordingIsInitialized
+2018-08-28 12:42:54.048[24595] (audio_device_module_ios.mm:584): Recording
+2018-08-28 12:42:54.048[24595] (audio_device_module_ios.mm:503): InitRecording
+2018-08-28 12:42:54.048[24595] (audio_device_module_ios.mm:522): RecordingIsInitialized
+2018-08-28 12:42:54.048[24595] (audio_device_ios.mm:211): AudioDeviceIOS::InitRecording
+2018-08-28 12:42:54.048[24595] (audio_device_ios.mm:866): AudioDeviceIOS::InitPlayOrRecord
+2018-08-28 12:42:54.119[17923] (RTCLogging.mm:31): (QNMicrophoneSource.m:198 -[QNMicrophoneSource startRunning]_block_invoke): AudioOutputUnitStart result: 0
+2018-08-28 12:42:54.124[39695] (stunport.cc:276): Port[0x123845000:audio:1:0:local:Net[en2:169.254.0.x/16:Wifi:id=2]]: UDP send of 108 bytes failed with error 65
+2018-08-28 12:42:54.124[39695] (port.cc:1205): Conn[0x120813200:audio:Net[en2:169.254.0.x/16:Wifi:id=2]:0ZifRQeZ:1:0:local:udp:169.254.156.x:54702->59rnxAMw:1:1078862079:local:udp:115.231.97.x:15938|C--W|-|0|0|4633677350443957759|-]: Failed to send STUN ping  err=-1 id=6a30686f42536d3132564a4e
+2018-08-28 12:42:54.124[39695] (port.cc:1711): Conn[0x120813200:audio:Net[en2:169.254.0.x/16:Wifi:id=2]:0ZifRQeZ:1:0:local:udp:169.254.156.x:54702->59rnxAMw:1:1078862079:local:udp:115.231.97.x:15938|C--W|-|0|0|4633677350443957759|-]: Sent STUN ping, id=6a30686f42536d3132564a4e, use_candidate=0, nomination=0
+2018-08-28 12:42:54.156[39695] (stunport.cc:534): sendto : [0x00000041] No route to host
+2018-08-28 12:42:54.191[39695] (stunport.cc:276): Port[0x123845000:audio:1:0:local:Net[en2:169.254.0.x/16:Wifi:id=2]]: UDP send of 108 bytes failed with error 65
+2018-08-28 12:42:54.191[39695] (port.cc:1205): Conn[0x120813200:audio:Net[en2:169.254.0.x/16:Wifi:id=2]:0ZifRQeZ:1:0:local:udp:169.254.156.x:54702->59rnxAMw:1:1078862079:local:udp:115.231.97.x:15938|C--I|-|0|0|4633677350443957759|-]: Failed to send STUN ping  err=-1 id=553167355466327a4667302f
+2018-08-28 12:42:54.191[39695] (port.cc:1711): Conn[0x120813200:audio:Net[en2:169.254.0.x/16:Wifi:id=2]:0ZifRQeZ:1:0:local:udp:169.254.156.x:54702->59rnxAMw:1:1078862079:local:udp:115.231.97.x:15938|C--I|-|0|0|4633677350443957759|-]: Sent STUN ping, id=553167355466327a4667302f, use_candidate=0, nomination=0
+2018-08-28 12:42:54.197[24595] (RTCLogging.mm:31): (audio_device_ios.mm:832 ConfigureAudioSession): Configuring audio session.
+2018-08-28 12:42:54.197[24595] (RTCLogging.mm:31): (RTCAudioSession.mm:699 -[RTCAudioSession configureWebRTCSession:]): Configuring audio session for WebRTC.
+2018-08-28 12:42:54.206[24595] (RTCLogging.mm:31): (RTCAudioSession+Configuration.mm:66 -[RTCAudioSession(Configuration) setConfiguration:active:shouldSetActive:error:]): Set category to: AVAudioSessionCategoryPlayAndRecord
+2018-08-28 12:42:54.241[39695] (stunport.cc:276): Port[0x123845000:audio:1:0:local:Net[en2:169.254.0.x/16:Wifi:id=2]]: UDP send of 108 bytes failed with error 65
+2018-08-28 12:42:54.241[39695] (port.cc:1205): Conn[0x120813200:audio:Net[en2:169.254.0.x/16:Wifi:id=2]:0ZifRQeZ:1:0:local:udp:169.254.156.x:54702->59rnxAMw:1:1078862079:local:udp:115.231.97.x:15938|C--I|-|0|0|4633677350443957759|-]: Failed to send STUN ping  err=-1 id=707979426f53364468586a4b
+2018-08-28 12:42:54.241[39695] (port.cc:1711): Conn[0x120813200:audio:Net[en2:169.254.0.x/16:Wifi:id=2]:0ZifRQeZ:1:0:local:udp:169.254.156.x:54702->59rnxAMw:1:1078862079:local:udp:115.231.97.x:15938|C--I|-|0|0|4633677350443957759|-]: Sent STUN ping, id=707979426f53364468586a4b, use_candidate=0, nomination=0
+2018-08-28 12:42:54.313[24595] (RTCLogging.mm:31): (RTCAudioSession+Configuration.mm:77 -[RTCAudioSession(Configuration) setConfiguration:active:shouldSetActive:error:]): Set mode to: AVAudioSessionModeVoiceChat
+2018-08-28 12:42:54.313[771] (RTCLogging.mm:31): (RTCAudioSession.mm:831 -[RTCAudioSession observeValueForKeyPath:ofObject:change:context:]): OutputVolumeDidChange to 0.687500
+2018-08-28 12:42:54.328[34567] (RTCLogging.mm:31): (RTCAudioSession.mm:504 -[RTCAudioSession handleRouteChangeNotification:]): Audio route changed:
+2018-08-28 12:42:54.331[34567] (RTCLogging.mm:31): (RTCAudioSession.mm:517 -[RTCAudioSession handleRouteChangeNotification:]): Audio route changed: CategoryChange to :AVAudioSessionCategoryPlayAndRecord
+2018-08-28 12:42:54.334[34567] (RTCLogging.mm:31): (RTCAudioSession.mm:536 -[RTCAudioSession handleRouteChangeNotification:]): Previous route: <AVAudioSessionRouteDescription: 0x1d4004fa0, 
+inputs = (
+    "<AVAudioSessionPortDescription: 0x1d4005680, type = MicrophoneBuiltIn; name = iPhone \U9ea6\U514b\U98ce; UID = Built-In Microphone; selectedDataSource = \U4e0b>"
+); 
+outputs = (
+    "<AVAudioSessionPortDescription: 0x1d4004f90, type = Speaker; name = \U626c\U58f0\U5668; UID = Speaker; selectedDataSource = (null)>"
+)>
+Current route:<AVAudioSessionRouteDescription: 0x1c8001210, 
+inputs = (
+    "<AVAudioSessionPortDescription: 0x1c8001280, type = MicrophoneBuiltIn; name = iPhone \U9ea6\U514b\U98ce; UID = Built-In Microphone; selectedDataSource = \U4e0b>"
+); 
+outputs = (
+    "<AVAudioSessionPortDescription: 0x1c8001460, type = Receiver; name = \U63a5\U6536\U5668; UID = Built-In Receiver; selectedDataSource = (null)>"
+)>
+2018-08-28 12:42:54.334[34567] (RTCLogging.mm:31): (QNRTCSession.mm:1310 -[QNRTCSession audioSessionDidChangeRoute:reason:previousRoute:]): AVAudioSessionRouteChangeReasonCategoryChange
+2018-08-28 12:42:54.334[34567] (RTCLogging.mm:31): (QNMicrophoneSource.m:252 -[QNMicrophoneSource handleRouteChange:]): handleRouteChange: AVAudioSessionRouteChangeNotification reason The category of the session object changed.
+2018-08-28 12:42:54.345[24595] (RTCLogging.mm:31): (RTCAudioSession+Configuration.mm:92 -[RTCAudioSession(Configuration) setConfiguration:active:shouldSetActive:error:]): Set category options to: 4
+2018-08-28 12:42:54.345[24595] (RTCLogging.mm:31): (RTCAudioSession+Configuration.mm:118 -[RTCAudioSession(Configuration) setConfiguration:active:shouldSetActive:error:]): Set preferred IO buffer duration to: 0.020000
+2018-08-28 12:42:54.345[24595] (RTCLogging.mm:31): (RTCAudioSession.mm:624 -[RTCAudioSession incrementActivationCount]): Incrementing activation count.
+2018-08-28 12:42:54.345[24595] (RTCLogging.mm:31): (RTCAudioSession.mm:379 -[RTCAudioSession setActive:error:]): Number of current activations: 3
+2018-08-28 12:42:54.348[24595] (RTCLogging.mm:31): (audio_device_ios.mm:843 ConfigureAudioSession): Configured audio session.
+2018-08-28 12:42:54.348[24595] (audio_device_ios.mm:686): AudioDeviceIOS::SetupAudioBuffersForActiveAudioSession
+2018-08-28 12:42:54.353[24595] (RTCLogging.mm:31): (audio_device_ios.mm:691 SetupAudioBuffersForActiveAudioSession): RTCAudioSession: {
+  category: AVAudioSessionCategoryPlayAndRecord
+  categoryOptions: 4
+  mode: AVAudioSessionModeVoiceChat
+  isActive: 1
+  sampleRate: 48000.00
+  IOBufferDuration: 0.021333
+  outputNumberOfChannels: 1
+  inputNumberOfChannels: 1
+  outputLatency: 0.001167
+  inputLatency: 0.000354
+  outputVolume: 0.687500
+}
+2018-08-28 12:42:54.353[24595] (audio_device_ios.mm:722):  frames per I/O buffer: 1024
+2018-08-28 12:42:54.353[24595] (audio_device_ios.mm:723):  bytes per I/O buffer: 2048
+2018-08-28 12:42:54.353[24595] (audio_device_ios.mm:670): AudioDeviceIOS::UpdateAudioDevicebuffer
+2018-08-28 12:42:54.353[24595] (audio_device_buffer.cc:192): SetPlayoutSampleRate(48000)
+2018-08-28 12:42:54.353[24595] (audio_device_buffer.cc:216): SetPlayoutChannels(1)
+2018-08-28 12:42:54.353[24595] (audio_device_buffer.cc:185): SetRecordingSampleRate(48000)
+2018-08-28 12:42:54.353[24595] (audio_device_buffer.cc:209): SetRecordingChannels(1)
+2018-08-28 12:42:54.353[24595] (RTCLogging.mm:31): (voice_processing_audio_unit.mm:134 Initialize): Initializing audio unit with sample rate: 48000.000000
+2018-08-28 12:42:54.661[39695] (stunport.cc:534): sendto : [0x00000041] No route to host
+2018-08-28 12:42:54.816[39695] (stunport.cc:276): Port[0x123845000:audio:1:0:local:Net[en2:169.254.0.x/16:Wifi:id=2]]: UDP send of 108 bytes failed with error 65
+2018-08-28 12:42:54.816[39695] (port.cc:1205): Conn[0x120813200:audio:Net[en2:169.254.0.x/16:Wifi:id=2]:0ZifRQeZ:1:0:local:udp:169.254.156.x:54702->59rnxAMw:1:1078862079:local:udp:115.231.97.x:15938|C--I|-|0|0|4633677350443957759|-]: Failed to send STUN ping  err=-1 id=6869516d5147725a776a666a
+2018-08-28 12:42:54.816[39695] (port.cc:1711): Conn[0x120813200:audio:Net[en2:169.254.0.x/16:Wifi:id=2]:0ZifRQeZ:1:0:local:udp:169.254.156.x:54702->59rnxAMw:1:1078862079:local:udp:115.231.97.x:15938|C--I|-|0|0|4633677350443957759|-]: Sent STUN ping, id=6869516d5147725a776a666a, use_candidate=0, nomination=0
+2018-08-28 12:42:54.893[24595] (RTCLogging.mm:31): (voice_processing_audio_unit.mm:177 Initialize): Voice Processing I/O unit is now initialized.
+2018-08-28 12:42:54.894[24595] (audio_device_module_ios.mm:509): output: 0
+2018-08-28 12:42:54.894[24595] (audio_device_module_ios.mm:584): Recording
+2018-08-28 12:42:54.894[24595] (audio_device_module_ios.mm:503): InitRecording
+2018-08-28 12:42:54.894[24595] (audio_device_module_ios.mm:522): RecordingIsInitialized
+2018-08-28 12:42:54.894[24595] (audio_device_module_ios.mm:559): StartRecording
+2018-08-28 12:42:54.894[24595] (audio_device_module_ios.mm:584): Recording
+2018-08-28 12:42:54.894[24595] (audio_device_buffer.cc:120): StartRecording
+2018-08-28 12:42:54.894[24595] (audio_device_ios.mm:276): AudioDeviceIOS::StartRecording
+2018-08-28 12:42:54.894[24595] (audio_device_module_ios.mm:566): output: 0
+2018-08-28 12:42:54.894[24595] (channel.cc:792): Changing voice state, recv=0 send=1
+2018-08-28 12:42:54.894[24595] (messagequeue.cc:534): Message took 875ms to dispatch. Posted from: UpdateMediaSendRecvState@../../pc/channel.cc:777
+2018-08-28 12:42:54.895[24595] (video_send_stream.cc:126): VideoSendStream::UpdateActiveSimulcastLayers
+2018-08-28 12:42:54.895[34567] (RTCLogging.mm:31): (RTCAudioSession.mm:504 -[RTCAudioSession handleRouteChangeNotification:]): Audio route changed:
+2018-08-28 12:42:54.895[34567] (RTCLogging.mm:31): (RTCAudioSession.mm:529 -[RTCAudioSession handleRouteChangeNotification:]): Audio route changed: RouteConfigurationChange
+2018-08-28 12:42:54.895[17923] (video_send_stream_impl.cc:509): VideoSendStream::UpdateActiveSimulcastLayers
+2018-08-28 12:42:54.895[17923] (bitrate_allocator.cc:221): UpdateAllocationLimits : total_requested_min_bitrate: 0bps, total_requested_padding_bitrate: 0bps, total_requested_max_bitrate: 10000000bps
+2018-08-28 12:42:54.895[24595] (channel.cc:922): Changing video state, send=1
+2018-08-28 12:42:54.895[5895] (video_stream_encoder.cc:961): Video suspend state changed to: not suspended
+2018-08-28 12:42:54.895[24595] (RTCLogging.mm:31): (audio_device_ios.mm:663 HandleOutputVolumeChange): Output volume change detected.
+2018-08-28 12:42:54.896[58883] (audio_device_buffer.cc:264): Size of recording buffer: 480
+2018-08-28 12:42:54.897[34567] (RTCLogging.mm:31): (RTCAudioSession.mm:536 -[RTCAudioSession handleRouteChangeNotification:]): Previous route: <AVAudioSessionRouteDescription: 0x1d0006c00, 
+inputs = (
+    "<AVAudioSessionPortDescription: 0x1d00070a0, type = MicrophoneBuiltIn; name = iPhone \U9ea6\U514b\U98ce; UID = Built-In Microphone; selectedDataSource = \U4e0b>"
+); 
+outputs = (
+    "<AVAudioSessionPortDescription: 0x1d0005cd0, type = Receiver; name = \U63a5\U6536\U5668; UID = Built-In Receiver; selectedDataSource = (null)>"
+)>
+Current route:<AVAudioSessionRouteDescription: 0x1c8001210, 
+inputs = (
+    "<AVAudioSessionPortDescription: 0x1c8001280, type = MicrophoneBuiltIn; name = iPhone \U9ea6\U514b\U98ce; UID = Built-In Microphone; selectedDataSource = (null)>"
+); 
+outputs = (
+    "<AVAudioSessionPortDescription: 0x1c8001460, type = Receiver; name = \U63a5\U6536\U5668; UID = Built-In Receiver; selectedDataSource = (null)>"
+)>
+2018-08-28 12:42:54.897[5895] (rtp_sender_audio.cc:243): First audio RTP packet sent to pacer
+2018-08-28 12:42:54.897[34567] (RTCLogging.mm:31): (RTCNativeAudioSessionDelegateAdapter.mm:62 -[RTCNativeAudioSessionDelegateAdapter audioSessionDidChangeRoute:reason:previousRoute:]): Ignoring RouteConfigurationChange
+2018-08-28 12:42:54.898[34567] (RTCLogging.mm:31): (QNRTCSession.mm:1326 -[QNRTCSession audioSessionDidChangeRoute:reason:previousRoute:]): AVAudioSessionRouteChangeReasonRouteConfigurationChange
+2018-08-28 12:42:55.012[771] (RTCLogging.mm:31): (RTCAudioSession.mm:572 -[RTCAudioSession handleApplicationDidBecomeActive:]): Application became active after an interruption. Treating as interruption  end. isInterrupted changed from 0 to 0.
+2018-08-28 12:42:55.012[17923] (RTCLogging.mm:31): (QNCameraSource.mm:811 +[QNCameraSource requestDeviceAccessWithCompletionHandler:]_block_invoke): request camera access : 1
+2018-08-28 12:42:55.013[771] (audio_device_ios.mm:335): AudioDeviceIOS::OnInterruptionEnd
+2018-08-28 12:42:55.013[771] (RTCLogging.mm:31): (QNGLKView.m:764 -[QNGLKView handleApplicationDidBecomeActive:]): become active start render
+2018-08-28 12:42:55.013[771] (RTCLogging.mm:31): (QNMirrorWatermarkProcessor.m:731 -[QNMirrorWatermarkProcessor handleApplicationDidBecomeActive:]): mirrorwatermark applicationDidBecomeActive
+2018-08-28 12:42:55.013[771] (RTCLogging.mm:31): (QNMirrorWatermarkProcessor.m:731 -[QNMirrorWatermarkProcessor handleApplicationDidBecomeActive:]): mirrorwatermark applicationDidBecomeActive
+2018-08-28 12:42:55.013[771] (RTCLogging.mm:31): (QNMicrophoneSource.m:311 -[QNMicrophoneSource handleApplicationActive:]): handleApplicationActive: NSConcreteNotification 0x1d065f4a0 {name = UIApplicationDidBecomeActiveNotification; object = <UIApplication: 0x122002340>}
+2018-08-28 12:42:55.013[771] (RTCLogging.mm:31): (QNCameraSource.mm:86 -[QNCameraSource setupCaptureSession]): setup capture session
+2018-08-28 12:42:55.020[75299] (probe_controller.cc:278): kWaitingForProbingResult: timeout
+2018-08-28 12:42:55.106[34567] (RTCLogging.mm:31): (QNMicrophoneSource.m:252 -[QNMicrophoneSource handleRouteChange:]): handleRouteChange: AVAudioSessionRouteChangeNotification reason The reason for the change is unknown.
+2018-08-28 12:42:55.158[34567] (RTCLogging.mm:31): (RTCAudioSession.mm:504 -[RTCAudioSession handleRouteChangeNotification:]): Audio route changed:
+2018-08-28 12:42:55.158[34567] (RTCLogging.mm:31): (RTCAudioSession.mm:520 -[RTCAudioSession handleRouteChangeNotification:]): Audio route changed: Override
+2018-08-28 12:42:55.161[34567] (RTCLogging.mm:31): (RTCAudioSession.mm:536 -[RTCAudioSession handleRouteChangeNotification:]): Previous route: <AVAudioSessionRouteDescription: 0x1d0006460, 
+inputs = (
+    "<AVAudioSessionPortDescription: 0x1d0006ae0, type = MicrophoneBuiltIn; name = iPhone \U9ea6\U514b\U98ce; UID = Built-In Microphone; selectedDataSource = (null)>"
+); 
+outputs = (
+    "<AVAudioSessionPortDescription: 0x1d0000ca0, type = Receiver; name = \U63a5\U6536\U5668; UID = Built-In Receiver; selectedDataSource = (null)>"
+)>
+Current route:<AVAudioSessionRouteDescription: 0x1d0006f40, 
+inputs = (
+    "<AVAudioSessionPortDescription: 0x1d00066a0, type = MicrophoneBuiltIn; name = iPhone \U9ea6\U514b\U98ce; UID = Built-In Microphone; selectedDataSource = (null)>"
+); 
+outputs = (
+    "<AVAudioSessionPortDescription: 0x1d0007670, type = Speaker; name = \U626c\U58f0\U5668; UID = Speaker; selectedDataSource = (null)>"
+)>
+2018-08-28 12:42:55.161[34567] (RTCLogging.mm:31): (QNRTCSession.mm:1314 -[QNRTCSession audioSessionDidChangeRoute:reason:previousRoute:]): AVAudioSessionRouteChangeReasonOverride
+2018-08-28 12:42:55.161[34567] (RTCLogging.mm:31): (RTCAudioSession.mm:624 -[RTCAudioSession incrementActivationCount]): Incrementing activation count.
+2018-08-28 12:42:55.161[34567] (RTCLogging.mm:31): (RTCAudioSession.mm:379 -[RTCAudioSession setActive:error:]): Number of current activations: 4
+2018-08-28 12:42:55.165[34567] (RTCLogging.mm:31): (QNMicrophoneSource.m:252 -[QNMicrophoneSource handleRouteChange:]): handleRouteChange: AVAudioSessionRouteChangeNotification reason The output route was overridden by the app.
+2018-08-28 12:42:55.167[24595] (RTCLogging.mm:31): (audio_device_ios.mm:549 HandleValidRouteChange): RTCAudioSession: {
+  category: AVAudioSessionCategoryPlayAndRecord
+  categoryOptions: 4
+  mode: AVAudioSessionModeVoiceChat
+  isActive: 1
+  sampleRate: 48000.00
+  IOBufferDuration: 0.021333
+  outputNumberOfChannels: 2
+  inputNumberOfChannels: 4
+  outputLatency: 0.000333
+  inputLatency: 0.000354
+  outputVolume: 0.187500
+}
+2018-08-28 12:42:55.168[24595] (RTCLogging.mm:31): (audio_device_ios.mm:560 HandleSampleRateChange): Handling sample rate change to 48000.000000.
+2018-08-28 12:42:55.176[771] (RTCLogging.mm:31): (QNCameraSource.mm:318 -[QNCameraSource setContinuousAutofocusEnable:]_block_invoke): Focus mode not supported: AVCaptureFocusModeContinuousAutoFocus
+2018-08-28 12:42:55.176[771] (RTCLogging.mm:31): (QNCameraSource.mm:934 -[QNCameraSource refreshCaptureDeviceConfig]): refresh capture device config
+2018-08-28 12:42:55.176[771] (RTCLogging.mm:31): (QNCameraSource.mm:958 -[QNCameraSource refreshCaptureDeviceConfig]_block_invoke): Focus mode not supported: AVCaptureFocusModeContinuousAutoFocus
+2018-08-28 12:42:55.176[771] (RTCLogging.mm:31): (QNCameraSource.mm:964 -[QNCameraSource refreshCaptureDeviceConfig]_block_invoke): Focus POI not supported
+2018-08-28 12:42:55.176[771] (RTCLogging.mm:31): (QNCameraSource.mm:577 -[QNCameraSource startRunning]): CameraSource: startRunning
+2018-08-28 12:42:55.205[24595] (RTCLogging.mm:31): (audio_device_ios.mm:590 HandleSampleRateChange): Handling playout sample rate change to: 48000.000000
+  Session sample rate: 48000.000000 frames_per_buffer: 1024
+  ADM sample rate: 48000.000000 frames_per_buffer: 1024
+2018-08-28 12:42:55.206[24595] (RTCLogging.mm:31): (audio_device_ios.mm:595 HandleSampleRateChange): Ignoring sample rate change since audio parameters are intact.
+2018-08-28 12:42:55.206[24595] (messagequeue.cc:534): Message took 310ms to dispatch. Posted from: OnValidRouteChange@../../sdk/objc/Framework/Native/src/audio/audio_device_ios.mm:341
+2018-08-28 12:42:55.206[24595] (RTCLogging.mm:31): (audio_device_ios.mm:541 HandleInterruptionEnd): Interruption ended. IsInterrupted changed from 0 to 0. Updating audio unit state.
+2018-08-28 12:42:55.206[24595] (RTCLogging.mm:31): (audio_device_ios.mm:752 UpdateAudioUnit): Updating audio unit state. CanPlayOrRecord=1 IsInterrupted=0
+2018-08-28 12:42:55.206[24595] (RTCLogging.mm:31): (audio_device_ios.mm:782 UpdateAudioUnit): VPAU state: Initialized
+2018-08-28 12:42:55.206[24595] (RTCLogging.mm:31): (audio_device_ios.mm:805 UpdateAudioUnit): Starting audio unit for UpdateAudioUnit
+2018-08-28 12:42:55.212[24595] (RTCLogging.mm:31): (audio_device_ios.mm:808 UpdateAudioUnit): RTCAudioSession: {
+  category: AVAudioSessionCategoryPlayAndRecord
+  categoryOptions: 4
+  mode: AVAudioSessionModeVoiceChat
+  isActive: 1
+  sampleRate: 48000.00
+  IOBufferDuration: 0.021333
+  outputNumberOfChannels: 2
+  inputNumberOfChannels: 4
+  outputLatency: 0.000333
+  inputLatency: 0.000354
+  outputVolume: 0.187500
+}
+2018-08-28 12:42:55.212[24595] (RTCLogging.mm:31): (voice_processing_audio_unit.mm:186 Start): Starting audio unit.
+2018-08-28 12:42:55.215[24595] (RTCLogging.mm:31): (voice_processing_audio_unit.mm:193 Start): Started audio unit
+2018-08-28 12:42:55.216[24595] (RTCLogging.mm:31): (audio_device_ios.mm:549 HandleValidRouteChange): RTCAudioSession: {
+  category: AVAudioSessionCategoryPlayAndRecord
+  categoryOptions: 4
+  mode: AVAudioSessionModeVoiceChat
+  isActive: 1
+  sampleRate: 48000.00
+  IOBufferDuration: 0.021333
+  outputNumberOfChannels: 2
+  inputNumberOfChannels: 4
+  outputLatency: 0.000333
+  inputLatency: 0.000354
+  outputVolume: 0.187500
+}
+2018-08-28 12:42:55.216[24595] (RTCLogging.mm:31): (audio_device_ios.mm:560 HandleSampleRateChange): Handling sample rate change to 48000.000000.
+2018-08-28 12:42:55.217[24595] (RTCLogging.mm:31): (audio_device_ios.mm:590 HandleSampleRateChange): Handling playout sample rate change to: 48000.000000
+  Session sample rate: 48000.000000 frames_per_buffer: 1024
+  ADM sample rate: 48000.000000 frames_per_buffer: 1024
+2018-08-28 12:42:55.217[24595] (RTCLogging.mm:31): (audio_device_ios.mm:595 HandleSampleRateChange): Ignoring sample rate change since audio parameters are intact.
+2018-08-28 12:42:55.663[39695] (stunport.cc:534): sendto : [0x00000041] No route to host
+2018-08-28 12:42:55.767[75015] (video_stream_encoder.cc:761): Video frame parameters changed: dimensions=544x960, texture=1.
+2018-08-28 12:42:55.767[75015] (RTCVideoEncoderH264.mm:307): Using profile H264_Baseline_3_1
+2018-08-28 12:42:55.774[5895] (bitrate_allocator.cc:221): UpdateAllocationLimits : total_requested_min_bitrate: 30000bps, total_requested_padding_bitrate: 0bps, total_requested_max_bitrate: 2500000bps
+2018-08-28 12:42:55.774[5895] (bitrate_prober.cc:108): Probe cluster (bitrate:min bytes:min packets): (2500000:4687:5)
+2018-08-28 12:42:55.774[75015] (quality_scaler.cc:72): Created CheckQpTask. Scheduling on queue...
+2018-08-28 12:42:55.774[75015] (quality_scaler.cc:125): QP thresholds: low: 28, high: 39
+2018-08-28 12:42:55.774[75015] (video_stream_encoder.cc:786): Dropping frame. Too large for target bitrate.
+2018-08-28 12:42:55.774[75015] (video_stream_encoder.cc:183): Scaling down resolution, max pixels: 313344
+2018-08-28 12:42:55.774[75015] (video_stream_encoder.cc:1071): Downgrade counts: fps: {quality:0 cpu:0}, resolution: {quality:1 cpu:0}
+2018-08-28 12:42:55.785[3587] (videoadapter.cc:242): Frame size changed: scaled 1 / out 2 / in 2 Changes: 1 Input: 544x960 Scale: 3/4 Output: 408x720 i0
+2018-08-28 12:42:55.785[5895] (video_stream_encoder.cc:761): Video frame parameters changed: dimensions=408x720, texture=1.
+2018-08-28 12:42:55.795[63491] (bitrate_allocator.cc:221): UpdateAllocationLimits : total_requested_min_bitrate: 30000bps, total_requested_padding_bitrate: 0bps, total_requested_max_bitrate: 1700000bps
+2018-08-28 12:42:55.795[63491] (bitrate_prober.cc:108): Probe cluster (bitrate:min bytes:min packets): (1700000:3187:5)
+2018-08-28 12:42:55.795[5895] (RTCVideoEncoderH264.mm:528): Resetting compression session due to non-matching pixel format.
+2018-08-28 12:42:55.835[63491] (RTCVideoEncoderH264.mm:713): Generated keyframe
+2018-08-28 12:42:55.836[63491] (rtp_sender_video.cc:423): Sent first RTP packet of the first video frame (pre-pacer)
+2018-08-28 12:42:55.836[63491] (rtp_sender_video.cc:427): Sent last RTP packet of the first video frame (pre-pacer)
+2018-08-28 12:42:55.836[39695] (stunport.cc:276): Port[0x123845000:audio:1:0:local:Net[en2:169.254.0.x/16:Wifi:id=2]]: UDP send of 108 bytes failed with error 65
+2018-08-28 12:42:55.836[39695] (port.cc:1205): Conn[0x120813200:audio:Net[en2:169.254.0.x/16:Wifi:id=2]:0ZifRQeZ:1:0:local:udp:169.254.156.x:54702->59rnxAMw:1:1078862079:local:udp:115.231.97.x:15938|C--I|-|0|0|4633677350443957759|-]: Failed to send STUN ping  err=-1 id=3372744b4536414d746b6966
+2018-08-28 12:42:55.836[39695] (port.cc:1711): Conn[0x120813200:audio:Net[en2:169.254.0.x/16:Wifi:id=2]:0ZifRQeZ:1:0:local:udp:169.254.156.x:54702->59rnxAMw:1:1078862079:local:udp:115.231.97.x:15938|C--I|-|0|0|4633677350443957759|-]: Sent STUN ping, id=3372744b4536414d746b6966, use_candidate=0, nomination=0
+2018-08-28 12:42:55.862[5895] (RTCVideoEncoderH264.mm:713): Generated keyframe
+2018-08-28 12:42:56.846[39695] (stunport.cc:276): Port[0x123845000:audio:1:0:local:Net[en2:169.254.0.x/16:Wifi:id=2]]: UDP send of 108 bytes failed with error 65
+2018-08-28 12:42:56.847[39695] (port.cc:1205): Conn[0x120813200:audio:Net[en2:169.254.0.x/16:Wifi:id=2]:0ZifRQeZ:1:0:local:udp:169.254.156.x:54702->59rnxAMw:1:1078862079:local:udp:115.231.97.x:15938|C--I|-|0|0|4633677350443957759|-]: Failed to send STUN ping  err=-1 id=734f632b3278635537755950
+2018-08-28 12:42:56.847[39695] (port.cc:1711): Conn[0x120813200:audio:Net[en2:169.254.0.x/16:Wifi:id=2]:0ZifRQeZ:1:0:local:udp:169.254.156.x:54702->59rnxAMw:1:1078862079:local:udp:115.231.97.x:15938|C--I|-|0|0|4633677350443957759|-]: Sent STUN ping, id=734f632b3278635537755950, use_candidate=0, nomination=0
+2018-08-28 12:42:56.957[771] (RTCLogging.mm:31): (QNGLKView.m:757 -[QNGLKView handleApplicationDidEnterBackground:]): endter background stop render
+2018-08-28 12:42:56.958[771] (RTCLogging.mm:31): (QNMirrorWatermarkProcessor.m:721 -[QNMirrorWatermarkProcessor handleApplicationDidEnterBackground:]): mirrorwatermark applicationDidEnterBackground
+2018-08-28 12:42:56.958[771] (RTCLogging.mm:31): (QNMirrorWatermarkProcessor.m:721 -[QNMirrorWatermarkProcessor handleApplicationDidEnterBackground:]): mirrorwatermark applicationDidEnterBackground
+2018-08-28 12:42:56.958[3587] (RTCVideoEncoderH264.mm:507): Resetting compression session due to invalid pool.
+2018-08-28 12:42:56.959[771] (RTCLogging.mm:31): (QNRGBtoNV12Processor.m:499 -[QNRGBtoNV12Processor handleApplicationDidEnterBackground:]): ApplicationDidEnterBackground
+2018-08-28 12:42:57.364[39695] (stunport.cc:276): Port[0x123845000:audio:1:0:local:Net[en2:169.254.0.x/16:Wifi:id=2]]: UDP send of 108 bytes failed with error 65
+2018-08-28 12:42:57.365[39695] (port.cc:1205): Conn[0x120813200:audio:Net[en2:169.254.0.x/16:Wifi:id=2]:0ZifRQeZ:1:0:local:udp:169.254.156.x:54702->59rnxAMw:1:1078862079:local:udp:115.231.97.x:15938|C--I|-|0|0|4633677350443957759|-]: Failed to send STUN ping  err=-1 id=5a67727976777763756c6476
+2018-08-28 12:42:57.365[39695] (port.cc:1711): Conn[0x120813200:audio:Net[en2:169.254.0.x/16:Wifi:id=2]:0ZifRQeZ:1:0:local:udp:169.254.156.x:54702->59rnxAMw:1:1078862079:local:udp:115.231.97.x:15938|C--I|-|0|0|4633677350443957759|-]: Sent STUN ping, id=5a67727976777763756c6476, use_candidate=0, nomination=0
+2018-08-28 12:42:57.664[39695] (stunport.cc:534): sendto : [0x00000041] No route to host
+2018-08-28 12:42:57.875[39695] (stunport.cc:276): Port[0x123845000:audio:1:0:local:Net[en2:169.254.0.x/16:Wifi:id=2]]: UDP send of 108 bytes failed with error 65
+2018-08-28 12:42:57.875[39695] (port.cc:1205): Conn[0x120813200:audio:Net[en2:169.254.0.x/16:Wifi:id=2]:0ZifRQeZ:1:0:local:udp:169.254.156.x:54702->59rnxAMw:1:1078862079:local:udp:115.231.97.x:15938|C--I|-|0|0|4633677350443957759|-]: Failed to send STUN ping  err=-1 id=566b53544e4b5a6c4d477246
+2018-08-28 12:42:57.875[39695] (port.cc:1711): Conn[0x120813200:audio:Net[en2:169.254.0.x/16:Wifi:id=2]:0ZifRQeZ:1:0:local:udp:169.254.156.x:54702->59rnxAMw:1:1078862079:local:udp:115.231.97.x:15938|C--I|-|0|0|4633677350443957759|-]: Sent STUN ping, id=566b53544e4b5a6c4d477246, use_candidate=0, nomination=0
+2018-08-28 12:43:02.965[16667] (video_send_stream_impl.cc:580): SignalEncoderTimedOut, Encoder timed out.
+2018-08-28 12:43:02.967[16667] (bitrate_allocator.cc:221): UpdateAllocationLimits : total_requested_min_bitrate: 0bps, total_requested_padding_bitrate: 0bps, total_requested_max_bitrate: 0bps
+2018-08-28 12:43:02.970[39695] (stunport.cc:534): sendto : [0x00000041] No route to host
+2018-08-28 12:43:02.973[28675] (RTCLogging.mm:31): (QNRTCSession.mm:1066 -[QNRTCSession statisticTimerFired]_block_invoke): the statistic of userId: core-sdk is: {
+    QNStatisticAudioBitrateKey = "8706.81192085055";
+    QNStatisticAudioPacketLossRateKey = 0;
+    QNStatisticVideoBitrateKey = "13446.62257137195";
+    QNStatisticVideoFrameRateKey = 0;
+    QNStatisticVideoPacketLossRateKey = 0;
+}
+2018-08-28 12:43:02.976[75299] (paced_sender.cc:261): Elapsed time (4633 ms) longer than expected, limiting to 2000 ms
+2018-08-28 12:43:02.976[71427] (rtp_rtcp_impl.cc:207): Process: Timeout: No increase in RTCP RR extended highest sequence number.
+2018-08-28 12:43:02.978[17923] (bitrate_allocator.cc:104): Current BWE 664000
+2018-08-28 12:43:03.260[771] (RTCLogging.mm:31): (RTCAudioSession.mm:572 -[RTCAudioSession handleApplicationDidBecomeActive:]): Application became active after an interruption. Treating as interruption  end. isInterrupted changed from 0 to 0.
+2018-08-28 12:43:03.261[771] (audio_device_ios.mm:335): AudioDeviceIOS::OnInterruptionEnd
+2018-08-28 12:43:03.261[771] (RTCLogging.mm:31): (QNGLKView.m:764 -[QNGLKView handleApplicationDidBecomeActive:]): become active start render
+2018-08-28 12:43:03.261[771] (RTCLogging.mm:31): (QNMirrorWatermarkProcessor.m:731 -[QNMirrorWatermarkProcessor handleApplicationDidBecomeActive:]): mirrorwatermark applicationDidBecomeActive
+2018-08-28 12:43:03.261[24595] (RTCLogging.mm:31): (audio_device_ios.mm:541 HandleInterruptionEnd): Interruption ended. IsInterrupted changed from 0 to 0. Updating audio unit state.
+2018-08-28 12:43:03.261[771] (RTCLogging.mm:31): (QNMirrorWatermarkProcessor.m:731 -[QNMirrorWatermarkProcessor handleApplicationDidBecomeActive:]): mirrorwatermark applicationDidBecomeActive
+2018-08-28 12:43:03.261[24595] (RTCLogging.mm:31): (audio_device_ios.mm:752 UpdateAudioUnit): Updating audio unit state. CanPlayOrRecord=1 IsInterrupted=0
+2018-08-28 12:43:03.261[24595] (RTCLogging.mm:31): (audio_device_ios.mm:787 UpdateAudioUnit): VPAU state: Started
+2018-08-28 12:43:03.261[771] (RTCLogging.mm:31): (QNMicrophoneSource.m:311 -[QNMicrophoneSource handleApplicationActive:]): handleApplicationActive: NSConcreteNotification 0x1c0244170 {name = UIApplicationDidBecomeActiveNotification; object = <UIApplication: 0x122002340>}
+2018-08-28 12:43:03.262[771] (RTCLogging.mm:31): (QNRGBtoNV12Processor.m:509 -[QNRGBtoNV12Processor handleApplicationDidBecomeActive:]): ApplicationDidBecomeActive
+2018-08-28 12:43:03.485[39695] (stunport.cc:276): Port[0x123845000:audio:1:0:local:Net[en2:169.254.0.x/16:Wifi:id=2]]: UDP send of 108 bytes failed with error 65
+2018-08-28 12:43:03.485[39695] (port.cc:1205): Conn[0x120813200:audio:Net[en2:169.254.0.x/16:Wifi:id=2]:0ZifRQeZ:1:0:local:udp:169.254.156.x:54702->59rnxAMw:1:1078862079:local:udp:115.231.97.x:15938|C--I|-|0|0|4633677350443957759|-]: Failed to send STUN ping  err=-1 id=326742622f5455576b50506e
+2018-08-28 12:43:03.485[39695] (port.cc:1711): Conn[0x120813200:audio:Net[en2:169.254.0.x/16:Wifi:id=2]:0ZifRQeZ:1:0:local:udp:169.254.156.x:54702->59rnxAMw:1:1078862079:local:udp:115.231.97.x:15938|C--I|-|0|0|4633677350443957759|-]: Sent STUN ping, id=326742622f5455576b50506e, use_candidate=0, nomination=0
+2018-08-28 12:43:04.003[39695] (stunport.cc:276): Port[0x123845000:audio:1:0:local:Net[en2:169.254.0.x/16:Wifi:id=2]]: UDP send of 108 bytes failed with error 65
+2018-08-28 12:43:04.003[39695] (port.cc:1205): Conn[0x120813200:audio:Net[en2:169.254.0.x/16:Wifi:id=2]:0ZifRQeZ:1:0:local:udp:169.254.156.x:54702->59rnxAMw:1:1078862079:local:udp:115.231.97.x:15938|C--I|-|0|0|4633677350443957759|-]: Failed to send STUN ping  err=-1 id=6251746961612f3044373037
+2018-08-28 12:43:04.004[39695] (port.cc:1711): Conn[0x120813200:audio:Net[en2:169.254.0.x/16:Wifi:id=2]:0ZifRQeZ:1:0:local:udp:169.254.156.x:54702->59rnxAMw:1:1078862079:local:udp:115.231.97.x:15938|C--I|-|0|0|4633677350443957759|-]: Sent STUN ping, id=6251746961612f3044373037, use_candidate=0, nomination=0
+2018-08-28 12:43:04.014[90387] (RTCLogging.mm:31): (QNEventStatistic.m:121 -[QNEventStatistic addTask:]_block_invoke): addTask: {
+    abps = "8706.81192085055";
+    "audio_packet_loss_rate" = 0;
+    "conn_id" = "";
+    "local_user_id" = "core-sdk";
+    "remote_user_id" = "";
+    "stream_id" = "core-sdk_1535431373818904616";
+    timestamp = 1535431382973;
+    vbps = "13446.62257137195";
+    vfps = 0;
+    "video_packet_loss_rate" = 0;
+}
+2018-08-28 12:43:04.521[39695] (stunport.cc:276): Port[0x123845000:audio:1:0:local:Net[en2:169.254.0.x/16:Wifi:id=2]]: UDP send of 108 bytes failed with error 65
+2018-08-28 12:43:04.521[39695] (port.cc:1205): Conn[0x120813200:audio:Net[en2:169.254.0.x/16:Wifi:id=2]:0ZifRQeZ:1:0:local:udp:169.254.156.x:54702->59rnxAMw:1:1078862079:local:udp:115.231.97.x:15938|C--I|-|0|0|4633677350443957759|-]: Failed to send STUN ping  err=-1 id=755268544d534d46614b6b64
+2018-08-28 12:43:04.521[39695] (port.cc:1711): Conn[0x120813200:audio:Net[en2:169.254.0.x/16:Wifi:id=2]:0ZifRQeZ:1:0:local:udp:169.254.156.x:54702->59rnxAMw:1:1078862079:local:udp:115.231.97.x:15938|C--I|-|0|0|4633677350443957759|-]: Sent STUN ping, id=755268544d534d46614b6b64, use_candidate=0, nomination=0
+2018-08-28 12:43:04.548[34567] (RTCLogging.mm:31): (RTCAudioSession.mm:504 -[RTCAudioSession handleRouteChangeNotification:]): Audio route changed:
+2018-08-28 12:43:04.549[34567] (RTCLogging.mm:31): (RTCAudioSession.mm:520 -[RTCAudioSession handleRouteChangeNotification:]): Audio route changed: Override
+2018-08-28 12:43:04.554[34567] (RTCLogging.mm:31): (RTCAudioSession.mm:536 -[RTCAudioSession handleRouteChangeNotification:]): Previous route: <AVAudioSessionRouteDescription: 0x1cc0011f0, 
+inputs = (
+    "<AVAudioSessionPortDescription: 0x1cc001100, type = MicrophoneBuiltIn; name = iPhone \U9ea6\U514b\U98ce; UID = Built-In Microphone; selectedDataSource = (null)>"
+); 
+outputs = (
+    "<AVAudioSessionPortDescription: 0x1cc001340, type = Speaker; name = \U626c\U58f0\U5668; UID = Speaker; selectedDataSource = (null)>"
+)>
+Current route:<AVAudioSessionRouteDescription: 0x1d0006f40, 
+inputs = (
+    "<AVAudioSessionPortDescription: 0x1d00066a0, type = MicrophoneBuiltIn; name = iPhone \U9ea6\U514b\U98ce; UID = Built-In Microphone; selectedDataSource = (null)>"
+); 
+outputs = (
+    "<AVAudioSessionPortDescription: 0x1d0007670, type = Speaker; name = \U626c\U58f0\U5668; UID = Speaker; selectedDataSource = (null)>"
+)>
+2018-08-28 12:43:04.554[34567] (RTCLogging.mm:31): (QNRTCSession.mm:1314 -[QNRTCSession audioSessionDidChangeRoute:reason:previousRoute:]): AVAudioSessionRouteChangeReasonOverride
+2018-08-28 12:43:04.554[34567] (RTCLogging.mm:31): (RTCAudioSession.mm:624 -[RTCAudioSession incrementActivationCount]): Incrementing activation count.
+2018-08-28 12:43:04.555[34567] (RTCLogging.mm:31): (RTCAudioSession.mm:379 -[RTCAudioSession setActive:error:]): Number of current activations: 5
+2018-08-28 12:43:04.579[34567] (RTCLogging.mm:31): (QNMicrophoneSource.m:252 -[QNMicrophoneSource handleRouteChange:]): handleRouteChange: AVAudioSessionRouteChangeNotification reason The output route was overridden by the app.
+2018-08-28 12:43:04.583[34567] (RTCLogging.mm:31): (RTCAudioSession.mm:504 -[RTCAudioSession handleRouteChangeNotification:]): Audio route changed:
+2018-08-28 12:43:04.584[34567] (RTCLogging.mm:31): (RTCAudioSession.mm:517 -[RTCAudioSession handleRouteChangeNotification:]): Audio route changed: CategoryChange to :AVAudioSessionCategoryPlayAndRecord
+2018-08-28 12:43:04.588[34567] (RTCLogging.mm:31): (RTCAudioSession.mm:536 -[RTCAudioSession handleRouteChangeNotification:]): Previous route: <AVAudioSessionRouteDescription: 0x1c0001610, 
+inputs = (
+    "<AVAudioSessionPortDescription: 0x1c0001670, type = MicrophoneBuiltIn; name = iPhone \U9ea6\U514b\U98ce; UID = Built-In Microphone; selectedDataSource = \U4e0b>"
+); 
+outputs = (
+    "<AVAudioSessionPortDescription: 0x1c0001720, type = Speaker; name = \U626c\U58f0\U5668; UID = Speaker; selectedDataSource = (null)>"
+)>
+Current route:<AVAudioSessionRouteDescription: 0x1d0006f40, 
+inputs = (
+    "<AVAudioSessionPortDescription: 0x1d00066a0, type = MicrophoneBuiltIn; name = iPhone \U9ea6\U514b\U98ce; UID = Built-In Microphone; selectedDataSource = (null)>"
+); 
+outputs = (
+    "<AVAudioSessionPortDescription: 0x1d0007670, type = Speaker; name = \U626c\U58f0\U5668; UID = Speaker; selectedDataSource = (null)>"
+)>
+2018-08-28 12:43:04.588[34567] (RTCLogging.mm:31): (QNRTCSession.mm:1310 -[QNRTCSession audioSessionDidChangeRoute:reason:previousRoute:]): AVAudioSessionRouteChangeReasonCategoryChange
+2018-08-28 12:43:04.589[34567] (RTCLogging.mm:31): (QNMicrophoneSource.m:252 -[QNMicrophoneSource handleRouteChange:]): handleRouteChange: AVAudioSessionRouteChangeNotification reason The category of the session object changed.
+2018-08-28 12:43:04.604[34567] (RTCLogging.mm:31): (RTCAudioSession.mm:504 -[RTCAudioSession handleRouteChangeNotification:]): Audio route changed:
+2018-08-28 12:43:04.604[34567] (RTCLogging.mm:31): (RTCAudioSession.mm:520 -[RTCAudioSession handleRouteChangeNotification:]): Audio route changed: Override
+2018-08-28 12:43:04.606[34567] (RTCLogging.mm:31): (RTCAudioSession.mm:536 -[RTCAudioSession handleRouteChangeNotification:]): Previous route: <AVAudioSessionRouteDescription: 0x1d0005f40, 
+inputs = (
+    "<AVAudioSessionPortDescription: 0x1d00069d0, type = MicrophoneBuiltIn; name = iPhone \U9ea6\U514b\U98ce; UID = Built-In Microphone; selectedDataSource = \U524d>"
+); 
+outputs = (
+    "<AVAudioSessionPortDescription: 0x1d00053a0, type = Speaker; name = \U626c\U58f0\U5668; UID = Speaker; selectedDataSource = (null)>"
+)>
+Current route:<AVAudioSessionRouteDescription: 0x1d0006f40, 
+inputs = (
+    "<AVAudioSessionPortDescription: 0x1d00066a0, type = MicrophoneBuiltIn; name = iPhone \U9ea6\U514b\U98ce; UID = Built-In Microphone; selectedDataSource = (null)>"
+); 
+outputs = (
+    "<AVAudioSessionPortDescription: 0x1d0007670, type = Speaker; name = \U626c\U58f0\U5668; UID = Speaker; selectedDataSource = (null)>"
+)>
+2018-08-28 12:43:04.606[34567] (RTCLogging.mm:31): (QNRTCSession.mm:1314 -[QNRTCSession audioSessionDidChangeRoute:reason:previousRoute:]): AVAudioSessionRouteChangeReasonOverride
+2018-08-28 12:43:04.606[34567] (RTCLogging.mm:31): (RTCAudioSession.mm:624 -[RTCAudioSession incrementActivationCount]): Incrementing activation count.
+2018-08-28 12:43:04.606[34567] (RTCLogging.mm:31): (RTCAudioSession.mm:379 -[RTCAudioSession setActive:error:]): Number of current activations: 6
+2018-08-28 12:43:04.616[34567] (RTCLogging.mm:31): (QNMicrophoneSource.m:252 -[QNMicrophoneSource handleRouteChange:]): handleRouteChange: AVAudioSessionRouteChangeNotification reason The output route was overridden by the app.
+2018-08-28 12:43:04.617[24595] (RTCLogging.mm:31): (audio_device_ios.mm:549 HandleValidRouteChange): RTCAudioSession: {
+  category: AVAudioSessionCategoryPlayAndRecord
+  categoryOptions: 4
+  mode: AVAudioSessionModeVoiceChat
+  isActive: 1
+  sampleRate: 48000.00
+  IOBufferDuration: 0.021333
+  outputNumberOfChannels: 2
+  inputNumberOfChannels: 4
+  outputLatency: 0.000333
+  inputLatency: 0.000354
+  outputVolume: 0.187500
+}
+2018-08-28 12:43:04.647[41235] (RTCVideoEncoderH264.mm:713): Generated keyframe
+2018-08-28 12:43:04.648[24595] (RTCLogging.mm:31): (audio_device_ios.mm:560 HandleSampleRateChange): Handling sample rate change to 48000.000000.
+2018-08-28 12:43:04.649[34567] (RTCLogging.mm:31): (RTCAudioSession.mm:504 -[RTCAudioSession handleRouteChangeNotification:]): Audio route changed:
+2018-08-28 12:43:04.649[34567] (RTCLogging.mm:31): (RTCAudioSession.mm:520 -[RTCAudioSession handleRouteChangeNotification:]): Audio route changed: Override
+2018-08-28 12:43:04.650[41235] (RTCVideoEncoderH264.mm:713): Generated keyframe
+2018-08-28 12:43:04.651[24595] (RTCLogging.mm:31): (audio_device_ios.mm:590 HandleSampleRateChange): Handling playout sample rate change to: 48000.000000
+  Session sample rate: 48000.000000 frames_per_buffer: 1024
+  ADM sample rate: 48000.000000 frames_per_buffer: 1024
+2018-08-28 12:43:04.651[24595] (RTCLogging.mm:31): (audio_device_ios.mm:595 HandleSampleRateChange): Ignoring sample rate change since audio parameters are intact.
+2018-08-28 12:43:04.651[24595] (messagequeue.cc:534): Message took 97ms to dispatch. Posted from: OnValidRouteChange@../../sdk/objc/Framework/Native/src/audio/audio_device_ios.mm:341
+2018-08-28 12:43:04.653[34567] (RTCLogging.mm:31): (RTCAudioSession.mm:536 -[RTCAudioSession handleRouteChangeNotification:]): Previous route: <AVAudioSessionRouteDescription: 0x1d40046a0, 
+inputs = (
+    "<AVAudioSessionPortDescription: 0x1d40046e0, type = MicrophoneBuiltIn; name = iPhone \U9ea6\U514b\U98ce; UID = Built-In Microphone; selectedDataSource = \U4e0b>"
+); 
+outputs = (
+    "<AVAudioSessionPortDescription: 0x1d4007fe0, type = Speaker; name = \U626c\U58f0\U5668; UID = Speaker; selectedDataSource = (null)>"
+)>
+Current route:<AVAudioSessionRouteDescription: 0x1d0006f40, 
+inputs = (
+    "<AVAudioSessionPortDescription: 0x1d00066a0, type = MicrophoneBuiltIn; name = iPhone \U9ea6\U514b\U98ce; UID = Built-In Microphone; selectedDataSource = (null)>"
+); 
+outputs = (
+    "<AVAudioSessionPortDescription: 0x1d0007670, type = Speaker; name = \U626c\U58f0\U5668; UID = Speaker; selectedDataSource = (null)>"
+)>
+2018-08-28 12:43:04.653[34567] (RTCLogging.mm:31): (QNRTCSession.mm:1314 -[QNRTCSession audioSessionDidChangeRoute:reason:previousRoute:]): AVAudioSessionRouteChangeReasonOverride
+2018-08-28 12:43:04.654[34567] (RTCLogging.mm:31): (RTCAudioSession.mm:624 -[RTCAudioSession incrementActivationCount]): Incrementing activation count.
+2018-08-28 12:43:04.654[34567] (RTCLogging.mm:31): (RTCAudioSession.mm:379 -[RTCAudioSession setActive:error:]): Number of current activations: 7
+2018-08-28 12:43:04.658[34567] (RTCLogging.mm:31): (QNMicrophoneSource.m:252 -[QNMicrophoneSource handleRouteChange:]): handleRouteChange: AVAudioSessionRouteChangeNotification reason The output route was overridden by the app.
+2018-08-28 12:43:04.658[24595] (RTCLogging.mm:31): (audio_device_ios.mm:549 HandleValidRouteChange): RTCAudioSession: {
+  category: AVAudioSessionCategoryPlayAndRecord
+  categoryOptions: 4
+  mode: AVAudioSessionModeVoiceChat
+  isActive: 1
+  sampleRate: 48000.00
+  IOBufferDuration: 0.021333
+  outputNumberOfChannels: 2
+  inputNumberOfChannels: 4
+  outputLatency: 0.000333
+  inputLatency: 0.000354
+  outputVolume: 0.187500
+}
+2018-08-28 12:43:04.658[24595] (RTCLogging.mm:31): (audio_device_ios.mm:560 HandleSampleRateChange): Handling sample rate change to 48000.000000.
+2018-08-28 12:43:04.659[24595] (RTCLogging.mm:31): (audio_device_ios.mm:590 HandleSampleRateChange): Handling playout sample rate change to: 48000.000000
+  Session sample rate: 48000.000000 frames_per_buffer: 1024
+  ADM sample rate: 48000.000000 frames_per_buffer: 1024
+2018-08-28 12:43:04.659[24595] (RTCLogging.mm:31): (audio_device_ios.mm:595 HandleSampleRateChange): Ignoring sample rate change since audio parameters are intact.
+2018-08-28 12:43:04.660[24595] (RTCLogging.mm:31): (audio_device_ios.mm:549 HandleValidRouteChange): RTCAudioSession: {
+  category: AVAudioSessionCategoryPlayAndRecord
+  categoryOptions: 4
+  mode: AVAudioSessionModeVoiceChat
+  isActive: 1
+  sampleRate: 48000.00
+  IOBufferDuration: 0.021333
+  outputNumberOfChannels: 2
+  inputNumberOfChannels: 4
+  outputLatency: 0.000333
+  inputLatency: 0.000354
+  outputVolume: 0.187500
+}
+2018-08-28 12:43:04.660[24595] (RTCLogging.mm:31): (audio_device_ios.mm:560 HandleSampleRateChange): Handling sample rate change to 48000.000000.
+2018-08-28 12:43:04.661[24595] (RTCLogging.mm:31): (audio_device_ios.mm:590 HandleSampleRateChange): Handling playout sample rate change to: 48000.000000
+  Session sample rate: 48000.000000 frames_per_buffer: 1024
+  ADM sample rate: 48000.000000 frames_per_buffer: 1024
+2018-08-28 12:43:04.661[24595] (RTCLogging.mm:31): (audio_device_ios.mm:595 HandleSampleRateChange): Ignoring sample rate change since audio parameters are intact.
+2018-08-28 12:43:04.663[24595] (RTCLogging.mm:31): (audio_device_ios.mm:549 HandleValidRouteChange): RTCAudioSession: {
+  category: AVAudioSessionCategoryPlayAndRecord
+  categoryOptions: 4
+  mode: AVAudioSessionModeVoiceChat
+  isActive: 1
+  sampleRate: 48000.00
+  IOBufferDuration: 0.021333
+  outputNumberOfChannels: 2
+  inputNumberOfChannels: 4
+  outputLatency: 0.000333
+  inputLatency: 0.000354
+  outputVolume: 0.187500
+}
+2018-08-28 12:43:04.663[24595] (RTCLogging.mm:31): (audio_device_ios.mm:560 HandleSampleRateChange): Handling sample rate change to 48000.000000.
+2018-08-28 12:43:04.663[24595] (RTCLogging.mm:31): (audio_device_ios.mm:590 HandleSampleRateChange): Handling playout sample rate change to: 48000.000000
+  Session sample rate: 48000.000000 frames_per_buffer: 1024
+  ADM sample rate: 48000.000000 frames_per_buffer: 1024
+2018-08-28 12:43:04.663[24595] (RTCLogging.mm:31): (audio_device_ios.mm:595 HandleSampleRateChange): Ignoring sample rate change since audio parameters are intact.
+2018-08-28 12:43:05.033[39695] (stunport.cc:276): Port[0x123845000:audio:1:0:local:Net[en2:169.254.0.x/16:Wifi:id=2]]: UDP send of 108 bytes failed with error 65
+2018-08-28 12:43:05.034[39695] (port.cc:1205): Conn[0x120813200:audio:Net[en2:169.254.0.x/16:Wifi:id=2]:0ZifRQeZ:1:0:local:udp:169.254.156.x:54702->59rnxAMw:1:1078862079:local:udp:115.231.97.x:15938|C--I|-|0|0|4633677350443957759|-]: Failed to send STUN ping  err=-1 id=726a62324a4245524b393142
+2018-08-28 12:43:05.034[39695] (port.cc:1711): Conn[0x120813200:audio:Net[en2:169.254.0.x/16:Wifi:id=2]:0ZifRQeZ:1:0:local:udp:169.254.156.x:54702->59rnxAMw:1:1078862079:local:udp:115.231.97.x:15938|C--I|-|0|0|4633677350443957759|-]: Sent STUN ping, id=726a62324a4245524b393142, use_candidate=0, nomination=0
+2018-08-28 12:43:05.165[16667] (audio_device_buffer.cc:428): [REC : 10271msec, 48kHz] callbacks: 362, samples: 173760, rate: 16918, level: 174
+2018-08-28 12:43:05.166[16667] (audio_device_buffer.cc:437): [PLAY: 10271msec, 48kHz] callbacks: 0, samples: 0, rate: 0, level: 0
+2018-08-28 12:43:05.167[3587] (video_send_stream_impl.cc:592): SignalEncoderActive, Encoder is active.
+2018-08-28 12:43:05.167[3587] (bitrate_allocator.cc:221): UpdateAllocationLimits : total_requested_min_bitrate: 30000bps, total_requested_padding_bitrate: 0bps, total_requested_max_bitrate: 1700000bps
+2018-08-28 12:43:05.826[24595] (webrtcvideoengine.cc:2036): VideoSendStream stats: 29640994, {input_fps: 25, encode_fps: 25, encode_ms: 7, encode_usage_perc: 175, target_bps: 664000, media_bps: 645976, preferred_media_bitrate_bps: 1700000, suspended: false, bw_adapted: true} {ssrc: 4110874002, width: 408, height: 720, key: 4, delta: 57, total_bps: 632408, retransmit_bps: 0, avg_delay_ms: 82, max_delay_ms: 99, cum_loss: 0, max_ext_seq: 12635, nack: 0, fir: 0, pli: 6}
+2018-08-28 12:43:05.827[24595] (webrtcvideoengine.cc:1383): Call stats: 29640994, {send_bw_bps: 664000, recv_bw_bps: 0, max_pad_bps: 0, pacer_delay_ms: 7, rtt_ms: 1259}
+2018-08-28 12:43:05.828[28675] (RTCLogging.mm:31): (QNRTCSession.mm:1066 -[QNRTCSession statisticTimerFired]_block_invoke): the statistic of userId: core-sdk is: {
+    QNStatisticAudioBitrateKey = "16394.62853136359";
+    QNStatisticAudioPacketLossRateKey = 0;
+    QNStatisticVideoBitrateKey = "277838.5946793834";
+    QNStatisticVideoFrameRateKey = 25;
+    QNStatisticVideoPacketLossRateKey = 0;
+}
+2018-08-28 12:43:06.051[39695] (stunport.cc:276): Port[0x123845000:audio:1:0:local:Net[en2:169.254.0.x/16:Wifi:id=2]]: UDP send of 108 bytes failed with error 65
+2018-08-28 12:43:06.052[39695] (port.cc:1205): Conn[0x120813200:audio:Net[en2:169.254.0.x/16:Wifi:id=2]:0ZifRQeZ:1:0:local:udp:169.254.156.x:54702->59rnxAMw:1:1078862079:local:udp:115.231.97.x:15938|C--I|-|0|0|4633677350443957759|-]: Failed to send STUN ping  err=-1 id=3742514a65514568345a4d6f
+2018-08-28 12:43:06.052[39695] (port.cc:1711): Conn[0x120813200:audio:Net[en2:169.254.0.x/16:Wifi:id=2]:0ZifRQeZ:1:0:local:udp:169.254.156.x:54702->59rnxAMw:1:1078862079:local:udp:115.231.97.x:15938|C--I|-|0|0|4633677350443957759|-]: Sent STUN ping, id=3742514a65514568345a4d6f, use_candidate=0, nomination=0
+2018-08-28 12:43:06.381[771] (RTCLogging.mm:31): (QNRTCSession.mm:296 -[QNRTCSession leaveRoom]): leaveRoom
+2018-08-28 12:43:06.381[771] (room_signal.cc:140): Leave
+2018-08-28 12:43:06.381[771] (websocket.cc:475): SetNetListener old net listener ptr:0x1cc1a8b28, new net listener ptr:0x0
+2018-08-28 12:43:06.381[771] (websocket.cc:435): Disconnect +
+2018-08-28 12:43:06.381[771] (websocket.cc:475): SetNetListener old net listener ptr:0x0, new net listener ptr:0x0
+2018-08-28 12:43:06.381[3587] (RTCLogging.mm:31): (QNEventStatistic.m:69 -[QNEventStatistic addEvent:]_block_invoke): addEvent: {
+    "event_id" = 6;
+    "leave_reason_code" = 0;
+    timestamp = 1535431386381;
+}
+2018-08-28 12:43:06.384[3587] (RTCLogging.mm:31): (QNEventStatistic.m:185 -[QNEventStatistic checkAndSend]_block_invoke): dic is {
+    "app_id" = d8lk7l4ed;
+    "app_version" = "1.0";
+    "bundle_id" = "com.qbox.QNRTCInnerDemo";
+    "device_id" = "FFF06722-6258-47DF-A817-8502F551016D";
+    "device_model" = "iPhone10,3";
+    items =     (
+                {
+            "event_id" = 1;
+            timestamp = 1535431372441;
+        },
+                {
+            "event_id" = 15;
+            "period_ms" = 3000;
+            timestamp = 1535431372442;
+        },
+                {
+            "event_id" = 3;
+            "room_token" = "QxZugR8TAhI38AiJ_cptTl3RbzLyca3t-AAiH-Hh:eS68tpc2gXsCdAHCbkF6YrpXTHU=:eyJhcHBJZCI6ImQ4bGs3bDRlZCIsInJvb21OYW1lIjoic2RrIiwidXNlcklkIjoiY29yZS1zZGsiLCJleHBpcmVBdCI6MTUzNTUxNzc3Mjc0ODM3MTM3OCwicGVybWlzc2lvbiI6ImFkbWluIn0=";
+            timestamp = 1535431372851;
+        },
+                {
+            "event_id" = 17;
+            "room_state" = 1;
+            timestamp = 1535431372852;
+        },
+                {
+            "access_token" = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRva2ljayI6dHJ1ZSwiZXhwIjoxNTM1NTE3NzcyNzQ4MzcxMzc4LCJwbGF5ZXJpZCI6ImNvcmUtc2RrIiwicGxheWVyc24iOjEsInByaXZpbGVnZXMiOlsicHVibGlzaCIsImtpY2twbGF5ZXIiXSwicm9vbWlkIjoiZDhsazdsNGVkOnNkayIsInJvb21paWQiOiJkOGxrN2w0ZWQ6c2RrLU9rOEFBR1d5Z2QteThrNFYiLCJyb29tc2VydmVyYWRkciI6InhzNDgtcm9vbWQuY2xvdWR2ZG4uY29tIiwicm9vbXNlcnZlcmlpZCI6InhzNDhfMTUyNjYyNTQ4ODYwODY0MTE3NyIsInNpZ25hbGluZ3VybCI6IndzczovL3hzNDgtcm9vbWQuY2xvdWR2ZG4uY29tL3NpZ25hbGluZyJ9.fmwMn7vfmQIlt5mHXEQqhmDvffjbc_u3oc690kWh9ZY";
+            "auth_dns_time" = 0;
+            "auth_error_code" = 0;
+            "auth_error_message" = "";
+            "auth_server_ip" = "";
+            "auth_start_time" = 1535431372852;
+            "auth_take_time" = 614;
+            "event_id" = 4;
+            "room_token" = "QxZugR8TAhI38AiJ_cptTl3RbzLyca3t-AAiH-Hh:eS68tpc2gXsCdAHCbkF6YrpXTHU=:eyJhcHBJZCI6ImQ4bGs3bDRlZCIsInJvb21OYW1lIjoic2RrIiwidXNlcklkIjoiY29yZS1zZGsiLCJleHBpcmVBdCI6MTUzNTUxNzc3Mjc0ODM3MTM3OCwicGVybWlzc2lvbiI6ImFkbWluIn0=";
+            timestamp = 1535431373466;
+        },
+                {
+            "access_token" = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRva2ljayI6dHJ1ZSwiZXhwIjoxNTM1NTE3NzcyNzQ4MzcxMzc4LCJwbGF5ZXJpZCI6ImNvcmUtc2RrIiwicGxheWVyc24iOjEsInByaXZpbGVnZXMiOlsicHVibGlzaCIsImtpY2twbGF5ZXIiXSwicm9vbWlkIjoiZDhsazdsNGVkOnNkayIsInJvb21paWQiOiJkOGxrN2w0ZWQ6c2RrLU9rOEFBR1d5Z2QteThrNFYiLCJyb29tc2VydmVyYWRkciI6InhzNDgtcm9vbWQuY2xvdWR2ZG4uY29tIiwicm9vbXNlcnZlcmlpZCI6InhzNDhfMTUyNjYyNTQ4ODYwODY0MTE3NyIsInNpZ25hbGluZ3VybCI6IndzczovL3hzNDgtcm9vbWQuY2xvdWR2ZG4uY29tL3NpZ25hbGluZyJ9.fmwMn7vfmQIlt5mHXEQqhmDvffjbc_u3oc690kWh9ZY";
+            "auth_dns_time" = 0;
+            "auth_error_code" = 0;
+            "auth_error_message" = "";
+            "auth_server_ip" = "";
+            "auth_start_time" = 1535431373469;
+            "auth_take_time" = 354;
+            "event_id" = 5;
+            timestamp = 1535431373823;
+        },
+                {
+            "event_id" = 17;
+            "room_state" = 2;
+            timestamp = 1535431373823;
+        },
+                {
+            "enable_audio" = 1;
+            "enable_video" = 1;
+            "event_id" = 7;
+            "result_code" = 0;
+            "signal_take_time" = 38;
+            "stream_id" = "core-sdk_1535431373818904616";
+            timestamp = 1535431373862;
+        },
+                {
+            "audio_device_id" = "";
+            "encode_video_fps" = 25;
+            "encode_video_height" = 960;
+            "encode_video_width" = 544;
+            "event_id" = 8;
+            "ice_connect_state" = 2;
+            "ice_take_time" = 135;
+            "preview_video_fps" = 25;
+            "preview_video_height" = 0;
+            "preview_video_width" = 0;
+            "stream_id" = "core-sdk_1535431373818904616";
+            timestamp = 1535431374013;
+            "video_bitrate" = 0;
+            "video_device_id" = FRONT;
+        },
+                {
+            "event_id" = 6;
+            "leave_reason_code" = 0;
+            timestamp = 1535431386381;
+        }
+    );
+    "os_platform" = iOS;
+    "os_version" = "11.4.1";
+    "qos_version" = "1.0";
+    "room_name" = sdk;
+    "sdk_version" = "1.2.0-2018-07-26-920203b";
+    "session_id" = "fQcAAEdvct-y8k4V";
+    "user_id" = "core-sdk";
+}
+2018-08-28 12:43:06.397[56327] (websocket.cc:56): callback_lws_mirror mirror: LWS_CALLBACK_CLOSED reason:4, recv buf:0x0, buf len:0
+2018-08-28 12:43:06.398[56327] (websocket.cc:357): OnDisconnect
+2018-08-28 12:43:06.398[56327] (websocket.cc:322):  WebSocket working thread Exiting.
+2018-08-28 12:43:06.399[771] (websocket.cc:444): Disconnect -
+2018-08-28 12:43:06.399[771] (RTCLogging.mm:31): (QNRTCSession.mm:2662 -[QNRTCSession stopCapture]): stopCapture
+2018-08-28 12:43:06.399[771] (RTCLogging.mm:31): (QNCameraSource.mm:583 -[QNCameraSource stopRunning]): CameraSource: stopRunning
+2018-08-28 12:43:06.405[39695] (opensslstreamadapter.cc:889): Cleanup
+2018-08-28 12:43:06.405[39695] (dtlstransport.cc:667): DtlsTransport[audio|1|_W]: DTLS transport closed
+2018-08-28 12:43:06.406[39695] (jseptransportcontroller.cc:1088):  Transport audio writability changed to 0.
+2018-08-28 12:43:06.406[39695] (channel.cc:586): Channel not writable (audio)
+2018-08-28 12:43:06.406[39695] (channel.cc:586): Channel not writable (video)
+2018-08-28 12:43:06.406[39695] (srtptransport.cc:354): The params in SRTP transport are reset.
+2018-08-28 12:43:06.406[28675] (peerconnection.cc:3463): Changing IceConnectionState 3 => 5
+2018-08-28 12:43:06.406[28675] (RTCLogging.mm:31): (QNRTCSession.mm:1567 -[QNRTCSession peerConnection:didChangeIceConnectionState:]): peerConnection: 0x1c0065a80, ICE connection state changed: RTCIceConnectionStateDisconnected
+2018-08-28 12:43:06.406[24595] (channel.cc:792): Changing voice state, recv=0 send=1
+2018-08-28 12:43:06.407[24595] (video_send_stream.cc:126): VideoSendStream::UpdateActiveSimulcastLayers
+2018-08-28 12:43:06.407[41235] (video_send_stream_impl.cc:509): VideoSendStream::UpdateActiveSimulcastLayers
+2018-08-28 12:43:06.408[24595] (channel.cc:922): Changing video state, send=1
+2018-08-28 12:43:06.504[771] (room_signal.cc:77): SetListener old listener ptr:0x1c0000a30, new listener ptr:0x0
+2018-08-28 12:43:06.504[771] (room_interface.cc:36): DestroyRoomInterface room ptr:0x1cc1a8b20
+2018-08-28 12:43:06.504[771] (room_signal.cc:77): SetListener old listener ptr:0x0, new listener ptr:0x0
+2018-08-28 12:43:06.504[771] (room_signal.cc:24): ~RoomSignal +
+2018-08-28 12:43:06.504[771] (room_signal.cc:140): Leave
+2018-08-28 12:43:06.504[771] (websocket.cc:475): SetNetListener old net listener ptr:0x0, new net listener ptr:0x0
+2018-08-28 12:43:06.504[771] (room_signal.cc:143): Leave not connected.
+2018-08-28 12:43:06.504[771] (websocket.cc:435): Disconnect +
+2018-08-28 12:43:06.504[771] (websocket.cc:475): SetNetListener old net listener ptr:0x0, new net listener ptr:0x0
+2018-08-28 12:43:06.504[771] (websocket.cc:444): Disconnect -
+2018-08-28 12:43:06.504[771] (net_interface.cc:20): DestoryWebSocketInterface websocket ptr:0x1c017ba80
+2018-08-28 12:43:06.517[56071] (websocket.cc:343): SubsidiaryThread -
+2018-08-28 12:43:06.517[771] (websocket.cc:435): Disconnect +
+2018-08-28 12:43:06.517[771] (websocket.cc:475): SetNetListener old net listener ptr:0x0, new net listener ptr:0x0
+2018-08-28 12:43:06.517[771] (websocket.cc:444): Disconnect -
+2018-08-28 12:43:06.517[771] (room_signal.cc:28): ~RoomSignal -
+2018-08-28 12:43:06.518[28675] (peerconnection.cc:3506): Session: 3118749296243263156 Old state: kStable New state: kClosed
+2018-08-28 12:43:06.518[28675] (RTCLogging.mm:31): (QNRTCSession.mm:1567 -[QNRTCSession peerConnection:didChangeIceConnectionState:]): peerConnection: 0x1c0065a80, ICE connection state changed: RTCIceConnectionStateClosed
+2018-08-28 12:43:06.518[28675] (RTCLogging.mm:31): (QNRTCSession.mm:1493 -[QNRTCSession peerConnection:didChangeSignalingState:]): peerConnection: 0x1c0065a80, Signaling state changed: RTCSignalingStateClosed
+2018-08-28 12:43:06.518[24595] (audio_device_module_ios.mm:573): StopRecording
+2018-08-28 12:43:06.518[24595] (audio_device_ios.mm:291): AudioDeviceIOS::StopRecording
+2018-08-28 12:43:06.518[24595] (audio_device_ios.mm:908): AudioDeviceIOS::ShutdownPlayOrRecord
+2018-08-28 12:43:06.518[24595] (RTCLogging.mm:31): (voice_processing_audio_unit.mm:201 Stop): Stopping audio unit.
+2018-08-28 12:43:06.532[24595] (RTCLogging.mm:31): (voice_processing_audio_unit.mm:208 Stop): Stopped audio unit
+2018-08-28 12:43:06.532[24595] (RTCLogging.mm:31): (voice_processing_audio_unit.mm:217 Uninitialize): Unintializing audio unit.
+2018-08-28 12:43:06.532[24595] (RTCLogging.mm:31): (voice_processing_audio_unit.mm:224 Uninitialize): Uninitialized audio unit.
+2018-08-28 12:43:06.532[24595] (RTCLogging.mm:31): (voice_processing_audio_unit.mm:306 DisposeAudioUnit): Disposing audio unit.
+2018-08-28 12:43:06.563[39695] (stunport.cc:276): Port[0x123845000:audio:1:0:local:Net[en2:169.254.0.x/16:Wifi:id=2]]: UDP send of 108 bytes failed with error 65
+2018-08-28 12:43:06.564[39695] (port.cc:1205): Conn[0x120813200:audio:Net[en2:169.254.0.x/16:Wifi:id=2]:0ZifRQeZ:1:0:local:udp:169.254.156.x:54702->59rnxAMw:1:1078862079:local:udp:115.231.97.x:15938|C--I|-|0|0|4633677350443957759|-]: Failed to send STUN ping  err=-1 id=47555a62585871485a574738
+2018-08-28 12:43:06.564[39695] (port.cc:1711): Conn[0x120813200:audio:Net[en2:169.254.0.x/16:Wifi:id=2]:0ZifRQeZ:1:0:local:udp:169.254.156.x:54702->59rnxAMw:1:1078862079:local:udp:115.231.97.x:15938|C--I|-|0|0|4633677350443957759|-]: Sent STUN ping, id=47555a62585871485a574738, use_candidate=0, nomination=0
+2018-08-28 12:43:06.706[24595] (RTCLogging.mm:31): (RTCAudioSession.mm:198 -[RTCAudioSession removeDelegate:]): Removing delegate: (0x1cc000c80)
+2018-08-28 12:43:06.706[24595] (RTCLogging.mm:31): (audio_device_ios.mm:852 UnconfigureAudioSession): Unconfiguring audio session.
+2018-08-28 12:43:06.707[24595] (RTCLogging.mm:31): (RTCAudioSession.mm:762 -[RTCAudioSession unconfigureWebRTCSession:]): Unconfiguring audio session for WebRTC.
+2018-08-28 12:43:06.707[24595] (RTCLogging.mm:31): (RTCAudioSession.mm:629 -[RTCAudioSession decrementActivationCount]): Decrementing activation count.
+2018-08-28 12:43:06.707[24595] (RTCLogging.mm:31): (RTCAudioSession.mm:379 -[RTCAudioSession setActive:error:]): Number of current activations: 6
+2018-08-28 12:43:06.707[24595] (RTCLogging.mm:31): (audio_device_ios.mm:862 UnconfigureAudioSession): Unconfigured audio session.
+2018-08-28 12:43:06.707[24595] (audio_device_buffer.cc:157): StopRecording
+2018-08-28 12:43:06.708[24595] (audio_device_buffer.cc:177): HISTOGRAM(WebRTC.Audio.RecordedOnlyZeros): 0
+2018-08-28 12:43:06.711[24595] (audio_device_buffer.cc:180): total recording time: 11815
+2018-08-28 12:43:06.711[24595] (audio_device_module_ios.mm:577): output: 0
+2018-08-28 12:43:06.716[24595] (webrtcvideoengine.cc:1068): SetVideoSend (ssrc= 4110874002, options: nullptr, source = nullptr)
+2018-08-28 12:43:06.717[17923] (quality_scaler.cc:78): Stopping QP Check task.
+2018-08-28 12:43:06.718[24595] (channel.cc:553): Channel disabled
+2018-08-28 12:43:06.722[24595] (video_send_stream.cc:153): VideoSendStream::Stop
+2018-08-28 12:43:06.722[24595] (channel.cc:922): Changing video state, send=0
+2018-08-28 12:43:06.726[17923] (video_send_stream_impl.cc:555): VideoSendStream::Stop
+2018-08-28 12:43:06.726[17923] (rtp_rtcp_impl.cc:392): Failed to send RTCP BYE
+2018-08-28 12:43:06.727[17923] (bitrate_allocator.cc:221): UpdateAllocationLimits : total_requested_min_bitrate: 0bps, total_requested_padding_bitrate: 0bps, total_requested_max_bitrate: 0bps
+2018-08-28 12:43:06.727[24595] (video_send_stream.cc:153): VideoSendStream::Stop
+2018-08-28 12:43:06.727[3587] (video_stream_encoder.cc:961): Video suspend state changed to: suspended
+2018-08-28 12:43:06.727[17923] (video_send_stream_impl.cc:555): VideoSendStream::Stop
+2018-08-28 12:43:06.732[34567] (RTCLogging.mm:31): (RTCAudioSession.mm:504 -[RTCAudioSession handleRouteChangeNotification:]): Audio route changed:
+2018-08-28 12:43:06.732[34567] (RTCLogging.mm:31): (RTCAudioSession.mm:520 -[RTCAudioSession handleRouteChangeNotification:]): Audio route changed: Override
+2018-08-28 12:43:06.737[34567] (RTCLogging.mm:31): (RTCAudioSession.mm:536 -[RTCAudioSession handleRouteChangeNotification:]): Previous route: <AVAudioSessionRouteDescription: 0x1d4006c10, 
+inputs = (
+    "<AVAudioSessionPortDescription: 0x1d4006cc0, type = MicrophoneBuiltIn; name = iPhone \U9ea6\U514b\U98ce; UID = Built-In Microphone; selectedDataSource = (null)>"
+); 
+outputs = (
+    "<AVAudioSessionPortDescription: 0x1d4006b90, type = Speaker; name = \U626c\U58f0\U5668; UID = Speaker; selectedDataSource = (null)>"
+)>
+Current route:<AVAudioSessionRouteDescription: 0x1d0006f40, 
+inputs = (
+    "<AVAudioSessionPortDescription: 0x1d00066a0, type = MicrophoneBuiltIn; name = iPhone \U9ea6\U514b\U98ce; UID = Built-In Microphone; selectedDataSource = \U4e0b>"
+); 
+outputs = (
+    "<AVAudioSessionPortDescription: 0x1d0007670, type = Speaker; name = \U626c\U58f0\U5668; UID = Speaker; selectedDataSource = (null)>"
+)>
+2018-08-28 12:43:06.737[34567] (RTCLogging.mm:31): (QNRTCSession.mm:1314 -[QNRTCSession audioSessionDidChangeRoute:reason:previousRoute:]): AVAudioSessionRouteChangeReasonOverride
+2018-08-28 12:43:06.737[34567] (RTCLogging.mm:31): (RTCAudioSession.mm:624 -[RTCAudioSession incrementActivationCount]): Incrementing activation count.
+2018-08-28 12:43:06.737[34567] (RTCLogging.mm:31): (RTCAudioSession.mm:379 -[RTCAudioSession setActive:error:]): Number of current activations: 7
+2018-08-28 12:43:06.741[34567] (RTCLogging.mm:31): (QNMicrophoneSource.m:252 -[QNMicrophoneSource handleRouteChange:]): handleRouteChange: AVAudioSessionRouteChangeNotification reason The output route was overridden by the app.
+2018-08-28 12:43:06.750[3587] (video_send_stream_impl.cc:555): VideoSendStream::Stop
+2018-08-28 12:43:06.750[3587] (video_send_stream_impl.cc:487): ~VideoSendStreamInternal: {encoder_settings: {encoder_factory: (VideoEncoderFactory)}, rtp: {ssrcs: [4110874002], rtcp_mode: RtcpMode::kReducedSize, max_packet_size: 1200, extensions: [{uri: http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time, id: 3}, {uri: urn:3gpp:video-orientation, id: 4}], nack: {rtp_history_ms: 1000}, ulpfec: {ulpfec_payload_type: -1, red_payload_type: -1, red_rtx_payload_type: -1}, payload_name: H264, payload_type: 96, flexfec: {payload_type: -1, ssrc: 0, protected_media_ssrcs: []}, rtx: {ssrcs: [2146364094], payload_type: 97}, c_name: PmEJX0ZUsuPPgAyj}, rtcp: {video_report_interval_ms: 1000, audio_report_interval_ms: 5000}, pre_encode_callback: nullptr, post_encode_callback: nullptr, render_delay_ms: 0, target_delay_ms: 0, suspend_below_min_bitrate: off}
+2018-08-28 12:43:06.750[24595] (call.cc:1056): UpdateAggregateNetworkState: aggregate_state=up
+2018-08-28 12:43:06.750[24595] (send_side_congestion_controller.cc:276): SignalNetworkState Up
+2018-08-28 12:43:06.750[24595] (send_statistics_proxy.cc:624): WebRTC.Video.SentPacketsLostInPercent 0WebRTC.Video.NumberOfPauseEvents 0
+WebRTC.Video.PausedTimeInPercent 0
+Frames encoded 76
+WebRTC.Video.DroppedFrames.Capturer 0
+WebRTC.Video.DroppedFrames.EncoderQueue 26
+WebRTC.Video.DroppedFrames.Encoder 0
+WebRTC.Video.DroppedFrames.Ratelimiter 0
+2018-08-28 12:43:06.750[24595] (channel.cc:126): Destroyed channel: video
+2018-08-28 12:43:06.750[24595] (channel.cc:553): Channel disabled
+2018-08-28 12:43:06.751[24595] (channel.cc:792): Changing voice state, recv=0 send=0
+2018-08-28 12:43:06.751[24595] (webrtcvoiceengine.cc:1817): RemoveSendStream: 2363404416
+2018-08-28 12:43:06.751[24595] (call.cc:1056): UpdateAggregateNetworkState: aggregate_state=down
+2018-08-28 12:43:06.751[24595] (send_side_congestion_controller.cc:276): SignalNetworkState Down
+2018-08-28 12:43:06.751[24595] (send_side_congestion_controller.cc:477): Bitrate estimate state changed, BWE: 0 bps.
+2018-08-28 12:43:06.751[24595] (audio_send_stream.cc:157): ~AudioSendStream: 2363404416
+2018-08-28 12:43:06.751[24595] (channel.cc:126): Destroyed channel: audio
+2018-08-28 12:43:06.751[39695] (opensslstreamadapter.cc:889): Cleanup
+2018-08-28 12:43:06.751[24595] (call.cc:516): WebRTC.Call.EstimatedSendBitrateInKbps, periodic_samples:6, {min:482, avg:634, max:664}
+2018-08-28 12:43:06.751[24595] (call.cc:524): WebRTC.Call.PacerBitrateInKbps, periodic_samples:6, {min:482, avg:634, max:664}
+2018-08-28 12:43:06.751[24595] (paced_sender.cc:356): ProcessThreadAttached 0x0x0
+2018-08-28 12:43:06.751[24595] (paced_sender.cc:356): ProcessThreadAttached 0x0x0
+2018-08-28 12:43:06.751[24595] (rtc_event_log_impl.cc:194): Stopping WebRTC event log.
+2018-08-28 12:43:06.751[24595] (rtc_event_log_impl.cc:211): WebRTC event log successfully stopped.
+2018-08-28 12:43:06.752[28675] (messagequeue.cc:534): Message took 234ms to dispatch. Posted from: Close@../../api/peerconnectionproxy.h:151
+2018-08-28 12:43:06.752[28675] (peerconnection.cc:849): Session: 3118749296243263156 is destroyed.
+2018-08-28 12:43:06.752[28675] (dtmfsender.cc:234): The Dtmf provider is deleted. Clear the sending queue.
+2018-08-28 12:43:06.752[771] (RTCLogging.mm:31): (QNMicrophoneSource.m:205 -[QNMicrophoneSource stopRunning]): stopRunning
+2018-08-28 12:43:06.752[771] (RTCLogging.mm:31): (QNRTCSession.mm:888 -[QNRTCSession innerLeave]): roomState is QNRoomStateIdle
+2018-08-28 12:43:06.752[771] (RTCLogging.mm:31): (QNRTCSession.mm:178 -[QNRTCSession dealloc]): QNRTCSession dealloc: 0x11fe029f0
+2018-08-28 12:43:06.752[771] (RTCLogging.mm:31): (RTCAudioSession.mm:198 -[RTCAudioSession removeDelegate:]): Removing delegate: (0x11fe029f0)
+2018-08-28 12:43:06.752[17923] (RTCLogging.mm:31): (QNEventStatistic.m:69 -[QNEventStatistic addEvent:]_block_invoke): addEvent: {
+    "event_id" = 2;
+    timestamp = 1535431386752;
+}
+2018-08-28 12:43:06.753[17923] (RTCLogging.mm:31): (QNEventStatistic.m:185 -[QNEventStatistic checkAndSend]_block_invoke): dic is {
+    items =     (
+                {
+            abps = "8706.81192085055";
+            "audio_packet_loss_rate" = 0;
+            "conn_id" = "";
+            "local_user_id" = "core-sdk";
+            "remote_user_id" = "";
+            "stream_id" = "core-sdk_1535431373818904616";
+            timestamp = 1535431382973;
+            vbps = "13446.62257137195";
+            vfps = 0;
+            "video_packet_loss_rate" = 0;
+        }
+    );
+    "session_id" = "fQcAAEdvct-y8k4V";
+}
+2018-08-28 12:43:06.769[3587] (RTCLogging.mm:31): (QNMicrophoneSource.m:213 -[QNMicrophoneSource stopRunning]_block_invoke): AudioOutputUnitStop result: 0
+2018-08-28 12:43:06.770[3587] (RTCLogging.mm:31): (QNMicrophoneSource.m:185 -[QNMicrophoneSource dealloc]): QNMicrophoneSource dealloc: 0x1d42a6000
+2018-08-28 12:43:06.773[771] (RTCLogging.mm:31): (QNCameraSource.mm:158 -[QNCameraSource dealloc]): dealloc:0x1c019f140
+2018-08-28 12:43:06.785[771] (RTCLogging.mm:31): (QNGLKView.m:786 -[QNGLKView dealloc]): dealloc:0x122085950
+2018-08-28 12:43:06.785[24595] (webrtcvideoengine.cc:556): WebRtcVideoEngine::~WebRtcVideoEngine
+2018-08-28 12:43:06.785[24595] (webrtcvoiceengine.cc:220): WebRtcVoiceEngine::~WebRtcVoiceEngine
+2018-08-28 12:43:06.785[24595] (audio_device_module_ios.mm:542): StopPlayout
+2018-08-28 12:43:06.785[24595] (audio_device_ios.mm:249): AudioDeviceIOS::StopPlayout
+2018-08-28 12:43:06.785[24595] (audio_device_module_ios.mm:546): output: 0
+2018-08-28 12:43:06.785[24595] (audio_device_module_ios.mm:573): StopRecording
+2018-08-28 12:43:06.785[24595] (audio_device_ios.mm:291): AudioDeviceIOS::StopRecording
+2018-08-28 12:43:06.785[24595] (audio_device_module_ios.mm:577): output: 0
+2018-08-28 12:43:06.785[24595] (audio_device_module_ios.mm:591): RegisterAudioCallback
+2018-08-28 12:43:06.785[24595] (audio_device_buffer.cc:83): RegisterAudioCallback
+2018-08-28 12:43:06.785[24595] (audio_device_module_ios.mm:92): Terminate
+2018-08-28 12:43:06.785[24595] (audio_device_ios.mm:168): AudioDeviceIOS::Terminate
+2018-08-28 12:43:06.785[24595] (audio_device_ios.mm:249): AudioDeviceIOS::StopPlayout
+2018-08-28 12:43:06.785[24595] (audio_device_ios.mm:291): AudioDeviceIOS::StopRecording
+2018-08-28 12:43:06.785[24595] (audio_device_module_ios.mm:55): ~AudioDeviceModuleIOS
+2018-08-28 12:43:06.785[24595] (audio_device_buffer.cc:77): AudioDeviceBuffer::~dtor
+2018-08-28 12:43:06.785[24595] (audio_device_ios.mm:126): AudioDeviceIOS::~dtor<NSThread: 0x1cc066540>{number = 4, name = (null)}
+2018-08-28 12:43:06.786[24595] (audio_device_ios.mm:168): AudioDeviceIOS::Terminate

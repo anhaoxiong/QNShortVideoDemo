@@ -1,0 +1,111 @@
+/* 
+  Localizable.strings
+  TuSDKLiveVideoDemo
+
+  Created by Yanlin on 3/7/16.
+  Copyright © 2016 tusdk.com. All rights reserved.
+*/
+
+"app_name" = "涂图 - TuSDK Video";
+"back" = "返回";
+
+"live_camera_sample" = "直播相机示例";
+"live_processor_sample" = "图像引擎示例";
+"record_camera_sample" = "视频录制示例";
+"record_camera_square_sample" = "视频录制示例 - 正方画幅";
+"edit_camera_sample" = "视频编辑示例";
+
+
+"beauty_on" = "美颜已开启";
+"beauty_off" = "美颜已关闭";
+
+"lsq_filter_VideoFair" = "自然";
+"lsq_filter_VideoYoungGirl" = "粉嫩";
+"lsq_filter_VideoWhiteSkin" = "美白";
+"lsq_filter_VideoFaceu01" = "Faceu 01";
+"lsq_filter_VideoHuaJiao" = "仿花椒";
+"lsq_filter_VideoJelly" = "果冻";
+
+// Beauty
+"lsq_filter_SkinNature" = "自然";
+"lsq_filter_SkinPink" = "粉嫩";
+"lsq_filter_SkinJelly" = "果冻";
+"lsq_filter_SkinNoir" = "黑白";
+"lsq_filter_SkinRuddy" = "红润";
+"lsq_filter_SkinPowder" = "蜜粉";
+"lsq_filter_SkinSugar" = "糖水色";
+
+"lsq_reset" = "重置";
+"lsq_filter_set_smoothing" = "润滑";
+"lsq_filter_set_whitening" = "白皙";
+"lsq_filter_set_blurSize" = "强度";
+"lsq_filter_set_mixied" = "效果";
+"lsq_filter_set_distanceFactor" = "半径";
+"lsq_filter_set_eyeSize" = "大眼";
+"lsq_filter_set_chinSize" = "瘦脸";
+
+// new filter
+"lsq_filter_Original" = "原始";
+
+"lsq_filter_Normal" = "原图";
+
+// 中文简体
+"lsq_filter_nature_1" = "自然";
+"lsq_filter_whitening_1" = "美白";
+"lsq_filter_timber_1" = "小森林";
+"lsq_filter_pink_1" = "粉嫩";
+"lsq_filter_ruddy_1" = "红润";
+"lsq_filter_Relaxed_1" = "轻松";
+"lsq_filter_Instant_1" = "鲜艳";
+"lsq_filter_Artistic_1" = "艺术";
+"lsq_filter_Olympus_1" = "奥林巴斯";
+"lsq_filter_Beautiful_1" = "唯美";
+"lsq_filter_Elad_1" = "艾拉";
+"lsq_filter_Green_1" = "翠绿";
+"lsq_filter_Qiushi_1" = "秋实";
+"lsq_filter_Winter_1" = "冬日";
+"lsq_filter_Elegant_1" = "淡雅";
+"lsq_filter_Vatican_1" = "梵蒂冈";
+"lsq_filter_Leica_1" = "莱卡";
+"lsq_filter_Gloomy_1" = "阴郁";
+"lsq_filter_SilentEra_1" = "无声";
+"lsq_filter_s1950_1" = "黑白";
+
+
+// effect
+"lsq_filter_LiveShake01" = "抖动";
+"lsq_filter_LiveMegrim01" = "幻觉";
+"lsq_filter_EdgeMagic01" = "魔法";
+"lsq_filter_LiveFancy01_1" = "70s";
+"lsq_filter_LiveSoulOut01" = "灵魂出窍";
+"lsq_filter_LiveSignal01" = "信号";
+
+
+// reminder
+"lsq_movie_saving" = "正在保存...";
+"lsq_cut_durationTime" = "建议选择大于3秒，小于60秒的视频";
+"lsq_save_error_too_short" = "不能低于最小时间";
+"lsq_save_error_failed" = "保存到相册失败";
+"lsq_record_moreMaxDuration" = "大于最大时长，请保存视频后继续录制";
+"lsq_record_complete" = "录制完成";
+"lsq_record_failed" = "录制失败";
+"lsq_record_cancelled" = "取消录制";
+"lsq_record_dealing" = "正在处理...";
+
+"lsq_record_audio_started" = "录音已经开始";
+"lsq_record_audio_finished" = "录音已经完成，请播放录音";
+"lsq_record_audio_cancelled" = "录制已经取消";
+"lsq_record_audio_failed" = "录制失败，请重新录制";
+
+"lsq_cancel" = "取消";
+"lsq_setting" = "设置";
+"lsq_sticker_loading" = "正在加载贴纸...";
+"lsq_sticker_load_unexsit" = "贴纸不存在，请换一个试试";
+"lsq_sticker_over_limit%ld" = "OMG, 同时仅允许使用 %ld 张贴纸";
+"lsq_save_saveToAlbum_succeed" = "保存成功";
+"lsq_save_saveToAlbum_failed" = "保存到相册失败";
+
+// location
+"lsq_location_error_title" = "无法获取地理信息";
+"lsq_location_AccessUserDeniedError%@" = "无法获取地理信息.请在'设置->隐私->定位服务'设置 定位服务以及 %@ 为打开状态.";
+

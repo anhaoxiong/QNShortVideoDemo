@@ -1,0 +1,108 @@
+/* 
+  Localizable.strings
+  TuSDKLiveVideoDemo
+
+  Created by Yanlin on 3/7/16.
+  Copyright © 2016 tusdk.com. All rights reserved.
+*/
+
+"app_name" = "TuSDK Video";
+"back" = "Back";
+
+"live_camera_sample" = "Live camera sample";
+"live_processor_sample" = "Image process engine";
+"record_camera_sample" = "Record camera sample";
+"record_camera_square_sample" = "Record camera sample (Square)";
+"edit_camera_sample" = "Movie editor sample";
+
+"beauty_on" = "Beauty Mode On";
+"beauty_off" = "Beauty Mode Off";
+
+"lsq_filter_VideoFair" = "Nature";
+"lsq_filter_VideoYoungGirl" = "Pink";
+"lsq_filter_VideoWhiteSkin" = "WhiteSkin";
+"lsq_filter_VideoFaceu01" = "Faceu 01";
+"lsq_filter_VideoHuaJiao" = "HuaJiao";
+"lsq_filter_VideoJelly" = "Jelly";
+
+// Beauty
+"lsq_filter_SkinNature" = "Nature";
+"lsq_filter_SkinPink" = "Pink";
+"lsq_filter_SkinJelly" = "Jelly";
+"lsq_filter_SkinNoir" = "Noir";
+"lsq_filter_SkinRuddy" = "Ruddy";
+"lsq_filter_SkinPowder" = "Pink";
+"lsq_filter_SkinSugar" = "Sugar";
+
+"lsq_reset" = "Reset";
+"lsq_filter_set_smoothing" = "Smoothing";
+"lsq_filter_set_whitening" = "Whitening";
+"lsq_filter_set_blurSize" = "Blur Size";
+"lsq_filter_set_mixied" = "Mixed";
+"lsq_filter_set_distanceFactor" = "Radius";
+"lsq_filter_set_eyeSize" = "Eye";
+"lsq_filter_set_chinSize" = "Chin";
+
+
+//英文
+"lsq_filter_Normal" = "Normal";
+"lsq_filter_nature_1" = "Nature";
+"lsq_filter_whitening_1" = "Whitening";
+"lsq_filter_timber_1" = "Timber";
+"lsq_filter_pink_1" = "Pink";
+"lsq_filter_ruddy_1" = "Ruddy";
+"lsq_filter_Relaxed_1" = "Relaxed";
+"lsq_filter_Instant_1" = "Instant";
+"lsq_filter_Artistic_1" = "Artistic";
+"lsq_filter_Olympus_1" = "Olympus";
+"lsq_filter_Beautiful_1" = "Beautiful";
+"lsq_filter_Elad_1" = "Elad";
+"lsq_filter_Green_1" = "Green";
+"lsq_filter_Qiushi_1" = "Autumn";
+"lsq_filter_Winter_1" = "Winter";
+"lsq_filter_Elegant_1" = "Elegant";
+"lsq_filter_Vatican_1" = "Vatican";
+"lsq_filter_Leica_1" = "Leica";
+"lsq_filter_Gloomy_1" = "Gloomy";
+"lsq_filter_SilentEra_1" = "SilentEra";
+"lsq_filter_s1950_1" = "s1950";
+
+
+// effect
+"lsq_filter_LiveShake01" = "Shake";
+"lsq_filter_LiveMegrim01" = "Megrim";
+"lsq_filter_EdgeMagic01" = "Magic";
+"lsq_filter_LiveFancy01_1" = "70s";
+"lsq_filter_LiveSoulOut01" = "Soul";
+"lsq_filter_LiveSignal01" = "Signal";
+
+
+
+// reminder
+"lsq_movie_saving" = "Saving...";
+"lsq_cut_durationTime" = "Suggest select more than 3 seconds, less than 60 seconds of video";
+"lsq_save_error_too_short" = "should not be below the minimum time";
+"lsq_save_saveToAlbum_succeed" = "Saved successfully";
+"lsq_save_saveToAlbum_failed" = "Failed to save";
+"lsq_record_moreMaxDuration" = "Is greater than the maximum length, please keep continue after video recording";
+"lsq_record_complete" = "Recording success";
+"lsq_record_failed" = "Recording failure";
+"lsq_record_cancelled" = "Recording to cancel";
+"lsq_record_audio_started" = "Recording has started";
+"lsq_record_audio_finished" = "Recroding has finished，play the audio please";
+"lsq_record_audio_cancelled" = "Recording has been cancelled";
+"lsq_record_audio_failed" = "Recording failed，please record again";
+"lsq_record_dealing" = "Processing";
+
+"lsq_cancel" = "Cancel";
+"lsq_setting" = "Settings";
+"lsq_sticker_loading" = "Loading stickers...";
+"lsq_sticker_load_unexsit" = "Stickers doesn’t exists, please try another.";
+"lsq_sticker_over_limit%ld" = "Oops, Can’t use more than %ld stickers";
+"lsq_save_saveToAlbum_succeed" = "Saved successfully";
+"lsq_save_saveToAlbum_failed" = "Failed to save";
+
+// location
+"lsq_location_error_title" = "Can’t get location";
+"lsq_location_AccessUserDeniedError%@" = "Can’t get location. Please trun %@ on in Settings - Privacy - Location Services.";
+
